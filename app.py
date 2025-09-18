@@ -128,16 +128,15 @@ if search_text:
     )
 df_v = df[mask].copy()
 
-# Map view state centered on data
-if len(df_v) > 0:
-    mid_lat = float(df_v["lat"].mean())
-    mid_lon = float(df_v["lon"].mean())
-else:
-    # Tbilisi center fallback
-    mid_lat, mid_lon = 41.7151, 44.8271
+# Map view state centered on Heroes Square, Tbilisi
+mid_lat, mid_lon = 41.713465, 44.782525
 
 INITIAL_VIEW_STATE = pdk.ViewState(
-    latitude=mid_lat, longitude=mid_lon, zoom=12, pitch=0
+    latitude=mid_lat, 
+    longitude=mid_lon, 
+    zoom=11,
+    pitch=0,
+    bearing=0
 )
 
 # Color by type: both -> strong, tenant only -> one shade, public only -> another

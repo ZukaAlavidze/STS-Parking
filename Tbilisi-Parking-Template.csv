@@ -1,14 +1,854 @@
 ﻿#,Cadastral Code,X,Y,Name,Address,Property Owner,Land Use Purpose,Access into property,Parking space markings,Tenant Area (Sq.m),# of Tenant Parking,Public Area (Sq.m),# of Public Parking,Public parking price,Distance to Public Transport - Bus,Access to Public Transport - Bus,Distance to Public Transport Metro,Access to Public Transport Merto,Comment 
-1,01.14.11.001.003,479601.655,4617730.48,Vaki Plaza,"I. Chavchavadze Avenue, N 72a","""Vake Plaza"" LLC",Commercial,Yes,Marked,0,0,0,253,Paid,within 400m,Good,beyond 800m,-,20 minutes free. 20 minutes -1 hour 1.5 GEL. 2.5 GEL for more than 1 hour. 18:00 - 9:00 hours 1 GEL. Monthly subscription 450 GEL.
-2,01.14.11.003.025,480048.1883,4617644.448,Hausart Plaza,"I. Chavchavadze Avenue, N 60b","""Hausart - Lux"" LLC (owners of apartment units)",Mixed-use,No,Unknown,3456.54,98,0,0,Free,within 400m,Good,beyond 800m,-,we could not enter. The area of ​​the parking lot is searched on the website of the municipality. (3456.54:35=98.75)
-3,01.14.11.027.014,479729.1474,4617401.946,Solo Bank/Nikora,"I. Abashidze St., N 70","""Georgian Development Group"" LLC (owners of apartment units)",Mixed-use,Yes,Marked,6395,188,0,40,Free,within 400m,Good,beyond 800m,-,Above ground parking. Barrier entrance
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
+1,01.14.11.001.003,479601.655,4617730.48,Vaki Plaza,"I. Chavchavadze Avenue, N 72a","""Vake Plaza"" LLC",Commercial,Yes,Marked,,,,253,Paid,within 400m,Good,beyond 800m,-,20 minutes free. 20 minutes -1 hour 1.5 GEL. 2.5 GEL for more than 1 hour. 18:00 - 9:00 hours 1 GEL. Monthly subscription 450 GEL.
+2,01.14.11.003.025,480048.1883,4617644.448,Hausart Plaza,"I. Chavchavadze Avenue, N 60b","""Hausart - Lux"" LLC (owners of apartment units)",Mixed-use,No,Unknown,3456.54,98,,,Free,within 400m,Good,beyond 800m,-,we could not enter. The area of ​​the parking lot is searched on the website of the municipality. (3456.54:35=98.75)
+3,01.14.11.027.014,479729.1474,4617401.946,Solo Bank/Nikora,"I. Abashidze St., N 70","""Georgian Development Group"" LLC (owners of apartment units)",Mixed-use,Yes,Marked,6395,188,,40,Free,within 400m,Good,beyond 800m,-,Above ground parking. Barrier entrance
+4,01.14.11.007.009,480876.0589,4617476.004,pixel,"I. Chavchavadze Avenue, N 34","LLC ""Trans Invest Capital Georgia""",Retail,Yes,Marked,,66,,10,Paid,within 400m,Good,beyond 800m,-,"Commercial and Retail. 10 Parking is chargeable, all other is only for Tenats. For a purchase of 15 GEL, one hour is free, otherwise we pay 15 GEL. after one hour, the fee for each subsequent hour is 3 GEL."
+5,01.14.11.016.039,480654.9959,4617354.512,TBC Bank,"I. Abashidze St., N 21a","LLC ""IMG Development""",Mixed-use,No,Unknown,708,20,,,Free,within 400m,Good,beyond 800m,-,"we could not enter. The area of ​​the parking lot is searched on the website of the municipality. (708:35=20,22)"
+6,01.14.11.007.003,481002.4697,4617461.457,KFC,"I. Chavchavadze Avenue, N 30",LLC JDJ  (owners of apartment units),Mixed-use,No,Unknown,2899.87,82,,,Free,within 400m,Good,beyond 800m,-,we could not enter. The area of ​​the parking lot is searched on the website of the municipality. (2899.87:35=82.85)
+7,01.15.02.010.042,482335.9757,4617084.947,Stamba,"M. Kostava St., N 14","LLC ""Kostava 14",Hotel & Casino,Yes,Marked,,,,95,Paid,within 400m,Good,within 800m,Good,The first 10 minutes is free. 1 hour 4 GEL. 50 GEL for 24 hours.
+8,01.15.04.004.051,482829.3829,4616922.907,Radisson,Rose Revolution Square,"Joint Stock Company ""New Hotel""
+LLC ""Limon Rial Istey""",Hotel & Casino,Yes,Marked,,,,120,Paid,within 400m,Good,within 800m,Good,"15 minutes free, 1 hour 6 GEL, 24 hours 100 GEL"
+9,01.15.05.008.028,482776.7986,4616735.49,Merani,"Shota Rustaveli Ave., N 42","""Merani Hub"" LLC SJS USA INC's representative office in Georgia ""SJS POTI""        ""WARWICKSHIRE ESTATES LIMITED"" LLC ""WARWICKSHIRE ESTATES"" LLC                      ""G and Kay Development"" LLC",Retail,Yes,Marked,,,,65,Paid,within 400m,Good,within 800m,Good,"20 minutes free, 3 GEL for the next 1 hour and 0.50 GEL for the following hours. Parking is free for 3 hours with a purchase of 20 GEL (There are also offices located on the site)."
+10,01.15.04.004.055,482808.5667,4617039.92,Agrohab,"Zviad Gamsakhurdia Named Right Bank, N 80","""Linxer"" LLC",Retail,Yes,Marked,,,,150,Paid,within 400m,Average,beyond 800m,-,"15 minutes free, in case of 25 GEL purchase 90 minutes free. Every next hour 3 GEL. 00:00-09:00 1 hour 1 GEL. (There is also a restaurant on the top floor.) "
+11,01.15.03.019.001,482160.4155,4617329.6,Tbilisi concert hall,"Merab kostavas St., N 36/Petre Melikishvili Ave., N 1","Tinatin Kobakhidze,                                                                      Nadia Klimova,                                                                    ""Amirani"" LLC,                                                                            ""Internet Club"" LLC,                                                                     ""Olympic 2014"" LLC,                                                             ""Staring Georgia"" LLC.",Entertainment & Recreation,Yes,Marked,,21,,,Free,within 400m,Good,within 800m,Good,Entry for club members only
+12,01.15.03.001.006,482145.8033,4618068.488,Tbilisi Circus,"Heroes Square, N 1","Joint Stock Company ""Circus""",Entertainment & Recreation,Yes,Marked,,,,80,Paid,within 400m,Average,beyond 800m,-,"Probably, parking is working during the period of operation of the circus. Parking is a paid. no information about parking fee "
+13,01.15.03.004.051,482391.6645,4617693.275,Sports center for the development of gymnastics,"Zviad Gamsakhurdia Named Right Bank, N8.",Tbilisi municipality,Education,Yes,Unmarked,,,1300,50,Free,beyond 400m,-,beyond 800m,-,Sports center for the development of gymnastics
+14,01.15.03.022.090,482510.1011,4617426.321,Nearby to Gulf and Ziraat Bank,"Zviad Gamsakhurdia Named Right Bank, N 96","""Park Lane Biograph"" Ltd.",Other,Yes,Unmarked,,,2210,85,Free,within 400m,Good,within 800m,Average,"There is an empty space. No one controls, used as parking (vacant)"
+15,01.15.03.010.135 01.15.03.010.126 01.15.03.010.097,482250,4617400,Grato passage,"Merab Kostava St., N 37a","""Bemon"" LLC
+""Grato Passage"" LLC
+LLC ""Oasis 9""                                                                                          Municipality",Commercial,Yes,Marked,,,,90,Paid,within 400m,Good,within 800m,Good,"Parking 3 GEL for 1 hour. Each folowing hour 3 GEL. 807 sq.m is (01.15.03.010.135.) private property. 01.15.03.010.126 1234 sq.m.,  01.15.03.010.097 155 sq.m. belongs to the municipality and is used as a common area."
+16,01.15.04.017.011,483244.3832,4616425.953,Tbilisi Marriott,"Gia Chanturia Dead End, N 4",GMT Hotels LLC,Hotel & Casino,Yes,Marked,,30,,,Free,within 400m,Good,within 800m,Good,Parking is free for hotel guests. They don't let anyone else
+17,01.15.04.017.018,483195.3007,4616474.447,Rustaveli Theater,"Shota Rustaveli Ave., N 17","LLC ""Asset Management and Development Company""",Entertainment & Recreation,Yes,Unmarked,650,25,,,Free,within 400m,Good,within 800m,Good,
+18,01.15.04.016.023,483054.7134,4616620.937,Opera,"Shota Rustaveli Ave., N 25","State JSC ""Telasi""",Entertainment & Recreation,Yes,Marked,,45,,,Free,within 400m,Good,within 800m,Good,
+19,01.15.04.010.001,483149.6697,4616688.415,Police,"R. Tabukashvili St., N 27","Ekaterine Chikovani,                                       Nanuli Bilashvili,                                                 State,                                                                      LLC ""Kalas"" ,                                              ""Lagidze Plaza"" LLC,                                                               LLC ""Opera Plaza"",                                                  LLC ""Uta"",                                                           Ltd. Lagidze Plaza",Government/Police,Yes,Marked,,23,,,Free,within 400m,Good,within 800m,Good,"Above ground parking. This cadastre shows many owners, including the state, it is not clear who owns what."
+20,01.15.05.046.010,483095.1689,4616318.86,Business center,"Besiki St., N 4","Partnership ""Besiki Street 4""",Commercial,Yes,Marked,,,,150,Free,within 400m,Good,within 800m,Good,Commercial and hotel. security is standing but they didn't ask anything to let us in
+21,01.18.03.003.030,483894.6801,4616412.744,House of Justice,"Zviad Gamsakhurdia Named Right Bank, N 1","LLC ""Asset Management and Development Company",Service,Yes,Marked,,45,,650,Paid,within 400m,Good,beyond 800m,-,"Entrance 2 GEL. Each folowing hour 1 GEL. (Underground parking is calculated by square footage, 8050 square meters, 230 spaces. 650 in total. This does not include 45 spaces for tenant parking)."
+22,A 050,41.697667,44.802947,Orbeliani Square,Atoneli Street,Tbilisi Municipality,Other,Yes,Marked,,,,230,Paid,within 400m,Good,within 800m,Good,"Underground zonal parking, also on one side of the entrance there is a person who asks for money for parking"
+23,01.15.04.028.005,483513.2493,4615912.656,Pushkin Park (in front of the business center),"Pushkini St,    Tsekavshiri Nearby territory","LLC ""Tbilisi City""",Other,Yes,Marked,,31,,,Free,within 400m,Good,within 800m,Good,It is probably for Tenants
+24,01.15.04.026.012,483462.1528,4615947.908,Business center,"L. Gudiashvili St., N 2","LLC ""Tbilisi City""",Commercial,Yes,Marked,,,,68,Paid,within 400m,Good,within 800m,Good,"15 minutes free, then one hour 8 GEL. Parking is free for hotel guests"
+25,01.15.04.024.015,483347.4645,4616208.048,Museum of Fine Arts of Georgia,"L. Gudiashvili St., N 20","Ltd. ""Magti""",Entertainment & Recreation,Yes,Marked,,,,130,Paid,within 400m,Good,within 800m,Good,"0 -1 hour 3 GEL, each subsequent hour 2 GEL, 24 hours 25 GEL."
+26,01.15.05.065.008,483341.0984,4615862.404,Galleria Tbilisi (shopping mall),"Shota Rustaveli Ave., N 2","State,      ""Tbilisi Theater Center"" Union,            ""Asset Management and Development Company"" LLC, ""Galeria Tbilisi""             LLC, ""Tbilisi Transport Company"" LLC.",Retail,Yes,Marked,,,,257,Paid,within 400m,Good,within 800m,Good,Free parking after entry 30 minutes.  20 minutes after payment. From 10:00 to 22:00 parking fee 3 GEL per hour. From 22:00 to 10:00 parking fee 1 GEL.
+27,01.15.05.066.004,483410.7198,4615759.548,Courtyard Marriott Tbilisi,"Freedom Square, N 4 , (area 66/4)",GMT Hotels LLC,Hotel & Casino,No,Unknown,N/A,N/A,N/A,N/A,Free,within 400m,Good,within 800m,Good,we could not enter. Security did not let us
+28,01.15.05.066.039,483345.5216,4615726.647,Ministry of Foreign Affairs,"Giorgi Leonidze St., N 3",State,Government/Police,No,Unmarked,1040,40,,,Free,within 400m,Good,within 800m,Good,
+29,01.15.05.076.011,483493.7149,4615486.505,behind the Tbilisi City Assembly,"Lermontovi St., N 8/G. Tabidze St. N 16","LLC ""Sololak Development""",Other,Yes,Unmarked,,,2080,80,Paid,within 400m,Good,within 800m,Good,"1 hour 3 GEL. next hour 1 GEL. 10 hours 5 GEL, 24 hours 10 GEL. (Empty area used for parking, (Vacant)"
+30,01.18.03.018.036,483545.0685,4615734.52,Spar,"Pushkini St., N 1-3, (area. 18/26)","Irina Chaduneli ,
+Robert Silagadze ,
+JSC ""CARTU BANK"" ,
+LLC ""Agrosistemebi"" ,
+LLC ""Auditory and Consulting office MJI Mediator""
+LLC ""Aversi-Parma"" ,
+LLC ""Global Real Isteit"" ,
+LLC ""Pushkinis 1-3"" ,
+LLC ""VVV"" ,",Retail,Yes,Marked,,,,32,Paid,within 400m,Good,within 800m,Good,"1 hour 3 GEL, 24 hours 25 GEL."
+31,01.18.03.035.014    01.18.03.035.003,483970,4615730,Shangri La Casino,"Zviad Gamsakhurdia Named Right Bank, N 26a","Maya Vepkhvadze
+Manana Kvatadze
+Manoni Tkeshelashvili",Hotel & Casino,Yes,Marked,,,,40,Free,within 400m,Good,beyond 800m,-,For casino guest 
+32,01.18.03.035.026,483977.7158,4615791.712,Shangri La Casino nearby,"Erekle II Square, N3 - Nearby territory.",Tbilisi municipality,Other,Yes,Unmarked,,,442,17,Paid,within 400m,Good,beyond 800m,-,The area is used for vizitors the surrounding area. 
+33,01.18.03.035.004,483928.8006,4615787.431,Georgian Dream Former Office,"Erekle II Square, N 3.","LLC ""New Capital""",Commercial,Yes,Unknown,630,18,,,Free,within 400m,Good,within 800m,Average,we could not enter. The area of ​​the parking lot is searched on the website of the municipality (630:35=18)
+34,01.18.03.035.021,483905.5456,4615786.842,Georgian Dream Former Office Nearby,"Erekle II St., (area 35/009).",Tbilisi municipality,Other,Yes,Marked,,,,13,Free,within 400m,Good,within 800m,Average,Municipal parking
+35,01.18.03.037.001,483738.5889,4615733.012,Chashnagiri,"k. Afkhazi St., N 25.","Mark Mayo Mullens
+Otar Archvadze
+LLC ""Kalas""",Entertainment & Recreation,Yes,Marked,,15,,,Free,within 400m,Good,within 800m,Good,It is locked with a Barrier and cannot be accessed for public. Only for tenant
+36,01.18.04.001.057,484394.4045,4615231.635,Restaurant Maspindzelo,"Gorgasali St., N 3-s Nearby territory.",Tbilisi municipality,Entertainment & Recreation,Yes,Unmarked,,,650,25,Paid,within 400m,Good,beyond 800m,-,standing a man who coollects parking fees in front of the restaurant Maspindzelo.  the parking fee is not fixed.
+37,01.18.04.001.054,484336.5462,4615236.616,Tiflis Palace,"Gorgasali St. , N 3-s Nearby territory.",Tbilisi municipality,Hotel & Casino,Yes,Unmarked,,,364,14,Free,within 400m,Good,beyond 800m,-,for guests
+38,01.18.04.019.057,484290.7054,4615152.921,Gulu bath,"Ioseb Grishashvilis St. , N 3-s Nearby territory.",State,Entertainment & Recreation,Yes,Unmarked,,,260,10,Free,within 400m,Average,beyond 800m,-,for guests
+39,01.18.04.019.058,484326.7088,4615110.542,Bath N7,"Ioseb Grishashvilis St., N 11.","LLC ""Bath N7""",Entertainment & Recreation,Yes,Unmarked,,,260,10,Free,within 400m,Good,beyond 800m,-,for guests
+40,01.18.04.002.003,484469.7844,4615206.302,Mercury,"Gorgasali St., N 9.","""Makro Construction"" LLC",Hotel & Casino,Yes,Marked,,,,10,Free,within 400m,Good,beyond 800m,-,for guests
+41,01.18.04.021.031,485347.7458,4614637.549,Restaurant Krtsanis,"Gorgasali St., N 2 , area (21/013).","LLC ""Krtsanis""",Entertainment & Recreation,Yes,Marked,,,,10,Paid,within 400m,Good,beyond 800m,-,standing a man who coollects parking fees in front of the restaurant Maspindzelo.  the parking fee is not fixed.
+42,01.18.06.005.033,485346.073,4614095.166,Fresco,"Gorgasali St, N 61 , (nakv 5/33).","LLC ""Fresco New Standard""",Retail,Yes,Marked,,,,40,Paid,within 400m,Good,beyond 800m,-,"15 minutes free. 1 hour and 5 minutes free for a purchase of 5 GEL, each additional hour is 5 GEL"
+43,01.18.05.002.096,485566.5232,4614181.854,Municipal Parking/Revenue Office,"Gia Guluas St., N4.",Tbilisi municipality,Service,Yes,Marked,,,,55,Paid,within 400m,Good,beyond 800m,-,Tbilisi parking 
+44,01.18.05.001.037,485466.8002,4614469.016,72 behind the school,"Gorgasali St. , N 4a",Kaidzen Sport LLC,Other,Yes,Unmarked,,,676,26,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier. It is unclear who is using the parking lots.
+45,01.18.05.001.033,485486.3433,4614304.725,in front of the Revenue Service,"Gia Gulua St., N 22/ Gorgasli St. N 10",Amar International Development Ltd,Other,Yes,Unmarked,,,1950,75,Paid,within 400m,Good,beyond 800m,-,Price 1 GEL (vacant)
+46,01.18.05.002.074,485520.5503,4614152.941,Yard of Revenue Service,"Gorgasali St, N 16 , Nearby territory (area 02/074)",Tbilisi municipality,Government/Police,Yes,Marked,,40,,,Free,within 400m,Good,beyond 800m,-,For revenue service employees
+47,01.18.05.002.111,485518.1304,4614049.201,Georgian dream office,"Vakhtang Gorgasli St, N 20","Political Union of Citizens ""Georgian Dream - Democratic Georgia""",Commercial,No,Unknown,884,34,,,Free,within 400m,Good,beyond 800m,-,The area of ​​the parking lot is searched on the website of the municipality (884:26=18) 
+48,01.18.05.002.106,485565.3925,4614024.818,Public register,"Vakhtang Gorgaslis St, N 22",State,Government/Police,No,Unknown,2590,74,,,Free,within 400m,Good,beyond 800m,-,Underground parking.The area of ​​the parking lot is searched on the website of the municipality (2590:35=74)
+49,01.18.05.002.105,485581.8874,4613956.454,Ministry of Justice of Georgia,"Gorgasali St, N 24 a",State,Government/Police,Yes,Marked,,46,,14,Free,within 400m,Good,beyond 800m,-,"They also have underground parking, which we were unable to access. The number of parking spaces is unknown."
+50,01.18.05.002.078,485655.1803,4613874.321,Prosecutor General's Office of Georgia,"Gorgasali St, N 24",State,Government/Police,No,Marked,,53,,,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier for employees only
+51,01.18.05.002.116,485720.2011,4613946.876,Ministry of Internal Affairs,"Gia Gulua St, N 10",State,Government/Police,No,Marked,,137,,,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier for employees only
+52,01.18.05.002.031,485645.6253,4614069.808,Central Criminal Police Department,Gia Gulua St. N 8,State,Government/Police,Yes,Marked,,101,,,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier for employees only
+53,01.18.05.002.118,485616.5434,4614100.204,Export - Forensic Department,"Gia Gulua St., N 6",State,Government/Police,Yes,Marked,,20,,,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier for employees only
+54,01.18.05.002.084,485591.5781,4614129.792,National Forestry Agency of Georgia,"Vladimer Tsitlanadze I Lane, N 1","LLC ""Melioration of Georgia""",Government/Police,Yes,Marked,,10,,,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier for employees only
+55,01.18.05.001.089,485484.6569,4614497.44,National Bank of Georgia (Supervisory Office),"Gia Gulua St, N 2","""Granat Palace"" Ltd",Other,No,Marked,,5,,,Free,within 400m,Good,beyond 800m,-,"5 above-ground parking spaces. It also has a closed underground parking lot, which we were unable to access."
+56,01.18.06.019.096   01.18.06.019.065,485400,4613700,New Hospital,"Krtsanisi St,. N 12 / Gorgasli St. N 71","LLC ""New Hospital""",Hospital & Medical,Yes,Marked,,,,298,Paid,within 400m,Good,beyond 800m,-,"15 minutes free. up to 60 minutes 2 GEL, every next hour 1 GEL. entry for taxis is free up to 20 minutes. it has two  cadastre 1. (01.18.06.019.065) 59 parking spaces, 2. (01.18.06.019.096) 111 parking spaces, but there is a (Vacant) area in the same cadastre which Used for parking (free of charged) access to the area It takes place from Gorgasli Street. (3302 sq.m. 127 cars)"
+57,01.18.06.019.132,485518.2013,4613646.049,Sport time,"Giorgi Guramishvili St., N 7","""Gyomir+Sport-Time"" LLC
+""Sport-Time"" LLC",Entertainment & Recreation,Yes,Unmarked,,,910,35,Free,within 400m,Good,beyond 800m,-,
+58,01.18.09.006.018,486156.7242,4613363.785,Pineo Medical Ecosystem,"Gorgasali St., N 93","""Pineo Medical Ecosystem"" LLC",Hospital & Medical,Yes,Marked,,,,103,Paid,within 400m,Good,beyond 800m,-,"15 minutes are free. Up to 2 hours, 3 GEL, each subsequent hour, 1 GEL."
+59,01.18.09.003.088,485698.2137,4613665.859,Krtsanis district administration,"Giorgi Guramishvili St., N 6",Tbilisi municipality,Government/Police,Yes,Marked,,11,,,Free,within 400m,Good,beyond 800m,-,It is locked with a barrier. for employees only
+60,01.18.09.003.101 01.18.09.003.102 01.18.09.003.105 01.18.09.003.106,485800,4613650,Emergency Situations Management Service of the Ministry of Internal Affairs,"Vakhtang Gorgasli St, N 83/Giorgi Guramishvili St., N 8",State,Government/Police,Yes,Marked,,68,,,Free,within 400m,Good,beyond 800m,-,
+61,01.18.09.004.034,486219.377,4613720.83,Ortachali bus station,"Dimitri Gulia St, N 5a","Avtandil Enukidze, Archili Kobakhidze, Tornike Kobakhidze, Marina Sevastidou, Mayor Bakradze, Naira Gatenashvili, Joint Stock Company ""Tbilisi Central Bus Station"",  Simeon Cassidy, Shorena Zedginidze",Service,Yes,Unmarked,,,1950,75,Paid,within 400m,Good,beyond 800m,-,"3 GEL one hour, 5 GEL after one hour."
+62,01.18.09.004.034,486219.377,4613720.83,Ortachali bus station,"Dimitri Gulia St, N 5a","Avtandil Enukidze, Archili Kobakhidze, Tornike Kobakhidze, Marina Sevastidou, Mayor Bakradze, Naira Gatenashvili, Joint Stock Company ""Tbilisi Central Bus Station"",  Simeon Cassidy, Shorena Zedginidze",Service,Yes,Unmarked,,,910,35,Paid,within 400m,Good,beyond 800m,-,"3 GEL one hour, 5 GEL after one hour."
+63,01.18.10.003.080,488036.3612,4613059.476,Greenway,"Between Cholokashvili Street and River Mtkvari, nearby the complex under constuction, (area 10/005)","""JD Capital"" LLC",Service,Yes,Marked,,,,21,Paid,within 400m,Good,beyond 800m,-,"1 hour, 1 GEL."
+64,01.19.30.001.333        01.19.30.001.297,497100,4613300,Airport,Territory of Tbilisi International Airport,"LLC ""Union of Georgian Airports""",Service,Yes,Marked,,,,1021,Paid,within 400m,Good,beyond 800m,-,Parking for up to three hours is 5 GEL for each subsequent hour 1 GEL
+65,01.19.26.002.031,497044.2928,4613301.79,Railway station at the airport,"Settlement Airport, nearby to the airport access road, (area 02/024)","""Jiar Property Management"" LLC",Service,Yes,Marked,,,,50,Paid,within 400m,Good,beyond 800m,-,0 - 3 hours 4 GEL.  3 - 6 hours 6 GEL. 6 -12 hours 8 GEL. 24 hours 12₾.
+66,01.19.30.001.082,496602.9982,4613834.965,Customs Clearance Zone,"Airport , (Area01/082)","""JSL Group"" LLC",Service,Yes,Marked,,,,125,Paid,within 400m,Good,beyond 800m,-,"L, M1, M2 category vehicles without a trailer is free for the first 15 minutes, up to 3 hours three GEL, up to 12 hours, 5 GEL, 24 hours, 10 GEL"
+67,01.19.30.001.261,496802.6068,4613495.13,ibis Hotel,"Tbilisi City, Airport","LLC ""Fujin Silk Froferty""",Hotel & Casino,Yes,Marked,,,,15,Free,within 400m,Good,beyond 800m,-,
+68,01.19.30.001.182   01.19.30.001.280,496750,4613650,Police,"Europe St., N 27",State,Government/Police,Yes,Marked,,,,17,Free,within 400m,Good,beyond 800m,-,"The existing parking is located on two cadastres, both belong to the state, but the police area is located on the following cadastre 01.19.30.001.182 "
+69,01.19.15.001.098,496202.9843,4615398.239,Gebruder Vais,"Europe St., N 4b","LLC ""Gebruder Vais""",Other,Yes,Marked,,20,,,Free,within 400m,Bad,beyond 800m,-,Warehouse
+70,01.19.15.002.027,496450.6456,4615148.617,Gebruder Vais,"Europe St., N 4","LLC ""Gebruder Vais""",Other,Yes,Marked,,57,,,Free,beyond 400m,-,beyond 800m,-,Warehouse
+71,01.19.15.001.129,496761.5143,4615637.081,duraturn,"Nearby Wholesale trade base ""Cekavshiri"", (area 01/022).","LLC ""Ertoba""",Retail,Yes,Marked,,,,7,Free,within 400m,Good,beyond 800m,-,
+72,01.19.15.003.022,497082.0307,4615667.28,Nikora,"Kakheti Highway, Nearby the fruit and vegetable base, (area 03/22)","LLC "" A and Co""",Retail,Yes,Marked,,,,33,Free,within 400m,Average,beyond 800m,-,
+73,01.19.15.003.049,497278.4326,4615652.054,Wissol,"Kakheti Highway, Nearby the universal base, (area 03/048)","JSC ""Visol Petroleum Georgia""",Retail,Yes,Marked,,,,5,Free,within 400m,Bad,beyond 800m,-,
+74,01.19.15.005.090,497746.8468,4615620.134,Greenway,"Kakheti Highway, N 147","JSC ""Greenway Georgia""",Service,Yes,Marked,,,,15,Free,within 400m,Bad,beyond 800m,-,
+75,01.19.15.008.098,498825.9807,4615505.173,Gorgia,"Kakheti Highway, N 273a","""Mia Construction"" Ltd",Retail,Yes,Unmarked,,,1040,40,Free,within 400m,Good,beyond 800m,-,
+76,01.19.14.004.004,500024.5373,4615479.551,Adjacent to the oil depot,"Kakheti Highway, nearby oil base , (area. 04/004)","Ltd ""Tega""",Retail,Yes,Unmarked,,,2100,80,Paid,within 400m,Bad,beyond 800m,-,3 GEL
+77,01.19.14.004.012,499867.1015,4615491.058,Adjacent to the oil depot,"Kakheti Highway, nearby oil base","LLC ""Ilori-2005""",Other,Yes,Unmarked,,,3370,129,Paid,within 400m,Bad,beyond 800m,-,2 GEL. Empty area. Parking is likely used for retail (Vacant).
+78,01.19.13.001.011 ,499795,4615540,Askani Winery & Distiller,"nearby  the shopping centre Lilo, (area N1/11)","""Askaneli Winery & Distiller"" LLC",Retail,Yes,Marked,,27,,,Free,within 400m,Bad,beyond 800m,-,For employees only
+79,01.19.13.004.045,501089.2388,4615720.545,Crocobeth Lilo Arena,"District Samgori, (area 04/030)",A.I.P. Federation of Motor Sports of Georgia,Entertainment & Recreation,Yes,Unmarked,,,1560,60,Free,beyond 400m,-,beyond 800m,-,
+80,01.19.13.002.566,500239.2101,4615764.754,Lilo Molly,"Kakheti Highway,  N 112","Giorgi Kurkhuli, Ekaterine Kvirikashvili, Ilya Shonia, Nani Feradze
+Nona Begeluri, ""EM Es Development 2023"" LLC, ""Lilo-Mall"" LLC
+LLC ""LiLogic"",""Slg ​​Group 2024"" LLC",Retail,Yes,Marked,,,,1557,Paid,within 400m,Bad,beyond 800m,-,5 GEL
+81,01.19.13.002.036,500350,4615550,Lilo Molly,"Kakheti Highway,  N 112",Tbilisi municipality,Retail,Yes,Marked,,,40482,1557,Paid,within 400m,Bad,beyond 800m,-,5 GEL
+82,01.19.33.001.270,491051.8534,4613077.206,Gantiadi,"Zurab Iaradjuli St., N 11","Givi Mazanishvili
+Joint Stock Company ""Gantiyadi""",Service industry,Yes,Unmarked,,,1300,50,Paid,within 400m,Good,beyond 800m,-,"Entrance fee 1 GEL. There is a restaurant, workshops, warehouses and shops."
+83,01.19.34.004.074,490892.759,4613168.753,Police,"Moskovi Ave., N 57",State,Government/Police,Yes,Marked,,,,15,Free,within 400m,Good,beyond 800m,-,
+84,01.19.35.005.090,490715.6808,4612892.49,Bokeria Clinic,"Zurab Iaradjulis St., N 8",Joint Stock Company Viani,Hospital & Medical,Yes,Marked,,,,90,Paid,within 400m,Bad,beyond 800m,-,3 GEL
+85,01.19.21.003.066,490930.6707,4614826.994,National Movement office,"Kakheti Highway, N 45a","P/G ""United National Movement""",Commercial,No,Unmarked,780,30,,,Free,within 400m,Bad,beyond 800m,-,"They also have underground parking, which we were unable to access. The number of parking spaces is unknown."
+86,01.19.21.003.163,491068.6902,4614890.427,Shopping Center Ideal ,"Kakheti Highway, N 83a","""Demas"" LLC",Retail,Yes,Marked,,,,35,Free,within 400m,Bad,beyond 800m,-,
+87,01.19.21.003.003,491341.2157,4615036.736,Gulf,"Kakheti Highway, At the electricity transformer junction, in the direction of the airport, near the monument to the cosmonaut.","""Georgian Energy Solutions"" LLC",Other,Yes,Marked,,,,10,Free,within 400m,Average,beyond 800m,-,
+88,01.19.21.003.132,491598.1604,4615069.47,McDonald's,"Kakheti Highway, near the ""Isani' shoe factory (area 03/053)","""T and K Restaurants"" LLC",Entertainment & Recreation,Yes,Marked,,,,15,Free,within 400m,Average,beyond 800m,-,
+89,01.19.22.002.044,491940.6069,4614958.673,Tbilservis group,"Kakheti Highway, N 67","LLC""Tbil service group""",Government/Police,No,Marked,,50,,,Free,within 400m,Average,beyond 800m,-,
+90,01.19.21.002.023,491609.9163,4614691.999,Socar,"kiziki St., N 13 , (area.002/023)",JSC SOCAR Georgia Gas Distribution,Service,Yes,Unmarked,,,520,20,Free,within 400m,Average,beyond 800m,-,
+91,01.19.21.002.352,490513.1149,4614334.743,New design," Ekaterine Baghdavadze St., N 17","""Fazisi"" LLC",Retail,Yes,Marked,,,,25,Free,beyond 400m,-,beyond 800m,-,
+92,01.19.21.003.094,491514.3298,4614927.746,Modusi,"Kakheti Highway, nearby N 65","LLC ""Modus""",Retail,Yes,Marked,,,,70,Free,within 400m,Bad,beyond 800m,-,
+93,01.19.22.002.048,491862.6962,4615046.441,Next to Tbilservis group,nearby Kakheti Highway,Tbilisis Municipality,Service,Yes,Marked,,,,33,Free,within 400m,Average,beyond 800m,-,At the entrance of Tbilservi group
+94,01.19.24.007.030,493523.7163,4614670.917,Impexfarm,"military settlement, I St, N2.",Impexfarm Ltd,Hospital & Medical,Yes,Marked,,,,17,Free,within 400m,Bad,beyond 800m,-,
+95,01.19.25.001.362,495326.8196,4615470.664,Center-Pty,"Kakheti Highway, N 141",Training and Examination Center Ltd. Pty,Education,Yes,Marked,,,,18,Free,within 400m,Good,beyond 800m,-,
+96,01.19.25.001.349,495389.4686,4615420.334,Lugar Research Center,"Kakheti Highway, N 99",State,Hospital & Medical,Yes,Marked,,75,,35,Free,within 400m,Good,beyond 800m,-,
+97,01.19.25.014.038   01.19.25.014.039,496510,4614000,Air navigation,"Airport; Tbilisi City, Airport, (area 15/026)","LLC ""Sakaeronavigatsia""",Other,Yes,Marked,,,,55,Free,within 400m,Bad,beyond 800m,-,
+98,01.19.17.015.004,493723.807,4615235.852,McDonald's,"Settlement Orkhevi, (area 15/004)","LLC ""T. and K. Restaurants""",Entertainment & Recreation,Yes,Marked,,,,22,Free,within 400m,Good,beyond 800m,-,
+99,01.19.18.004.016,492741.3812,4615362.195,National Bank of Georgia,"Iason Lortkifanidze St., N 2",state (lease),Service,Yes,Marked,,,,31,Free,within 400m,Bad,beyond 800m,-,
+100,01.19.18.005.142 01.19.18.005.144,492620,4615420,Meama,"Givi Amilakhvari St., N 6","""Meama"" LLC",Commercial,Yes,Unmarked,,,1300,50,Free,within 400m,Bad,beyond 800m,-,
+101,01.19.18.008.001,492030.629,4615353.978,Sante,"Kakheti Highway, 10 km","LLC ""Sante GM-T Products""",Other,Yes,Marked,,,780,45,Free,within 400m,Bad,beyond 800m,-,Dairy factory
+102,01.19.19.009.056  01.19.19.009.041,491500,4615200,Eastpoint,"Aleksandre Tvaltchrelidze St., N 2","""CBD Development"" LLC",Retail,Yes,Marked,,,,2250,Free,within 400m,Bad,beyond 800m,-,
+103,01.19.39.002.353,490240.3823,4617349.098,Carrefour,"Sesilia Takaishvili St., N 46","""Geo Development Group"" Ltd",Mixed-use,Yes,Unmarked,,,650,25,Free,within 400m,Good,beyond 800m,-,
+104,01.19.39.012.011,489348.2197,4617306.147,Ori tona,"Settlement Varketili-3, micro/district III a, nearby
+building 338.",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,17,Free,within 400m,Bad,beyond 800m,-,
+105,01.19.39.012.037,489369.1175,4617429.863,Ellis,"Viktor Kupradze St, N 39","""Ellis"" Ltd",Retail,Yes,Unmarked,,,312,12,Free,within 400m,Bad,beyond 800m,-,
+106,01.19.39.010.062,490225.2909,4617145.131,Police,"Sesilia Takaishvili St., N 31",State,Government/Police,Yes,Marked,,20,,,Free,within 400m,Good,beyond 800m,-,
+107,01.19.39.015.019,490216.0292,4617066.886,Carrefour,"Sesilia Takaishvili St., N 33","""Apartment unit owners""
+""Aim Building City"" LLC",Mixed-use,Yes,Unmarked,,,390,15,Free,within 400m,Good,beyond 800m,-,
+108,01.19.39.010.109,490110.1614,4617240.781,Adjacent to Varketili Central Park,"Sesilia Takaishvili St., N 27",Tbilisi Municipality,Service industry,Yes,Unmarked,,,1638,63,Free,within 400m,Good,beyond 800m,-,Workshop area with parking in front
+109,01.19.39.026.017,489458.3301,4616749.133,Libre,"Settlement varketili-3, micro/district I, At the intersection of Sukhishvili St. and Javakheti St.",Tbilisi Municipality,Retail,Yes,Unmarked,,,572,22,Free,within 400m,Good,beyond 800m,-,in front of Libre
+110,01.19.39.013.041,489374.3701,4617088.015,Spar,"Viktor Kupradze St., N21",Aim Building City Ltd,Mixed-use,Yes,Unmarked,,,182,7,Free,within 400m,Good,beyond 800m,-,
+111,01.19.20.024.006,489581.9875,4615252.045,Fresco,"Kaloubani St., N9","""Fresco Retail Group"" LLC",Retail,Yes,Marked,,,,15,Free,within 400m,Good,within 800m,Average,
+112,01.19.20.024.126,489296.5689,4615208.758,Varketili market,"Javakheti St., N 17d","LLC ""Varketili-96""",Retail,Yes,Unmarked,,,780,30,Paid,within 400m,Average,within 800m,Average,3 GEL
+113,01.19.36.014.524,488411.3462,4617271.38,Hualing Plaza,"Settlement Varketili-3, nearby IV micro/district, (area 14/430)","""Hualing international special economic zone"" joint stock company",Retail,Yes,Marked,,,,716,Free,within 400m,Good,beyond 800m,-,
+114,01.19.36.014.523,488328.7913,4617427.867,Hualing Plaza,"Settlement Varketili-3, nearby IV micro/district , (area 14/430)","""Hualing international special economic zone"" joint stock company",Retail,Yes,Marked,,,,200,Free,within 400m,Good,beyond 800m,-,
+115,01.19.36.014.603,489604.6655,4618226.908,Hotels & Preferences Hualing Tbilisi,"Settlement Varketili-3, nearby IV micro/district, (area 14/430)","""Hualing international special economic zone"" joint stock company",Hotel & Casino,Yes,Marked,,,,80,Free,within 400m,Good,beyond 800m,-,
+116,01.19.36.014.520,489793.9514,4618265.918,Zanadu Casino ,"Settlement Varketili-3, nearby IV micro/district, (area 14/430)","""Hualing international special economic zone"" joint stock company",Hotel & Casino,Yes,Marked,,,,70,Free,within 400m,Good,beyond 800m,-,
+117,01.19.37.017.043,489398.0964,4617579.292,Greenway,"Viktor Kupradze St, N 64","Joint Stock Company ""Greenway Georgia""",Service,Yes,Marked,,,,10,Free,within 400m,Bad,beyond 800m,-,
+118,01.19.36.014.248,489079.0782,4616426.008,Christian Congregation of Jehovah's Witnesses in Georgia,"Javakheti St., N 190","""Christian Assembly of Jehovah's Witnesses in Georgia""",Other,Yes,Unmarked,,,2100,80,Free,within 400m,Bad,beyond 800m,-,For Jehovah's Witnesses
+119,01.19.36.013.007,488981.5395,4616146.051,"Car paint shop ""Kolor+"" nearby","Javakheti St., N 144","Ana Shotadze
+Tbilisi Municipality",Service industry,Yes,Unmarked,,,6256,240,Free,within 400m,Bad,within 800m,Bad,The old taxi garage is now converted into workshops
+120,01.19.36.014.545,489206.3137,4616685.784,Hualing Economic Zone,"Viktor Kupradze St, N 14","""Hualing international special economic zone"" joint stock company",Other,Yes,Unmarked,,,1000,38,Free,within 400m,Average,beyond 800m,-,
+121,01.19.36.012.034,489009.0991,4615894.825,Nikora,"Giorgi Melikishvili St., N 5","""Apartment unit owners""
+""Aim Building City"" LLC",Mixed-use,Yes,Unmarked,,,520,20,Free,within 400m,Bad,within 800m,Bad,
+122,01.19.36.012.026,488986.8447,4615932.409,Libre,"Giorgi Melikishvili St., N 7","""Apartment unit owners""
+Shoande Ltd",Mixed-use,Yes,Unmarked,,,312,12,Free,within 400m,Bad,within 800m,Bad,
+123,01.19.36.012.031,489079.8003,4615880.269,Eurasia,"Javakhetis II, N1a","""Eurasia"" LLC",Commercial,Yes,Unmarked,1000,38,,,Free,within 400m,Bad,within 800m,Bad,
+124,01.19.36.004.032,489193.5889,4615543.883,Varketili metro station,"Entrance to the vestibule of the ""Varketili""metro station (area 04/032)",Tbilisi Municipality,Other,Yes,Unmarked,,,806,31,Paid,within 400m,Good,within 800m,Good,It is paid. Parking fee is depending on man who is collecting money unofficially
+125,01.19.36.014.638  01.17.06.010.011  ,487590,4617680,Fund Hotel,"Jumber Lezhava st., N 26","Joint Stock Company ""Fund Investment""",Hotel & Casino,Yes,Unmarked,2158,83,,,Free,within 400m,Bad,beyond 800m,-,
+126,01.17.10.007.033,488583.1865,4615449.2,Madart,Osip Mandelshtami St. N 3,"Joint Stock Company ""Mamuli""",Retail,Yes,Marked,,,,20,Free,within 400m,Good,beyond 800m,-,
+127,01.19.36.001.017,489209.6329,4614795.155,Wendy's,Javakheti St. N 14a,Nino Tsirekidze,Entertainment & Recreation,Yes,Marked,,,,11,Free,within 400m,Bad,beyond 800m,-,
+128,01.17.10.008.037 01.17.10.008.041,488850,4615000,Ministry of Internal Affairs, Noe Ramishvili St. N 38,State,Government/Police,No,Marked,,233,,,Free,within 400m,Bad,within 800m,Bad,
+129,01.19.36.001.090,489196.9898,4615262.374,Hospital,Javakheti St. N 76,"Zuriko Noniashvili, Irakli Noniashvili, Lali Beridze, Lasha Noniashvili
+Shorena Noniashvili, Khatuna Noniashvili",Hospital & Medical,Yes,Unmarked,,,156,6,Free,within 400m,Good,within 800m,Good,
+130,01.17.10.012.144,489041.4452,4614849.091,"""8 Legion Market""",Kakheti Highway  N 44,Madani LLC,Retail,Yes,Unmarked,,,910,35,Paid,within 400m,Bad,beyond 800m,-,3 GEL
+131,01.17.10.012.126,489031.5383,4614893.731,"""8 Legion Market""",Kakheti Highway  N 44,"Lali Jgharkava
+Lamzira Rukhadze",Retail,Yes,Unmarked,,,1040,40,Paid,within 400m,Bad,beyond 800m,-,3 GEL
+132,01.17.10.012.010,489040.2897,4615107.518,Tegeta Motors,"Petre Khvedelidze St., N 7","Joint Stock Company 2651 ""Phoenix-2""",Service industry,Yes,Marked,,,,20,Free,within 400m,Bad,within 800m,Bad,For tegeta motors customers
+133,01.17.10.012.010,489040.2897,4615107.518,Next to Tegeta Motors,"Petre Khvedelidze St., N 7","Joint Stock Company 2651 ""Phoenix-2""",Service industry,Yes,Unmarked,,,9880,380,Paid,within 400m,Bad,within 800m,Bad,2 GEL
+134,01.17.06.005.008,486722.7144,4618141.48,Makhata Monastery,"Settlement Vazisubani, nearby military unit","""Autocephalous Orthodox Church of Georgia""",Other,Yes,Unmarked,,,6240,240,Free,within 400m,Bad,beyond 800m,-,Entrances to the parking lot are closed
+135,01.17.07.022.019,487453.3292,4616842.124,Police,"Teofane Davitaia St., N 17",State,Government/Police,Yes,Unmarked,,15,,,Free,within 400m,Bad,beyond 800m,-,
+136,01.17.07.022.007,487422.4365,4616905.27,Adjacent to the banquet hall,"Settlement Vazisubani, between buildings N14 and N15, (area 22/007)",Tbilisi Municipality,Other,Yes,Unmarked,,,728,28,Free,within 400m,Bad,beyond 800m,-,The area is empty and used by a restaurant (Vacant)
+137,01.17.10.001.039,487858.815,4616035.112,Lee Maddy,"Niko Muskhelishvili St, N 4","""Kvachantiradze 7"" joint venture partnership",Hospital & Medical,Yes,Marked,,,,30,Free,within 400m,Bad,beyond 800m,-,
+138,01.17.14.002.154,489479.8688,4613157.335,Greenway,Monk gabriel salosi Ave. N 175a,"Joint Stock Company ""Greenway Georgia""",Service,Yes,Marked,,,,8,Free,within 400m,Good,beyond 800m,-,
+139,01.19.21.001.168,490003.9771,4614636.791,Tegeta Motors,"Kakheti Highway, N 15, (area N1/55)",Tegeta Motors LLC,Service industry,Yes,Marked,,,,18,Free,within 400m,Good,beyond 800m,-,
+140,01.17.14.002.142,488389.7046,4613499.239,Police,"Monk gabriel salosi Ave, N 135",State,Government/Police,Yes,Marked,,28,,,Free,within 400m,Good,beyond 800m,-,
+141,01.17.12.003.006,487908.2282,4614516.503,Vodka factory yard,Mevele  St.  N 20,"Joint Stock Company ""Crystal 1887""",Other,Yes,Unmarked,,,4550,175,Paid,within 400m,Bad,within 800m,Bad,"Day 3 GEL, night 5 GEL"
+142,01.17.12.002.073,488065.2699,4614815.266,Wholesale flower market,"Moskovi Ave, N 6","LLC ""Samgori 2004""",Other,Yes,Unmarked,,,780,30,Paid,within 400m,Good,within 800m,Good,The rate is as much as you give 
+143,01.17.12.003.050,487947.7241,4614688.827,Barakholka,"On Mevele Street, opposite side the Navtlughi market (area 3/50)","LLC ""Isani 2001""",Retail,Yes,Unmarked,,,1040,40,Paid,within 400m,Bad,within 800m,Bad,Entry is 3 GEL
+144,01.17.14.003.633,487041.6508,4613606.491,Olympic,"Cholokashvili St.,  Quarter I, N5b.","LLC ""Monio""",Entertainment & Recreation,Yes,Marked,,,,40,Paid,within 400m,Bad,beyond 800m,-,"The parking lot on all three cadastres is used by Olimpik. Free parking for 30 minutes, entrance fee 1 GEL, from 8:00 to 22:00 (all day).  It is forbidden to leave the car overnight."
+145,01.17.14.003.698,487004.6072,4613543.064,Olympic,Between Cholokashvili Street and River Mtkvari,State,Entertainment & Recreation,Yes,Marked,,,,41,Paid,beyond 400m,-,beyond 800m,-,
+146,01.17.14.003.189,487085.243,4613530.189,Olympic,Between Cholokashvili Street and River Mtkvari,Aleksander Nikolaishvili,Entertainment & Recreation,Yes,Marked,,,,16,Paid,beyond 400m,-,beyond 800m,-,
+147,01.17.12.046.029,487058.5704,4613924.711,Fresco,Monk gabriel salosi Ave  N 42,"LLC ""Fresco Shopping Center""",Retail,Yes,Marked,,,,73,Paid,within 400m,Good,beyond 800m,-,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+148,01.17.12.023.018,486738.7707,4614703.248,Isni administration,"Navtlughi St, N 8",Tbilisi Municipality,Service,Yes,Marked,,11,,,Free,within 400m,Good,within 800m,Good,
+149,01.17.12.023.036,486770.2817,4614609.084,Isani Mol,Navtlughi St. N 8a,"LLC ""Cross 2""",Retail,Yes,Marked,,,,100,Paid,within 400m,Good,within 800m,Good,"Fifteen minutes are free. from 15 minutes to 1 hour 2 GEL, the next one hour 1 GEL. 70 GEL for a monthly ticket."
+150,01.17.12.014.026,487757.8967,4614545.227,Universe,Mevele St N 7/9,"JSC ""Tbillitonnatsarmi""",Retail,Yes,Marked,,,,50,Paid,within 400m,Bad,within 800m,Bad,3 GEL. Free on purchases of 25 GEL.
+151,01.17.12.004.200,487780.5251,4614727.544,Navtlukhi market,Mevele St. N 3,"Ltd. ""Oil""",Retail,Yes,Unmarked,,,3000,115,Paid,within 400m,Bad,within 800m,Bad,3 GEL
+152,01.17.12.014.054,487699.2737,4614646.045,Near the Navtlukhi market,Mevele St. N 7a,"LLC ""Miller 2020""",Retail,Yes,Unmarked,,,2340,90,Paid,within 400m,Bad,within 800m,Bad,2 GEL
+153,01.17.12.020.003,487434.139,4614406.331,TV Pirveli,"Tbel Abuseridze St, N 13a","LLC ""Samgori-94"" LLC ""Samgori 2014""",Other,Yes,Unmarked,,,1040,40,Free,beyond 400m,-,beyond 800m,-,
+154,01.17.12.016.033,487860.4683,4614224.216,warehouses,Mevele St. N 25,Muhsin Kurt,Retail,Yes,Unmarked,,,520,20,Free,beyond 400m,-,within 800m,Bad,
+155,01.17.12.006.024,487017.4269,4614491.157,Belonging to the Ministry of Defense,Turn Saekimo N 8,State,Government/Police,Yes,Unmarked,2366,91,,,Free,within 400m,Bad,within 800m,Bad,Parking lot belonging to the Ministry of Defense
+156,01.17.13.001.362,485770.3337,4615243.601,Geo Hospital,"brothers kurashvili St, N 4","""Geo Hospital"" Ltd.",Hospital & Medical,Yes,Marked,,38,,,Free,within 400m,Bad,within 800m,Bad,for employees
+157,01.17.13.001.105,485815.8315,4615264.406,Geo Hospital,"brothers kurashvili St, N 4","""Geo Hospital"" Ltd.",Hospital & Medical,Yes,Marked,,,,32,Free,within 400m,Bad,within 800m,Bad,
+158,01.17.13.001.308,485769.1179,4615345.322,Chichu Medical Center Mzra,"Tsinandali St, N 9-6",Chichuevi Medical Center Mzara Ltd,Hospital & Medical,Yes,Marked,,9,,,Free,beyond 400m,-,within 800m,Bad,for employees
+159,01.17.13.001.315,485806.9934,4615475.602,"Cardiology Clinic ""Guli""","Tsinandali St, N 9-13","""Guli"" cardiology clinic LLC",Hospital & Medical,Yes,Unmarked,,,312,12,Paid,within 400m,Bad,within 800m,Bad,3 GEL
+160,01.17.13.001.404,485771.4559,4615535.391, Ioane Motskeli Private clinic ,"Avlip Zurabashvili St, N 1g","LLC "" Ioane Motskele Private Clinic """,Hospital & Medical,Yes,Marked,,,,25,Free,beyond 400m,-,within 800m,Bad,
+161,01.17.13.001.088,485709.8396,4615497.61,In front of the pirveli saavadmkopo,"Tsinandali St, N 9-14","Joint Stock Company ""Khalik Bank Georgia"",
+LLC ""Emergency Surgery and Traumatology Center"",
+LLC ""Reanimation"", 
+""Kay Ann"" LLC, 
+Emergency neurology clinic ""Neurologist"" Ltd.
+LLC ""First Clinical LLC""",Hospital & Medical,Yes,Unmarked,,,910,35,Paid,beyond 400m,-,within 800m,Bad,The rate is as much as you give 
+162,01.17.13.001.066,485618.0355,4615503.755,Hospital,Tsinandali St. N 9-21,"""Endosurgery"" LLC
+""Tbilisi State Medical University and Ingorokva University Clinic of High Medical Technologies"" LLC
+""Nephrology Development Clinical Center""",Hospital & Medical,Yes,Unknown,,,655.83,18,Free,within 400m,Bad,within 800m,Bad,The area of ​​the parking lot is searched on the website of the municipality.(655.83:35=18)
+163,01.17.13.001.375,485673.5763,4615466.469,In front of the pirveli saavadmkopo,Tsinandali St. N 9,"LLC ""Rehabilitation""",Hospital & Medical,Yes,Unmarked,,,338,13,Paid,within 400m,Bad,within 800m,Bad,The rate is as much as you give 
+164,01.17.13.001.054,485553.684,4615542.745,Timber Hotel,"Aleksandre Khakhanashvili St, N 39","""Timber Hotel"" LLC",Hotel & Casino,Yes,Marked,,,,10,Free,beyond 400m,-,within 800m,Bad,
+165,01.17.13.001.403,485530.7823,4615601.708,House of Health,"Tsinandali St, N 9-20","Amiran Khoridze
+Shalva Khoridze
+LLC ""House of Health""",Hospital & Medical,Yes,Marked,,20,,,Free,beyond 400m,-,within 800m,Bad,for employees
+166,01.17.13.001.098,485586.8029,4615599.338,Adjacent to the health center,"Tsinandali St, N 9, (area 01/098)",Giorgi Tsitsvidze,Other,Yes,Unmarked,,,312,12,Paid,beyond 400m,-,within 800m,Bad,The rate is as much as you give 
+167,01.17.13.001.052,485593.4805,4615611.518,Adjacent to the health center,"On Kobareti Street, nearby the First Clinical Hospital.","Mikheil Chichakua
+Nikoloz Zazashvili",Other,Yes,Unmarked,,,442,17,Paid,beyond 400m,-,within 800m,Bad,
+168,01.17.13.001.074,485728.3311,4615357.812,National Center of Urology,Tsinandali St. N 27,"LLC ""L. Managadze National Center of Urology""
+LLC ""Lithotripsia""
+""Max 2022"" LLC",Hospital & Medical,Yes,Unmarked,,,2080,80,Paid,within 400m,Bad,within 800m,Bad,3 GEL
+169,01.17.13.001.406,485716.7702,4615275.631,SEU,"Tsinandali St,  N 9","LLC ""National University of Georgia SEU""",Education,Yes,Unmarked,1118,43,,,Free,within 400m,Good,within 800m,Good,"They have it locked with a barrier, entry is supposedly only for employees and students."
+170,01.17.01.125.001,485293.3694,4615227.607,Sheraton Metekhi,"Telavis St, N 20","LLC ""Tbilisi Hotels Holding""",Hotel & Casino,Yes,Marked,,,,250,Paid,within 400m,Good,within 800m,Good,"The first 30 minutes are free. The first hour is 4 GEL, each subsequent hour is 1 GEL. From 12:00 to 24:00 hour 30 GEL."
+171,01.17.12.001.062,486989.9652,4615071.43,Isni's Dissolution Fair,Ketevan martyr Ave. N 98,"LLC ""Transservice""",Service industry,Yes,Unmarked,,,5538,213,Paid,within 400m,Good,within 800m,Bad,Entrance fee is 3 GEL. 
+172,01.17.13.027.008,486732.3789,4615073.96,State Audit Office,Ketevan martyr Ave. N 96,State,Government/Police,Yes,Marked,,80,,,Free,within 400m,Good,within 800m,Good,For employees only
+173,01.17.01.138.007,485283.5891,4614924.262,Smart,"On the left bank of the Mtkvari River, near the Gogilo bath.","Joint Stock Company ""Visol Petroleum Georgia""",Retail,Yes,Marked,,,,7,Free,beyond 400m,-,beyond 800m,-,Free private parking for Smart customers only
+174,01.17.13.043.023,485533.3924,4614847.392,Adjacent to SOCAR headquarters,Ialbuzi st. N 14,"LLC ""Domus Avlabari""",Commercial,Yes,Marked,,36,,,Free,within 400m,Bad,within 800m,Bad,For employees only
+175,01.17.13.043.023,485533.3924,4614847.392,Adjacent to SOCAR headquarters,Ialbuzi st. N 14,"LLC ""Domus Avlabari""",Other,Yes,Unmarked,,,2990,115,Paid,within 400m,Bad,within 800m,Bad,The area is empty and used for parking (vacant)
+176,01.17.13.043.019,485469.2301,4614771.016, SOCAR headquarter,Ialbuzi st. N 14,"""Representative Office (Branch) of the State Oil Company of the Republic of Azerbaijan in Georgia""
+""Confidence Group"" LLC",Commercial,No,Unknown,N/A,N/A,N/A,N/A,Free,within 400m,Bad,within 800m,Bad,Underground parking. Parking lots are unknown
+177,01.17.01.138.312,485416.2769,4614789.554,Hilton Garden Inn Tbilisi Riverview,Ialbuzi st. N 17,Kit 2016 LLC,Hotel & Casino,No,Marked,434.49,12,,,Free,within 400m,Bad,within 800m,Bad,"The entrance gate is closed. The area of ​​the parking lot is searched on the website of the municipality. (434.9:35=12,414)"
+178,01.17.01.010.011,484671.8638,4615629.008,Adjacent to Avlabrismetro,At the beginning of Martyr Avenue. (area 10/11),LLC APS,Other,Yes,Unmarked,,,2080,80,Paid,within 400m,Good,within 800m,Good,"3 GEL, minibus 5 GEL, bus 10 GEL"
+179,01.17.01.117.032,484311.6171,4615405.483,Metekhi Church,Metekhi uphill  N 1,Orthodox Church of Georgia,Other,Yes,Unmarked,,,1560,60,Free,within 400m,Good,within 800m,Good,
+180,01.17.01.124.008,485040.8201,4615360.809,Hotel view,Queen Ketevan the Martyr Ave. N24,"LLC ""Realty Avlabari""",Mixed-use,No,Unknown,3493,99,,,Free,within 400m,Good,within 800m,Good,underground parking. The area of ​​the parking lot is searched on the website of the municipality. (3493.4:35=99.81)
+181,01.17.01.122.008,484957.5046,4615307.676,Hotel Margo,Queen Ketevan the Martyr Ave. N 27,"LLC ""Sally""",Hotel & Casino,Yes,Unmarked,,,80,5,Free,within 400m,Good,within 800m,Good,
+182,01.17.01.108.012,484895.3139,4615439.73,Aviation University of Georgia,Queen Ketevan the Martyr Ave. N 16,"""Aviation University of Georgia"" LLC",Education,Yes,Marked,,17,,,Free,within 400m,Good,within 800m,Good,
+183,01.16.05.035.001,483798.1512,4616744.122,restaurant Rigi,Zaarbrukeni Square,GMT Hotels LLC,Entertainment & Recreation,No,Marked,1050,35,,,Free,within 400m,Good,beyond 800m,-,we could not enter. The area of ​​the parking lot is searched on the website of the municipality.(1050:35=35)
+184,01.16.05.018.025,483751.5855,4617314.963,Fresco,"Chikobava st., N 22","Fresco ""Shopping Center"" Ltd",Retail,Yes,Marked,,,,40,Paid,within 400m,Good,beyond 800m,-,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+185,01.16.05.003.069,483354.0417,4617268.458,Mosaic business center,Davit Aghmashenebeli Ave. N 61,"LLC ""Business Center Mosaic""",Commercial,Yes,Marked,,,,50,Paid,within 400m,Good,within 800m,Good,2 GEL per hour
+186,01.16.05.003.083,483397.1236,4617267.03,Mosaic business center,"Davit Aghmashenebeli Ave, nearby N 61 ",Tbilisi Municipality,Commercial,Yes,Marked,,,,27,Paid,within 400m,Good,within 800m,Good,2 GEL per hour. It olso has underground parking
+187,01.16.05.003.074,483361.7035,4617404.797,Ilya garden,"Davit Aghmashenebeli Ave, N 73",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,20,Free,within 400m,Good,within 800m,Good,
+188,01.13.08.007.066,482983.4974,4617486.569,Redline hotel,"Kote Marjanishvili St, N 16b","A.I.P. ""Tbilisi Development Fund""",Hotel & Casino,Yes,Marked,,,,35,Paid,within 400m,Good,within 800m,Good,"The first hour is 3 GEL, the next hour is 1 GEL. Property A.I.P. ""Tbilisi Development Fund"" has been granted a lease on Redline Hotel"
+189,01.13.08.011.042,482770.6142,4617601.189,American Hospital,"D. uznadze St, N 58; Tbilisi city, Ushangi chkheidze St. N 17","LLC ""SAYALI""",Hospital & Medical,Yes,Marked,,,,70,Paid,within 400m,Good,within 800m,Good,"The first 15 minutes are free, one hour is three GEL and the next one hour is one GEL"
+190,01.13.08.010.031,482684.3608,4617548.807,Adjacent to American Hospital,U. chkheidze St. N 18,Vista Ltd,Other,Yes,Unmarked,,,390,15,Paid,within 400m,Good,within 800m,Good,3 GEL for the first hour until 4 o'clock. Five GEL from five o'clock to 9 o'clock. 15 GEL from nine o'clock for 24 hour (vacant).
+191,01.13.08.008.032,482882.8078,4617704.566,terytory of former velodrom,"Davit Aghmashenebeli Ave. N 116 , (area 08/032)","LLC ""Outdoor.G""",Other,No,Unmarked,5500,211,,,Free,within 400m,Good,within 800m,Good,"Entry is prohibited, owned by ""Outdoor.J"" LLC, but used by the Ministry of Defense as a parking lot (vacant)"
+192,01.13.08.010.120,482580.9648,4617764.525,Kazbegi Beer Brewery,D. uznadze St.  N 68a,"LLC ""Kazbegi 1881""",Other,Yes,Marked,,,,20,Free,beyond 400m,-,beyond 800m,-,Kazbegi Beer Brewery
+193,01.13.08.011.040,482829.6705,4617547.471,Ministry of Education and Science of Georgia,"D. uznadze St. N 52, (area 11/040)","State. LLC ""Asset Management and Development Company""",Government/Police,No,Marked,,60,,,Free,within 400m,Good,within 800m,Good,
+194,01.16.04.051.005,484236.8618,4617256.583,Caucasus University,"Paata Saakadze St., N 1","LLC ""University of the Caucasus""",Education,Yes,Marked,,,,43,Paid,within 400m,Good,beyond 800m,-,Entrance 2 GEL
+195,01.16.04.052.023,484359.118,4617276.643,Caucasus University parking lot,"Archil Betaneli St, N 4g","A.I.P ""Foundation Caucasus University""",Education,Yes,Marked,,,,40,Paid,within 400m,Good,beyond 800m,-,It is closed with a gate. The price is not specified.
+196,01.16.04.060.024,484315.6895,4617238.152,Caucasus University parking lot,"Dodo Chichinadze St, N 16","A.I.P. ""Foundation Caucasus University""",Education,Yes,Marked,,,,7,Paid,within 400m,Good,beyond 800m,-,It is closed with a gate. The price is not specified.
+197,01.16.04.001.083,484892.8295,4618016.097,Police,"Nori  uphill, N 73",State,Government/Police,Yes,Marked,,24,,,Free,within 400m,Good,beyond 800m,-,
+198,01.16.02.029.021,484257.7576,4618888.171,National Center for Tuberculosis and Lung Diseases,"Achara St, N 8","Joint Stock Company ""National Center of Tuberculosis and Lung Diseases""",Hospital & Medical,No,Marked,,50,,,Free,within 400m,Bad,beyond 800m,-,Entry is only allowed for employees and people with special passes.
+199,01.16.02.038.044,483568.6234,4618609.481,Caravan,"Ts. Dadiani st., N 7, (area N038/044)","LLC ""Karvasla""",Retail,Yes,Marked,,,,173,Paid,within 400m,Good,within 800m,Bad,Half an hour is free. 1 GEL for 31-60 minutes. 2 GEL for each subsequent hour. The maximum amount is 10 GEL. From 22:00 to 9:00 a fixed amount of 5 GEL.
+200,01.12.13.089.003,483305.5071,4619566.495,karvasla,"Tsotne Dadiani St., N 71","""Retro Construction"" LLC",Mixed-use,Yes,Marked,,,,18,Paid,within 400m,Good,within 800m,Bad,Entrance 1 GEL
+201,01.12.13.062.034,483204.1548,4619988.768,Bank of Georgia,"Tsotne Dadiani St., N 111/Erosi mandjgaladze St, N78","LLC ""Construction Company Apex Development""",Mixed-use,Yes,Marked,,,,10,Free,within 400m,Good,within 800m,Good,
+202,01.12.13.062.030,483184.3202,4620052.343,TBC,"Tsotne Dadiani St., N 123","LLC ""Construction Company Apex Development""",Mixed-use,Yes,Marked,,,,10,Free,within 400m,Good,within 800m,Good,
+203,01.12.12.011.130,483000.037,4619709.288,GCBH,"Tsotne Dadiani St., N 32","Joint Stock Company ""Bank of Georgia""",Commercial,Yes,Unmarked,520,20,,,Free,within 400m,Good,within 800m,Average,For employees only
+204,01.12.12.033.043,483161.9785,4619751.693,Tbilisi Gldani-Nadzaladevi District Prosecutor's Office,"Tsotne Dadiani St., N 30a",State,Government/Police,Yes,Unmarked,1560,60,,,Free,within 400m,Good,within 800m,Average,
+205,01.12.12.033.042,483224.8208,4619644.615,Marge,"Tsotne Dadiani St., N 26a","LLC ""Marge""",Entertainment & Recreation,Yes,Unmarked,,,80,4,Free,within 400m,Good,within 800m,Average,
+206,01.12.12.033.039,483172.7534,4619631.175,studio Lurja tskhenebi,"Tsotne Dadiani St., N 26B","LLC ""orientiri""",Education,Yes,Unmarked,654,25,,,Free,within 400m,Good,within 800m,Average,Vocal-Theatrical Studio
+207,01.12.11.051.004,482931.0322,4621090.99,The first maternity hospital,"Ts. Dadiani St., N 255","LLC ""First Medical Center""",Hospital & Medical,Yes,Marked,,,,12,Free,within 400m,Good,beyond 800m,-,
+208,01.16.01.005.057,483261.9142,4618785.206,station square,"Square station, N2, (area. 005/057)",Tbilisi Municipality,Other,Yes,Marked,,,,72,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL and every next hour is 1 GEL
+209,01.16.01.005.074,483249.2996,4618787.001,station square,"
+Square station, (area. 05/081, 05/074)",Tbilisi Municipality,Other,Yes,Marked,,,,31,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL and every next hour is 1 GEL
+210,01.16.01.005.035,483219.8194,4618773.441,station square,Square station.,"LLC ""Excalibur""",Other,Yes,Marked,,,,70,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL and every next hour is 1 GEL
+211,01.16.01.005.301,483331.8034,4618664.133,station square,"Railway Central Vagzali, (area.05/107)","""Riverside Plaza"" LLC",Other,Yes,Unmarked,,,1300,50,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL
+212,01.16.01.005.107,483300,4618800,railway station,"Railway Central Vagzali, (area.05/107)","""Riverside Plaza"" LLC",Other,Yes,Marked,,,,50,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL and every next hour is 1 GEL
+213,01.16.01.005.107,483300,4618800,railway station,"Railway Central Vagzali, (area.05/107)","""Riverside Plaza"" LLC",Other,Yes,Marked,911,35,,,Paid,within 400m,Good,within 800m,Good, it is not possible to enter by car
+214,01.16.01.005.164,483197.1463,4619012.976,Post of Georgia,Railway Central Vagzali.,"LLC ""Georgia Posta""",Commercial,Yes,Marked,,50,,,Free,within 400m,Good,within 800m,Good,For employees only
+215,01.16.01.005.200,483058.254,4619215.214,Borjomi station,"Railway Central Vagzali, (area.05/104)","LLC ""Asset Management and Development Company""",Retail,Yes,Unmarked,,,10400,400,Paid,within 400m,Average,within 800m,Average,All three cadastres are on one parking lot. Entry is 3 GEL and every next hour is 1 GEL. Minibus 5 GEL next hour 2 GEL
+216,01.16.01.005.288,483105.0407,4619109.652,Borjomi station,Railway Central Vagzali,"LLC ""Asset Management and Development Company""",Retail,Yes,Unmarked,,,,,Paid,within 400m,Average,within 800m,Average,
+217,01.13.07.021.328,482967.9468,4619389.258,Borjomi station,Railway Central Vagzali,"LLC ""Asset Management and Development Company""",Retail,Yes,Unmarked,,,,,Paid,beyond 400m,-,within 800m,Average,
+218,01.16.01.005.322,483234.4833,4619067.291,bus station,Railway Central Vagzali,"Joint Stock Company ""Georgian Railway""",Other,Yes,Unmarked,,,3744,144,Paid,within 400m,Good,within 800m,Good,Entrance fee is 3 GEL
+219,01.16.01.009.001,483182.6745,4618446.4,Padel sports club,"Giorgi Chubinashvili St., N 52","LLC ""Chubinashvili 52""",Other,Yes,Unmarked,,,3146,121,Paid,within 400m,Good,within 800m,Bad,Parking fee is unknown (Vacant)
+220,01.13.07.023.124,482747.034,4618725.821,adjacent to the dezertirebi market area,"Tsinamdzghvrishvili St, N 184","LLC ""Falcon G.N.""",Retail,Yes,Unmarked,,,650,25,Paid,within 400m,Bad,within 800m,Bad,"Car 3 GEL, minibus 5 GEL"
+221,01.13.07.019.027,482468.3028,4619035.17,Dinamo arena,"Akaki Tseretli Ave, N 2a","Joint Stock Company ""Boris Paichadze National Stadium"" LLC ""Dinamo Arena""",Entertainment & Recreation,Yes,Unmarked,,,6240,520,Paid,within 400m,Good,within 800m,Good,"car one hour 3 GEL,  more than one hour 5 GEL. Minibus one hour 5 GEL,  more than one hour  8 GEL. "
+222,01.13.07.018.034,482173.6878,4618800.926,Smart,Cosmonauts bank N 9,"Joint Stock Company ""Visol Petroleum Georgia""",Retail,Yes,Marked,,,,10,Free,within 400m,Bad,beyond 800m,-,Only for Smart users
+223,01.13.07.018.018,482233.0706,4618903.228,Restaurant Tavaduri,"Vladimer Maiakovski St., N 2",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,40,Paid,beyond 400m,-,beyond 800m,-,"9:00-21:00 - 3 GEL, 21:00-9:00 - 5 GEL"
+224,01.13.07.020.069,482783.8774,4619066.51,Kidobani,"Tsabadze st., N 8-b","""Okros kidobani"" LLC",Retail,Yes,Marked,,,,60,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL and every next hour is 1 GEL
+225,01.13.07.020.024,482769.4454,4619019.435,Zonal parking lot A751,In front of the market on Tsabadze Street,Tbilisi Municipality,Retail,Yes,Marked,,,,30,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A751
+226,01.13.07.020.041,482792.6344,4619224.676,Next to Kidobani,"Tsabadze Street, N8","""Kalakis Guli"" Ltd",Retail,Yes,Unmarked,,,3900,150,Paid,within 400m,Good,within 800m,Good,"Working hours 7:00-20:00, Admission 5 GEL"
+227,01.13.07.021.334,483011.5311,4619063.389,Former children's world,"Priest Theodore st., N 7","Joint Stock Company ""Trading House - Children's World""",Retail,Yes,Unmarked,,,6051,232,Paid,within 400m,Good,within 800m,Good,"Entrance 3 GEL, each next hour 1 GEL"
+228,01.13.07.022.097 01.13.07.022.079 01.13.07.022.080 01.13.07.022.084 01.13.07.022.086 01.13.07.022.083 01.13.07.022.078 01.13.07.022.085 01.13.07.022.089 01.13.07.022.049,482755,4618865,Near by Dezertirebi market,"Mikheil Tsinamdzghvrishvili St., N 139",Tbilisi Municipality,Retail,Yes,Marked,,,,65,Paid,within 400m,Good,within 800m,Good,"Parking for cars 3 GEL, For microbus 5 GEL, each next hour 3 GEL. (There is one parking lot in many cadastres)"
+229,01.13.07.026.039,482792.7452,4618799.755,Near by Dezertirebi market,"Mikheil Tsinamdzghvrishvili St, N 135a",Giorgi Endeladze,Retail,Yes,Marked,,,,40,Paid,within 400m,Good,within 800m,Good,"Parking 3 GEL, each next hour 3 GEL"
+230,01.13.07.022.001,482899.1179,4618953.366,Near by Dezertirebi market,"Abastumani st., building 1.","condominium association
+co-owner",Other,Yes,Unmarked,,,910,35,Paid,within 400m,Average,within 800m,Average,Entry 3 GEL next hour 4 GEL whole day 5 GEL. 
+231,01.16.01.005.213,482845.9125,4619616.777,Warehouse Gori street,Central Railway Station,"""Max"" LLC",Other,Yes,Unmarked,,,780,30,Paid,beyond 400m,-,within 800m,Bad,"Entrance cars 5 GEL, microbus 10 GEL, truck 50 GEL"
+232,01.13.05.015.040,482322.0008,4619557.865,Fresco,"Vakhushti Bagrationi St, N 42","LLC ""Fresco West Georgia""",Retail,Yes,Marked,,,,30,Paid,within 400m,Good,within 800m,Good,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+233,01.13.07.009.069,482403.0729,4619498.184,Police,"Akaki Tseretli Ave, N 16","LLC ""Asset Management and Development Company""",Government/Police,Yes,Marked,,40,,,Free,within 400m,Good,within 800m,Good,
+234,01.13.07.003.001,482322.2875,4619476.369,Machakhela,"Vakhushti Bagrationi St, N 33","LLC ""Baraka""",Entertainment & Recreation,Yes,Unmarked,,,286,11,Free,within 400m,Good,within 800m,Good,Only for restaurant customers 
+235,01.13.05.012.044,482252.7919,4619681.28,Amboli auto service,"Akaki Tseretli Ave, N 40",Maya Dalakishvili,Service,Yes,Marked,,,,6,Free,within 400m,Good,within 800m,Good,
+236,01.13.05.003.127,481745.5169,4620715.297,Didube Plaza,"Akaki Tseretli Ave, N 116e","""Didube Plaza"" LLC",Retail,Yes,Unmarked,,,3900,150,Paid,within 400m,Good,beyond 800m,-,"Entrance 3 GEL, each next hour 1 GEL"
+237,01.13.05.003.141,481716.8973,4620670.641,Didube Plaza,"Akaki Tseretli Ave, N 116v","""Didube Parking"" LLC",Retail,Yes,Unmarked,,,1456,56,Paid,within 400m,Good,beyond 800m,-,
+238,01.13.05.003.140,481681.2995,4620680.664,Didube Plaza,"Konstantine Stanislavski St, N 1","""Didube City"" LLC",Retail,Yes,Unmarked,,,2340,90,Paid,within 400m,Good,beyond 800m,-,
+239,01.13.05.003.093,481630.6177,4620471.549,Nova,"Rafiel Agladze, N 45; City Tbilisi, Stanislavski st, N 12.","LLC ""Nova""",Retail,Yes,Marked,,,,19,Free,within 400m,Bad,beyond 800m,-,
+240,01.13.04.017.038,481324.3264,4621832.01,Gorgias,"Akaki Tseretli Ave, N 140 , (area 17/38)",Maud LLC,Retail,Yes,Marked,,,,210,Paid,within 400m,Good,within 800m,Good,Entrance 3 GEL. Free for 50 GEL purchase
+241,01.13.05.002.133,481549.8546,4621050.34,Expo Georgia,"Akaki Tseretli Ave, N 118","Joint Stock Company ""Expo Georgia""",Retail,Yes,Marked,6500,250,,240,Paid,within 400m,Good,beyond 800m,-,"for 15 minutes everything is free, from 15 minutes to 2 hours light and road transport is 5 GEL, truck 10 GEL, after 2 hours, 1 GEL is added for each subsequent hour"
+242,01.13.04.017.001,481497.5422,4621728.636,Zonal parking lot A1921,"Akaki Tsereteli Avenue, on the opposite side of Magnitogorski Street.",State,Other,Yes,Marked,,,,8,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A1921
+243,01.13.04.017.007,481453.2528,4622159.44,"IDPs from the occupied territories of Georgia, Ministry of Labor, Health and Social Protection","Akaki Tsereteli Avenue, N 146",State,Government/Police,Yes,Marked,,35,,,Free,within 400m,Good,within 800m,Good,
+244,01.13.04.017.037,481398.1464,4622089.149,Samto Kimia,"Akaki Tsereteli Avenue , N 142","56 co-owners, including the state",Other,Yes,Unmarked,390,15,260,10,Paid,within 400m,Good,within 800m,Good,"Parking 3 GEL. Various training courses, services, comercial"
+245,01.13.03.052.007,481569.7444,4621820.861,Near by Progipi,"Akaki Tsereteli Avenue, N 123","LLC ""Progriff""",Other,Yes,Marked,,100,,,Free,within 400m,Good,within 800m,Good,
+246,01.12.12.003.055,482649.1344,4621685.039,Police,"Ts. Dadiani  st, N 164",State,Government/Police,Yes,Marked,,42,,,Free,within 400m,Good,beyond 800m,-,
+247,01.12.09.017.052,482470.9531,4622928.063,Technical University of Georgia,"D.guramishvili Avenue , N 17",State,Education,Yes,Unmarked,,,910,35,Free,within 400m,Good,beyond 800m,-,
+248,01.12.09.021.005,482478.3853,4622709.389,Dombita,"D.guramishvili Avenue, N 15","19 co-owners, including Tbilisi Municipality",Other,Yes,Unmarked,,,4420,170,Free,within 400m,Good,beyond 800m,-,
+249,01.12.07.016.018,482514.9082,4623116.896,formar Security Police,"Davit Guramishvili Avenue, N 19d","LLC ""Gamma Consulting""",Commercial,Yes,Marked,,,,25,Free,within 400m,Good,within 800m,Bad,
+250,01.12.08.037.077,482343.8768,4622208.423,Shopping Center Saba,"Tornike eristavi St, N 44/Davit Guramishvili Ave, N 6","LLC ""Saba & Luka""",Retail,Yes,Marked,,,,194,Paid,within 400m,Good,within 800m,Average,"Parking, cars 3 GEL, minivan 6 GEL, truck and bus 10 GEL, cars with trailers 50 GEL"
+251,01.12.08.037.068,482264.3986,4622399.904,JIBE Cash & Carry,"Tornike Eristavi Dead And, N 9","""Bom Terrano"" LLC",Other,Yes,Marked,,60,,,Free,within 400m,Good,beyond 800m,-,entry  is prohibited.
+252,01.12.07.016.047,482448.1749,4623071.193,Police,"Davit Guramishvili Avenue, N 19b",State,Government/Police,Yes,Unmarked,1415,54,,,Free,within 400m,Good,within 800m,Bad,
+253,01.12.07.010.044,482636.858,4623776.408,Nikora,Davit Guramishvili Avenue N 23a,"Fellowship ""Akhali Deepghele""",Retail,Yes,Unmarked,,,676,26,Free,within 400m,Good,within 800m,Good,
+254,01.12.07.009.027,482772.8843,4624179.738,Nadzaladevi district administation office,"Davit Guramishvili Avenue, N 25r",Tbilisi Municipality,Government/Police,Yes,Marked,,5,,,Free,within 400m,Good,within 800m,Good,
+255,01.12.08.002.002,482233.6916,4624063.662,Joint-stock company Lelo,"Ksani St., N 36",Joint-stock company Lelo,Retail,Yes,Marked,,,,18,Free,beyond 400m,-,within 800m,Good,
+256,01.12.01.003.173,482919.3516,4624962.288,Hotel West Tbilisi,"Davit Guramishvili Avenue, N 94","""Belco"" Ltd.",Hotel & Casino,Yes,Marked,,,,21,Free,within 400m,Good,within 800m,Good,
+257,01.12.01.004.137,482783.2898,4624513.14,University of Europe,"Davit Guramishvili Avenue, N 76","""European University"" LLC",Education,Yes,Unmarked,728,28,,,Free,within 400m,Good,within 800m,Good,
+258,01.12.01.005.102,482627.5843,4624057.568,Fresco,"Davit Guramishvili Avenue, N 62a","LLC ""Fresco Shopping Center""",Retail,Yes,Marked,,,,40,Paid,within 400m,Good,within 800m,Good,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+259,01.12.01.005.637,482485.0797,4624112.272,Tbilabreshumi,"Davit Guramishvili Avenue, N 64","LLC ""Tbilabreshumi""",Other,Yes,Marked,,,,33,Paid,within 400m,Good,within 800m,Good,"Entrance 4 GEL , all day 10 GEL"
+260,01.12.01.005.635,482575.4826,4623999.423,Tbilabreshumi,"Davit Guramishvili Avenue, N 64","LLC ""Tbilabreshumi""",Other,Yes,Marked,1890,83,,,Free,within 400m,Good,within 800m,Good, for employees only. 
+261,01.12.01.003.057,482928.8774,4624876.221,The surrounding area of ​​Alion Hotel,"Davit Guramishvili Avenue, N 90",Tbilisi Municipality,Other,Yes,Unmarked,260,10,,,Free,within 400m,Good,within 800m,Good,Entrance through the barrier. 
+262,01.12.07.005.022,483091.187,4624197.241,The first university clinic,"Gudamakri St, N 4b","""Tbilisi State Medical University""",Hospital & Medical,Yes,Marked,,175,,112,Paid,within 400m,Good,within 800m,Good,for 112 cars Entrance 2 GEL. each next hour 1 GEL. 
+263,01.12.03.005.008,483376.1757,4625261.287,Eastern European University,"Tariel Futkaradze St., N 1","LLC ""Sports Club Duchi""",Education,Yes,Marked,,,,7,Free,within 400m,Average,within 800m,Average,
+264,01.12.04.001.047,483916.6508,4624904.635,Open Heart - University Hospital,"414th Division Street, Anapi, N 47",Tbilisi Municipality,Hospital & Medical,Yes,Marked,,60,1040,64,Paid,within 400m,Good,beyond 800m,-,Tbilisi parking for 50 GEL
+265,01.12.06.001.047 01.12.06.001.091 ,483520,4624290,Caucasus International University,"Chargali St, N 73","Guri Khazaradze
+Vakhtang Tsivtsivadze
+Nia Gogiberidze
+Joint Stock Company ""Akat""
+LLC ""International University of the Caucasus""
+Khatuna Kamushadze",Education,Yes,Unmarked,1500,57,,,Free,within 400m,Good,within 800m,Average,
+266,01.12.04.003.076,483621.5942,4624541.211,Hotel Kolkhi,"Chargali St., N 75g","LLC ""Kolkhi""",Hotel & Casino,Yes,Unmarked,,,150,5,Free,within 400m,Good,within 800m,Average,"It also has an empty space in front of the hotel and its use for parking, but it is not registered to anyone."
+267,01.12.03.002.001,483671.9392,4625277.201,Universami,"Ureki St., N 15","30 co-owners, including the state",Retail,Yes,Unmarked,,,1700,65,Free,within 400m,Good,beyond 800m,-,
+268,01.12.04.001.221,484345.9868,4624640.141,Camillians Medical Center,"414th Division Street, Anapi, N 59",Branch of the Order of Clergy Serving the Sick (Camillians) in Georgia,Hospital & Medical,Yes,Marked,,,,50,Free,within 400m,Good,beyond 800m,-,
+269,01.12.04.001.045,484164.5371,4624809.223,Private pediatric clinic,"414th Division Street, Anapi, N 53",Tbilisi Pediatric Private Clinic LLC,Hospital & Medical,Yes,Unmarked,,,780,30,Free,within 400m,Good,beyond 800m,-,
+270,01.12.02.014.130,484350.4108,4625331.216,Seaside Park,"Settlement of the sea area, XI micro/district, nearby I-quarter.",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,37,Free,within 400m,Bad,beyond 800m,-,
+271,01.12.02.001.073,483389.7847,4625810.404,Near by Sarajishvili metro area,"Davit Guramishvili Ave, N 53","LLC ""Vita""",Retail,Yes,Unmarked,,,1950,75,Paid,within 400m,Good,within 800m,Good,Entry is 2 GEL
+272,01.12.02.023.059         01.12.02.023.047,484770,4624690,Gldani Nazaladevi complex sports center,"Sea area, XI micro/district, II quarter, nearby building N28.",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,28,Paid,within 400m,Good,beyond 800m,-,Municipal Parking
+273,01.12.02.026.028,485072.5524,4624506.947,Security Police,"Settlement of the sea area, XI micro/district, III quarter, building 45a",State,Government/Police,Yes,Unmarked,2950,113,,,Free,within 400m,Bad,beyond 800m,-,
+274,72.13.41.519,486700,4623500,Restaurant Caravela,"Nugzar Shanava St., N 24",Argest Ltd,Entertainment & Recreation,Yes,Unmarked,,,330,12,Free,beyond 400m,-,beyond 800m,-,
+275,72.13.40.427,486200,4623800,Georgian Water and Power,"Nugzar Shanava St., N 14","""Georgian Water and Power"" LLC",Other,No,Unmarked,1300,50,,,Free,beyond 400m,-,beyond 800m,-,
+276,01.12.05.001.115,485328.5512,4624362.083,College of Railway Transport,"414th Division Street, Anapi, N 65",State,Education,Yes,Unmarked,,,1560,60,Free,within 400m,Good,beyond 800m,-,
+277,01.12.05.001.004,485557.3991,4624502.446,Jibe,"Settlement of the sea area,  III micro/district, Isaakiani St. N1","Joint Stock Company ""Temka Puri""",Retail,Yes,Unmarked,,,4700,180,Free,within 400m,Bad,beyond 800m,-,
+278,01.11.17.001.133 01.11.17.001.119,483650,4626000,Revenue Service,"Sarajishvili st., N 1, (area 01/133)",Tbilisi Municipality,Government/Police,Yes,Unmarked,,,910,35,Free,within 400m,Good,within 800m,Bad,
+279,01.11.17.001.155,484208.2849,4626321.152,Tegeta Motors,"Tengiz Sheshelidze St, N 45",Tegeta Motors LLC,Service,Yes,Marked,,8,,,Free,beyond 400m,-,within 800m,Bad,
+280,01.11.17.004.295,485317.6109,4625321.443,Police,"Levan Rcheulishvili St, N 1",State,Government/Police,Yes,Marked,,,,11,Free,within 400m,Good,beyond 800m,-,
+281,01.11.17.005.159,485524.7732,4625648.118,drug rehabilitation center,"Gobronidze st., N 27",Tbilisi Municipality,Hospital & Medical,Yes,Marked,,,,60,Paid,within 400m,Good,beyond 800m,-,Entry is 2 GEL
+282,01.11.12.023.022,484570.3593,4626417.462,City Mall Gldani,"Ilia Vekua St., N 1","""IG Development Georgia"" LLC",Retail,Yes,Marked,,,,500,Paid,within 400m,Good,within 800m,Good,Reconstruction was underway. Parking is free at this stage (usually paid)
+283,01.11.13.002.157,484978.5683,4626280.891,Fresco,"Aleksi Gobronidze St, N 18","LLC ""Fresco Trade House""",Retail,Yes,Marked,,,,50,Paid,within 400m,Average,within 800m,Average,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 3 GEL"
+284,01.11.13.001.051,485138.5353,4626530.276,Central market of Gldani,"Marat Nozadze St., N 15","Apartment owners
+""Region Logistics"" LLC",Retail,Yes,Unmarked,,,1520,58,Paid,within 400m,Bad,within 800m,Bad,"Entrance 1 GEL, parking 3 GEL, 24/7 parking 7 GEL"
+285,01.11.13.001.056,485268.1857,4626519.391,Near by the central market of Gldani,"Marat Nozadze St., N 17b",Interlogistics Ltd,Retail,Yes,Unmarked,,,610,23,Paid,beyond 400m,-,within 800m,Bad,"3 GEL for three hours, 5 GEL all day"
+286,01.11.13.001.100,485438.7,4626525.983,International Academy Guma-Meridian,"Marat Nozadze St., N 27",Guma-Meridian International Academy Ltd,Education,Yes,Marked,,29,,,Free,beyond 400m,-,beyond 800m,-,
+287,01.11.12.015.087,484876.2938,4626722.455,Gldani market 1,"Angia Bochorishvili St., N 3","State
+Giorgi Machaidze
+Mzia Khasaya
+Nina Tsintsadze",Retail,Yes,Unmarked,,,2430,93,Paid,within 400m,Bad,within 800m,Bad,Entry is 2 GEL
+288,01.11.12.016.061,484754.9718,4626770.005,Gldani Mall,"Omar Khizanishvili St., N 9 / Ilia vekua St., N 6","Joint Stock Company ""Legia""
+""Leader Trade"" LLC
+LLC ""Ref En""
+Secular Ltd",Retail,Yes,Marked,,,,72,Paid,within 400m,Good,within 800m,Good,"(9:00-23:00) - 3 GEL, and each next hour 1 GEL, (23:00-9:00) - fixed night rate 5 GEL"
+289,01.11.12.016.136,484840.77,4626842.491,Libre (rooftop parking),"Ilia Vekua St., N 12","LLC ""Roko 7""",Retail,Yes,Marked,,,,86,Paid,within 400m,Good,within 800m,Good,"Entry is 3 GEL, each next hour is 1 GEL"
+290,01.11.12.016.120,484736.1139,4626754.223,Near by Best Shaurma,"Nearby  the ""Akhmeteli Theatre"" Metro Station",Tbilisi Municipality,Retail,Yes,Unmarked,,,380,15,Paid,within 400m,Good,within 800m,Good,"Entry is 3 GEL, each next hour is 1 GEL, for microbus entry is 5 GEL"
+291,01.11.12.003.013,485140.489,4627414.068,Madart,"Omar Khizanishvili St., N 37","""Bani"" Ltd.",Retail,Yes,Marked,,,,13,Free,within 400m,Good,beyond 800m,-,Only for costumers
+292,01.11.10.013.138,485771.4776,4627768.4,Gldani swimming pool,"Ilia Vekua St.,  N 127",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,32,Paid,within 400m,Good,beyond 800m,-,Only for costumers
+293,01.11.10.012.027,485635.696,4627813.767,Carrefour,"Ilia Vekua St.,  N 42","LLC ""MP Development""",Retail,Yes,Marked,,,,95,Paid,within 400m,Good,beyond 800m,-,"Parking price is 1 GEL, parking for 24 hours is 5 GEL"
+294,01.11.10.012.029,485550.5226,4627790.224,Police,"Omar Khizanishvili St., N 47",State,Government/Police,Yes,Marked,,,,31,Free,within 400m,Good,beyond 800m,-,
+295,01.11.10.012.026,485722.286,4627866.298,Gldani Vocational Education and Training Center,"Ilia Vekua St., N 44",State,Education,Yes,Marked,,,,44,Free,within 400m,Good,beyond 800m,-,
+296,01.11.10.007.035,485896.9893,4627988.503,Fresco,"Omar Khizanishvili St., N 57","LLC ""Fresco Shopping Center""",Retail,Yes,Marked,,,,21,Paid,within 400m,Good,beyond 800m,-,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+297,01.11.10.007.027,485936.8383,4627985.253,Near by WheelWay drive,"Ilia Vekua St., N 52",Gela Kurdiani,Retail,Yes,Marked,,,,16,Free,within 400m,Good,beyond 800m,-,
+298,01.11.10.007.036,485950.1475,4628019.58,Greenway,"Ilia Vekua St., N 54","""Artanuj Invest Group"" LLC",Service,Yes,Marked,,,,8,Free,within 400m,Good,beyond 800m,-,
+299,01.11.10.006.035,486070.7955,4628192.828,Second shopping center,"Ilia Vekua St., N 64","LLC ""Second Trade Center""",Retail,Yes,Unmarked,,,460,17,Free,within 400m,Good,beyond 800m,-,
+300,01.11.10.006.020,486056.0035,4628294.759,Near by Sukhishvilis' academy,"Massive Gldani, between the VII and VIII micro/district, ( area 06/020)",Tbilisi Municipality,Entertainment & Recreation,Yes,Unmarked,,,390,15,Free,within 400m,Good,beyond 800m,-,
+301,01.11.05.027.019,483389.3032,4627493.677,Rugby stadium,"Sarajishvili St., N 27","A. (A). I.P. ""Georgia Rugby Union""",Entertainment & Recreation,Yes,Unmarked,520,20,,,Free,within 400m,Good,beyond 800m,-,
+302,01.11.05.029.215,484446.6379,4627590.883,Spar,"Hero Cursants St., N 2a",Nike Ltd. 2009,Retail,Yes,Unmarked,,,286,11,Free,within 400m,Good,beyond 800m,-,
+303,01.11.05.032.001,484139.3416,4627610.551,Police Academy,"Hero Cursants St., N 4","State.   LLC ""Asset Management and Development Company""",Government/Police,No,Marked,,146,,,Free,within 400m,Good,beyond 800m,-,
+304,01.11.05.029.210,484306.6206,4627360.197,Police,"Kerchi St., N 42",State,Government/Police,Yes,Marked,,,,33,Free,within 400m,Good,beyond 800m,-,
+305,01.11.05.036.036,483483.5171,4626356.745,Gldani district administration,"Sarajishvili st., N 1g",Tbilisi Municipality,Government/Police,Yes,Marked,,18,,,Free,within 400m,Good,within 800m,Bad,
+306,01.11.12.018.173,484472.3432,4626546.306,Astra Park Tbilisi,"Omar Khizanishvili St, N 2","LLC ""Gigant-94""",Entertainment & Recreation,Yes,Marked,,,300,47,Paid,within 400m,Good,within 800m,Good,"2 GEL. There is a residential building on the same cadastral, which has a separate entrance and its used for residents (parking is not counted)"
+307,01.11.12.020.069,483466.4807,4626139.211,Happy Day,"Davit Sarajishvili St, N 1","""Friendship"" LLC",Retail,Yes,Unmarked,,,260,10,Free,within 400m,Bad,within 800m,Bad,Only for costumers of Happy 
+308,01.11.04.025.034,483214.367,4627417.966,Bagration,"Sarajishvili avenue, N 12","Joint Stock Company ""Bagrationi-1882""",Other,Yes,Unmarked,165,30,,,Free,within 400m,Good,beyond 800m,-,"Factory, Bagration"
+309,01.11.04.026.155,483369.4263,4626666.569,Near by Sarajishvili Head Office,Sarajishvili avenue N 4,"S.S. ""Sarajishvili""",Other,Yes,Marked,,10,,,Free,within 400m,Good,within 800m,Bad,Only for employees 
+310,01.11.04.026.020,483374.4373,4626198.562,Dunkin Donuts,"
+Sarajishvili Ave., nearby wine factory, (area N26/20)","Joint Stock Company ""Visol Petroleum Georgia""",Entertainment & Recreation,Yes,Unmarked,,,130,5,Free,within 400m,Good,within 800m,Bad,Only for Dunkin' customers
+311,72.12.01.833,479620,4630630,Greenway,"Arsen Oqrojanashvili St., N 8",Trans Garanti Ltd,Service,Yes,Marked,,,,15,Free,within 400m,Bad,beyond 800m,-,
+312,01.72.12.143.001,480139.5711,4630789.915,Tbilisi temporary isolation unit,"Avchala St, N 7",State,Government/Police,No,Marked,,36,,,Free,within 400m,Bad,beyond 800m,-,
+313,01.11.01.006.119,481398.8946,4630729.17,Neo Glass,"Elefter Andronikashvili St., N 147","""Neo Glass"" LLC",Retail,Yes,Unmarked,,,312,12,Free,within 400m,Bad,beyond 800m,-,Measured only the area where pessinger cars are parked
+314,01.11.01.006.092,481318.1079,4630754.615,Agrohub warehouse,"Elefter Andronikashvili St., N 151","LLC ""Mziuri""",Commercial,Yes,Unmarked,1300,50,,,Free,within 400m,Bad,beyond 800m,-,
+315,01.13.02.004.098,481829.9736,4625168.829,Near by auto repair shop TVS,"Akaki Beliashvili st., N 104a",Tbilisi Municipality,Commercial,Yes,Unmarked,,,570,21,Free,within 400m,Bad,beyond 800m,-,
+316,01.13.02.004.073,481828.2306,4625196.388,Near by auto repair shop TVS,"Akaki Beliashvili st., (area N4/73)","LLC ""Architects and Company""",Commercial,Yes,Unmarked,,,62,3,Free,within 400m,Bad,beyond 800m,-,
+317,01.13.02.004.074,481834.7301,4625222.206,Near by auto repair shop TVS,"Akaki Beliashvili st., N 104b","LLC ""KK""",Commercial,Yes,Unmarked,,,870,33,Free,within 400m,Bad,beyond 800m,-,
+318,01.13.02.004.038,481845.1387,4625244.558,Near by Alta - Head Office,"Beliashvili st, (area 4/38)","""Alta"" LLC ""Electronic Technologies"" LLC",Commercial,Yes,Marked,,,,10,Free,within 400m,Bad,beyond 800m,-,
+319,01.13.02.004.037,481866.5199,4625286.633,Near by Mioni Center,"Akaki Beliashvili St., N 106a","""Electronic Technologies"" LLC",Commercial,Yes,Unmarked,,,628,24,Free,within 400m,Bad,beyond 800m,-,
+320,01.13.02.004.035,481845.7889,4625309.13,Near by Mioni Center,"Akaki Beliashvili St., N 106","Gela Drezidze
+Gia Zitanishvili
+Giorgi Grigalashvili
+Davit Archvadze
+Irakli Koberidze
+LLC ""San Marco""
+""Stamba Komi"" LLC",Commercial,Yes,Unmarked,,,1110,42,Free,within 400m,Bad,beyond 800m,-,
+321,01.13.02.004.109,481870.1721,4625332.98,Near by Mioni Center,"Akaki Beliashvili St., N 106b","""Electronic Technologies"" LLC",Commercial,Yes,Unmarked,,,335,12,Free,within 400m,Bad,beyond 800m,-,
+322,01.13.02.004.110,481872.3809,4625358.319,Near by Mioni Center,"Akaki Beliashvili St., N 106g","Bahman Khadem
+Syed Mahmud Seidjalal Aqdam
+Seyyed Javad Seidjalal Aqdam",Commercial,Yes,Unmarked,,,780,30,Free,within 400m,Bad,beyond 800m,-,Property just used for car parking (vacant)
+323,01.13.02.003.210,481992.1991,4625427.441,"Edesi group, Office shop","Akaki Beliashvili St., N 157","""Edesi Group"" LLC",Retail,Yes,Unmarked,,,980,36,Free,within 400m,Bad,beyond 800m,-,
+324,01.13.02.003.022,481956.0442,4625580.824,parking lots front of Karcher Center ,"Akaki Beliashvili St., N 167",unknowen ,Retail,Yes,Marked,,,,7,Free,within 400m,Bad,beyond 800m,-,area is not registered. It is used by a Karcher store.
+325,01.72.14.034.610,480560.5329,4624477.443,Tbilisi City Court,"Davit Aghmashenebeli alley, N 64",State,Government/Police,Yes,Marked,,200,,,Free,within 400m,Bad,beyond 800m,-,
+326,01.13.01.008.060,481353.8148,4625671.839,Todua Clinic Dighomi,"Givi Jvania St., N 3a","Joint Stock Company ""Gefa""",Hospital & Medical,Yes,Unmarked,,,192,7,Paid,within 400m,Bad,beyond 800m,-,Entry is 3 GEL
+327,01.13.01.008.048,481331.8688,4625758.583,Todua Clinic Dighomi,"Givi Jvania St., N 7","JSC ""National Center of Experimental and Clinical Surgery named after K. Eristavi""",Hospital & Medical,Yes,Unmarked,,,3416,192,Free,within 400m,Bad,beyond 800m,-,
+328,01.13.01.008.039,481425.9583,4625835.805,Akhali Sitsotskhle,"Givi Jvania St., N 7","JSC ""National Center of Experimental and Clinical Surgery named after K. Eristavi""",Hospital & Medical,Yes,Unmarked,,,1376,58,Free,within 400m,Bad,beyond 800m,-,
+329,01.72.14.034.345,480652.3733,4624623.986,Tbilisi Pavilion,"Davit Aghmashenebeli alley, N 68","Partnership ""Aghmashenebeli 2011""",Commercial,Yes,Marked,,,,140,Paid,within 400m,Average,beyond 800m,-,"Entry 3 GEL, next hour 1 GEL"
+330,01.10.20.002.275,480708.098,4624663.251,Tbilisi Prosecutor’s Office,"Davit Aghmashenebeli alley, N 70",State,Government/Police,Yes,Marked,,56,,,Free,within 400m,Average,beyond 800m,-,
+331,01.72.14.034.660,480677.1195,4624737.791,Kia Georgia,"Davit Aghmashenebeli alley, N 84","""GT Benefits"" LLC",Service industry,Yes,Marked,,22,,12,Free,within 400m,Bad,beyond 800m,-,
+332,01.72.14.368.001,480597.1578,4624761.68,Near by Kia Georgia,"Davit Aghmashenebeli alley, N 86","""GT Benefits"" LLC",Service industry,Yes,Unmarked,2350,90,,,Free,within 400m,Bad,beyond 800m,-,
+333,01.72.14.034.972,480644.794,4625010.186,Toyota Center,"Davit Aghmashenebeli alley, N 116","""Toyota Center Tbilisi"" LLC",Service industry,Yes,Marked,,,,60,Free,within 400m,Bad,beyond 800m,-,
+334,01.72.14.034.150,480721.164,4625158.947,Spanish House,"Davit Aghmashenebeli alley, N 124","Ltd. ""Espano""",Retail,Yes,Marked,,,,16,Free,within 400m,Bad,beyond 800m,-,
+335,01.72.14.034.597,480725.073,4625214.065,Near by Spanish House,"Davit Aghmashenebeli alley, N 126",Zurab Gvritishvili,Other,Yes,Marked,,80,,,Free,within 400m,Bad,beyond 800m,-,(Vacant)
+336,01.72.14.367.001,480745.9889,4626015.081,Jaokeni,"Davit Aghmashenebeli alley,","""Company Jaoken"" LLC",Retail,Yes,Unmarked,,,1085,41,Free,within 400m,Good,beyond 800m,-,
+337,01.14.03.032.001,478685.9766,4619362.102,Business Center Delisi,Vazha-Pshavela Avenue N 45,"Joint Stock Company ""Business Center Delis""",Other,Yes,Marked,,,,74,Paid,within 400m,Good,within 800m,Good,Entry is 4 GEL
+338,01.10.15.007.081,479772.3669,4619615.866,Republican Hospital,"Vazha-Pshavela Avenue, N 29 , (area 07/081)","JSC ""Georgian Medical Holding""
+Apostolic Autocephalous Orthodox Church of Georgia
+State
+LLC ""Asset Management and Development Company""",Hospital & Medical,Yes,Unmarked,,,3900,150,Paid,within 400m,Good,within 800m,Good,Entrance fee is 3 GEL
+339,01.10.15.007.055,479905.3411,4619704.451,Aversi Clinic,"Vazha-Pshavela Avenue, N 27b","LLC ""Avers Clinic""",Hospital & Medical,Yes,Marked,,,,60,Paid,within 400m,Good,within 800m,Good,"Half an hour is free, one hour is 2 GEL"
+340,01.10.15.007.123,479895.1555,4619755.369,Adjacent to Aversi Clinic,"Vazha-Pshavela Avenue, N 29","""Aversi-Pharma"" LLC",Hospital & Medical,Yes,Unmarked,2900,111,,,Free,within 400m,Good,within 800m,Good,Only for employees 
+341,01.10.15.007.166,479539.6299,4619501.383,Tbilisi State Medical University,"Asatiani st, N 7, (area 07/103)","""Tbilisi State Medical University""",Education,Yes,Unmarked,,,2860,110,Free,within 400m,Good,within 800m,Good,
+342,01.10.16.001.021,478925.2721,4619146.28,TBC Bank and TBC Insurance,"A. Kazbegi avenue, N 24b",Common property of apartment owners,Mixed-use,No,Unknown,N/A,N/A,N/A,N/A,Free,within 400m,Good,within 800m,Good,Underground parking
+343,01.10.16.001.019,479001.6278,4619156.14,Axis Trade Center,"A. Kazbegi avenue, N 24g","IMA ""Kazbegi 24""",Retail,Yes,Unmarked,,,620,23,Paid,within 400m,Good,within 800m,Good,Entry is 3 GEL
+344,01.10.16.003.008,479031.964,4618986.644,"Internally Displaced Persons, Ecomigrants and Livelihoods Provision Agency","Tamarashvili st., N 15a","LLC ""Asset Management and Development Company""",Government/Police,Yes,Unmarked,2080,80,,,Free,within 400m,Bad,within 800m,Bad,
+345,01.10.15.009.009,479926.9597,4619366.399,ProCredit Bank,"A. Kazbegi avenue, N 15.","Joint Stock Company ""Procredit Bank""",Mixed-use,No,Unknown,2380,68,,,Free,within 400m,Good,within 800m,Average,The area of ​​the parking lot is searched on the website of the municipality
+346,01.10.15.022.046 01.10.15.022.064  01.10.15.022.063 01.10.15.022.056,479850,4619200,Aversi Clinic Laboratory,Aleksandre Kazbegi Ave. N16,"""Aversi-Pharma"" LLC",Hospital & Medical,Yes,Marked,,,,260,Paid,within 400m,Good,within 800m,Good,"Half an hour is free. From half an hour to two hours - 2 GEL, each next hour - 1 GEL."
+347,A 084,480682.2967,4619587.952,Zonal parking lot A084,"Vazha Pshavela Avenue, N 1",Tbilisi Municipality,Other,Yes,Marked,,,,12,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A084
+348,A 085,480671.8797,4619575.817,Zonal parking lot A085,"Vazha Pshavela Avenue, N 1",Tbilisi Municipality,Other,Yes,Marked,,,,11,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A085
+349,A 089,480678.5208,4619551.264,Zonal parking lot A089,"Vazha Pshavela Avenue, N 2",Tbilisi Municipality,Other,Yes,Marked,,,,17,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A089
+350,A 088,480677.4431,4619540.762,Zonal parking lot A088,"Vazha Pshavela Avenue, N 2",Tbilisi Municipality,Other,Yes,Marked,,,,21,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A088
+351,01.10.14.028.141 01.10.14.028.182 01.10.14.028.181  01.10.14.028.135,480690,4618980,Carrefour,"Sulkhan Tsintsadze, N 37","""Velaggio Development"" LLC Davit Petriashvili, Giorgi Petriashvili, Grigol Ghongadze, Teimuraz Ghongadze",Retail,Yes,Marked,,,,45,Paid,within 400m,Good,beyond 800m,-,"Parking for 15 minutes is free, each next hour is 3 GEL"
+352,01.10.13.032.005,481535.2162,4618554.087,Near by Holiday Inn Tbilisi,"
+May 26 square,  nearby hotel ""Achara"" ","LLC ""GM Development""",Other,Yes,Unmarked,,,3270,125,Paid,within 400m,Good,within 800m,Good,One hour 3 GEL
+353,01.10.13.033.109,481652.3797,4618667.53,Palace of Sports,"May 26 square, N 1, (area 33/109)","""Sports Palace"" LLC",Entertainment & Recreation,Yes,Marked,,,,224,Paid,within 400m,Good,within 800m,Good,"Parking for 10 minutes is free, one hour - 3 GEL, two hours - 3,5 GEL, three hours 4 GEL, six hours - 6 GEL, twelve hours - 10 GEL, 24 hours - 15 GEL"
+354,01.10.13.023.181,481531.8805,4619117.241,Administrative building of Technical University of Georgia ,"Kostava, N 77","State
+Inga Talabadze
+Technical University of Georgia
+LLC ""Asset Management and Development Company""",Education,Yes,Marked,,160,,22,Free,within 400m,Good,within 800m,Good,"If you are not in the data base, you cannot enter. 22 cars free of charge from the entrance of the third building"
+355,01.10.13.023.198,481628.5106,4619048.059,The University of Georgia,"Kostava, N 77a","""University of Georgia"" LLC",Education,Yes,Marked,,,,30,Free,within 400m,Good,within 800m,Good,
+356,01.14.14.011.080,481011.5746,4617612.032,TBC Bank,"Abashidze st., N 2",Joint Stock Company TBC Bank,Service,No,Marked,,22,,,Free,within 400m,Good,beyond 800m,-,"It also has underground parking, which we were unable to access (officialy  indicates Abashidze Street. In reality, the cadastral map shows it on Ateni Street)."
+357,01.14.14.003.149,479826.0124,4617793.577,Carrefour,"Ilia Chavchavadze Ave., N 37l","""Arch Tower"" LLC
+""Iber Company Irao"" LLC",Retail,Yes,Marked,,,,150,Paid,within 400m,Good,beyond 800m,-,"For purchase of 25 GEL parking is free, Otherwise one hour is 3 GEL"
+358,01.14.14.003.176,479755.5477,4617816.102,Agro Hub,"Ilia Chavchavadze Ave., N 37m","Apartment owners
+Joint Stock Company ""Axis Towers""",Mixed-use,Yes,Marked,,,,100,Paid,within 400m,Good,beyond 800m,-,"15 minutes is for free, for purchase of 25 GEL parking is free for 90 minutes, then every next hour is 3 GEL. (00:00-09:00) One hour is 1 GEL"
+359,01.14.14.002.064,479456.0649,4617869.823,Kartu Bank,"Ilia Chavchavadze Ave., N 39d","""Kartu Group"" LLC",Service,Yes,Marked,,54,,,Free,within 400m,Good,beyond 800m,-,Only for employees 
+360,01.10.17.002.022,480803.697,4618867.187,"Near by ""Axis Palace 2"" (carrefour)","Sulkhan Cincadze , N 12","I.M.A. ""Axis Palace""",Mixed-use,Yes,Marked,,,,40,Paid,within 400m,Good,beyond 800m,-,"10 minutes is for free. For purchase of 20 GEL at Carrefour parking is free for one hour, each next hour is 3 GEL, Otherwise, (9:00- 22:00) one hour is 3 GEL. Parking for all night is 5 GEL"
+361,01.14.07.010.033,479118.6325,4617875.891,Ilia State University,"Exit, G. Tsereteli , N 1","LSI ""Ilia State University""
+LLC ""Asset Management and Development Company""",Education,Yes,Marked,,,,100,Free,within 400m,Good,beyond 800m,-,
+362,01.10.10.006.046,480875.1795,4622714.422,Police,"Marshal Gelovani Avenue, N 43",State,Government/Police,Yes,Marked,,,,160,Free,within 400m,Bad,beyond 800m,-,
+363,01.18.01.002.223,483641.7313,4614466.6,Near by Hotel and Golf Club Tabori,The settlement of Okrokana,"""Tabori Resorts"" LLC",Entertainment & Recreation,Yes,Marked,,,,16,Free,beyond 400m,-,beyond 800m,-,
+364,01.18.01.002.349,483047.7441,4614268.216,Tabor Resorts,"Territory nearby the Botanical Garden;
+City Tbilisi, settlement Okrokana.",Tabori Resorts LLC,Commercial,No,Unmarked,,,1300,50,Free,beyond 400m,-,beyond 800m,-,territory is under construction
+365,01.15.06.001.057,482025.8277,4615869.927,Mtatsminda Park,"Bombora St, N 4",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,50,Paid,beyond 400m,-,beyond 800m,-,"From one to two hours, 4 GEL, from two to three hours, 6 GEL, the maximum price is 7 GEL. The price doubles for buses."
+366,01.15.08.004.012,481330.2847,4614629.516,Taglaura,"Tbilisi-Kojori Highway, N 10","LLC ""V. D. Capital""",Entertainment & Recreation,Yes,Unmarked,,,230,8,Free,within 400m,Bad,beyond 800m,-,
+367,01.15.01.003.043,482505.2101,4616075.456,Near by Monastery of Father David ,"Okrokana, (area 03/012)","JSC ""Apostolic Autocephalous Orthodox Church of Georgia""",Other,Yes,Unmarked,,,530,20,Free,within 400m,Bad,beyond 800m,-,
+368,01.15.07.002.036,480773.2193,4615196.589,Near by Tech Park,"
+Mtatsminda Park, (area 02/022)",State,Entertainment & Recreation,Yes,Marked,,,,20,Free,within 400m,Average,beyond 800m,-,
+369,01.15.07.002.038,480803.763,4615170.928,Tech Park,"
+Innovation Street, N 7",State,Entertainment & Recreation,Yes,Marked,,16,,,Free,within 400m,Average,beyond 800m,-,
+370,01.15.07.017.162,481062.846,4614552.351,Villa Fresco,"Tbilisi-Kojori Highway, N 3","LLC ""SSG-ES Group""",Hotel & Casino,Yes,Marked,,18,,,Free,within 400m,Average,beyond 800m,-,Only for customers
+371,01.81.02.280.019,480475.4093,4614186.413,Restaurant Kolkheti,"City Tbilisi, Tabakhmela.","LLC ""Initiator""",Entertainment & Recreation,Yes,Unmarked,,,830,31,Free,within 400m,Average,beyond 800m,-,
+372,81.01.06.512,,,"Nikora, Aversi","Urban-type settlement Kojori, Junker Street, N 31","LLC ""Solo Construction""",Retail,Yes,Unmarked,,,170,6,Free,within 400m,Average,beyond 800m,-,
+373,01.81.02.232.013,476520.5278,4612802.516,biol,"Urban-type settlement Kojori, Bioli St. N1",Medgroup Georgia Ltd,Hospital & Medical,Yes,Unmarked,,,1300,50,Free,beyond 400m,-,beyond 800m,-,only for employees and guests
+374,01.81.02.264.001,477604.8932,4611323.655,Police,"Village Tabakhmela, Tbilisi-Kojori Highway, N 136a",State,Government/Police,Yes,Marked,,17,,,Free,within 400m,Average,beyond 800m,-,
+375,01.81.02.119.045,479255,479265,Eye Diagnostic Center,"Village Tabakhmela, Tbilisi-Kojori Highway, N 66",Ushangi Pukhashvili,Hospital & Medical,Yes,Unmarked,,,200,7,Free,within 400m,Average,beyond 800m,-,
+376,01.81.02.367.027,479390,4611630,Ori Nabiji,"Village Tabakhmela, Tbilisi-Kojori Highway, N 41",Zurab Tsertsvadze,Retail,Yes,Unmarked,,,104,4,Free,within 400m,Average,beyond 800m,-,
+377,01.81.02.370.025,479920,4611690,Libre,"Village Tabakhmela, Tbilisi-Kojori Highway, N 22g",Alexi Boshishvili,Retail,Yes,Unmarked,,,86,4,Free,within 400m,Average,beyond 800m,-,
+378,01.81.02.108.036,480200,4611800,Happy Town,"Village Tabakhmela, Tbilisi-Kojori Highway, N 1",Natela Yashaghashvili,Entertainment & Recreation,Yes,Unmarked,,,104,4,Free,within 400m,Average,beyond 800m,-,
+379,01.81.02.143.003,480221.0952,4612433.125,Universami,"Village Shindisi, Tbilisi-Kojori Highway, N 14b",Roland Shindelishvili,Retail,Yes,Unmarked,,,130,5,Free,within 400m,Average,beyond 800m,-,
+380,01.81.02.372.055,480140,4612740,Nikora,"Village Shindisi, Tbilisi-Kojori Highway, N 13b",Giorgi Kacheishvili,Retail,Yes,Unmarked,,,340,13,Free,within 400m,Average,beyond 800m,-,
+381,81.02.38.267,480510,4613670,Chateau de Vere,Village Tabakhmela.,"Joint-stock company ""Chateau de Vere""",Hotel & Casino,Yes,Marked,,,,61,Free,within 400m,Average,beyond 800m,-,
+382,01.14.09.012.001,475200.5184,4617867.396,Restaurant Kaklebi,Bagebi Forest District,Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,10,Free,within 400m,Bad,beyond 800m,-,
+383,01.20.01.022.017,475242.3403,4616389.148,Brunch by Gastronome,"Urban-type settlement Tskneti, Cotne Dadianis St., N 21","JSC ""TBS Leasing""",Entertainment & Recreation,Yes,Marked,,,,5,Free,within 400m,Bad,beyond 800m,-,
+384,01.20.01.037.014,475205.9198,4616364.362,Not yet opened,"Urban-type settlement Tskneti, Chavchavadze St., N 12","""Laki Development"" LLC",Retail,Yes,Unmarked,,,156,6,Free,within 400m,Bad,beyond 800m,-,it is not open yet 
+385,01.20.01.037.011,475169.6596,4616310.431,Meat market Madare,"Urban-type settlement Tskneti, 9 aprilis St., N 21",Mamuka Amiranashvili,Retail,Yes,Unmarked,,,42,2,Free,within 400m,Average,beyond 800m,-,
+386,01.20.01.069.012,475068.1432,4616141.681,Carrefour,"Urban-type settlement Tskneti, Iakob gogebashvili St, N 3","""Laki Investment"" LLC",Retail,Yes,Unmarked,,,85,3,Free,within 400m,Average,beyond 800m,-,
+387,01.20.01.068.025,475021.5796,4616165.478,Nikora XL,"Tskneti, Rustaveli st., (area 68/011)",MP Development Ltd,Retail,Yes,Marked,,,,24,Free,within 400m,Average,beyond 800m,-,
+388,01.20.01.068.001,474952.4351,4616096.805,Libre,"Urban-type settlement Tskneti, Shota Rustaveli St., N45","Gogi Galuashvili
+Guram Tsovreli
+Teimuraz Tatulashvili
+Tinatin Dalakishvili
+Ivane Zaridze
+Manana Londaridze
+Mariam Tatulashvili
+Nino Shubladze
+Nugzar Tatulashvili
+Omar Meskhi
+Ramaz Zaridze
+Joint Stock Company ""Silknet""
+Tskneti LLC",Retail,Yes,Unmarked,,,208,8,Free,within 400m,Good,beyond 800m,-,in front of Libre
+389,01.20.01.064.008,474745.373,4616033.357,Police,"Urban-type settlement Tskneti, Rustaveli St., N 57",Tbilisi Municipality,Government/Police,Yes,Unmarked,416,16,,,Free,within 400m,Good,beyond 800m,-,
+390,72.13.10.695,485710,4626640,"Technical Inspection Center ""Daji""","Leo Kereselidze St., N 1",Daji Ltd.,Service,Yes,Marked,,,,8,Free,beyond 400m,-,beyond 800m,-,
+391,72.13.02.427,,,Gldani Castle,"Omar Khizanishvili St., N 141",State,Government/Police,Yes,Marked,,40,2340,90,Free,beyond 400m,-,beyond 800m,-,
+392,01.81.21.135.005,486249.4513,4620023.296,Carrefour,Fruit-tree nurseries,"Leila Revazishvili
+Nona Mechvarishvili",Retail,Yes,Unmarked,,,118,4,Free,within 400m,Good,beyond 800m,-,
+393,01.12.21.001.124,487990.3733,4620657.332,Tbilisi Sea Club,Nearby sail club (area 01/113),"A(a)ip Davit Zodelava Sea Club
+Elena Zodelava",Entertainment & Recreation,Yes,Unmarked,,,2526,97,Paid,beyond 400m,-,beyond 800m,-,35 GEL on weekdays. 40 GEL on weekends
+394,81.21.02.206,488400,4620100,Ilia Kokaia Football Center,Fruit-tree nurseries,"LLC ""Tbilisi Sea Resort""",Entertainment & Recreation,Yes,Marked,,25,,,Free,beyond 400m,-,beyond 800m,-,Entry to private property is prohibited
+395,01.12.21.001.633  01.12.21.001.634  01.12.21.001.635  01.12.21.001.524,486100,4621150,Gino Paradise Aquapark,"Beshenova St., N 9 / Liptovi St., N 8","""Gino Park"" LLC ""Eco Invest"" LLC",Entertainment & Recreation,Yes,Marked,,,,134,Free,within 400m,Good,beyond 800m,-,
+396,81.21.06.584,486310,4620210,Ori Nabiji,"Mariam Dadiani-Anchabadze St., N 2",Kakhaber Tutiashvili,Retail,Yes,Unmarked,,,220,8,Free,within 400m,Good,beyond 800m,-,
+397,01.12.21.001.179,485970.808,4621437.829,Gino Seaside Tbilisi,"beshenova St., N 20",Angie and Company Ltd,Hotel & Casino,Yes,Marked,,12,,,Free,beyond 400m,-,beyond 800m,-,Entry is available only for employees and costumers
+398,01.12.04.004.071,483799.8202,4623601.732,Salvage service,"Unknown Heroes Street, N 182",State,Government/Police,Yes,Marked,,27,,31,Free,within 400m,Bad,beyond 800m,-,
+399,01.12.21.001.519,484547.0674,4624117.322,Tbilisi Sea,"The territory near the Tbilisi Sea., (area) 01/168.",Tbilisi Municipality,Entertainment & Recreation,Yes,Unmarked,,,,,Free,beyond 400m,-,beyond 800m,-,Specific parking is not available for everyone to park where they will be happy 
+400,01.72.14.009.319,481697.3082,4626671.13,Davit Petriashvili Stadium,"Bob Uolshi St., N 22",State,Entertainment & Recreation,Yes,Marked,,,,160,Free,beyond 400m,-,beyond 800m,-,
+401,01.72.14.013.887,481540.0314,4626300.032,Domino,Extension of Beliashvili Street to the north of the Dighomi-Gldani connecting highway.,"""CBD Development"" LLC",Retail,Yes,Marked,,,,370,Free,within 400m,Good,beyond 800m,-,
+402,01.13.01.004.091,481528.817,4626159.907,Wendy's,"George Balanchini St, N 9","LLC ""Grand""",Entertainment & Recreation,Yes,Marked,,,,15,Free,within 400m,Bad,beyond 800m,-,
+403,01.13.01.004.078  01.13.01.004.066,481440,4626160,McDonald's,"George Balanchini St, N 11","""T and K Restaurants"" LLC",Entertainment & Recreation,Yes,Marked,,,,43,Free,within 400m,Good,beyond 800m,-,
+404,01.72.14.013.528,480993.1128,4626254.922,The laboratory is my home,"Georgian-American Friendship Avenu, N 47","LLC ""International Corporation ISI AR"" LLC ""Super""",Retail,Yes,Unmarked,,,860,33,Free,within 400m,Bad,beyond 800m,-,
+405,01.72.14.013.527,480949.7298,4626242.917,The laboratory is my home,"Davit Aghmashenebli Alley, N 125a","LLC ""International Corporation ISI AR""",Retail,Yes,Unmarked,,,839,32,Free,within 400m,Bad,beyond 800m,-,
+406,01.72.14.013.378,480944.4646,4626313.99,The laboratory is my home,Digomi Educational Experimental Farm Territory,"""Valentine"" LLC",Retail,Yes,Unmarked,,,890,35,Free,within 400m,Bad,beyond 800m,-,
+407,01.72.14.013.441,480963.4462,4626368.385,Techno Boom,"George Papashvili St., N 1 / N 2","Tengiz Kakhniashvili, Koba Kakhniashvili",Retail,Yes,Marked,,,,42,Free,within 400m,Bad,beyond 800m,-,
+408,01.72.14.013.896,481005.1238,4627072.767,Land Rover Center,"Davit Aghmashenebli Alley, N 151","""G-T Motors"" Ltd.",Service industry,Yes,Unmarked,6838,306,,,Free,within 400m,Bad,beyond 800m,-,
+409,01.72.14.013.621,480966.6434,4626907.315,Smart,"Davit Aghmashenebli Alley,  N 145",MP Development Ltd,Retail,Yes,Marked,,,,10,Free,within 400m,Bad,beyond 800m,-,
+410,01.72.14.013.609,480982.6417,4626969.084,Wendy's,"Davit Aghmashenebli Alley, N 147","""V-Jeo Restaurants"" LLC",Entertainment & Recreation,Yes,Marked,,,,19,Free,within 400m,Bad,beyond 800m,-,
+411,01.72.14.013.979,481094.1946,4626900.837,Grigol Robakidze University,"Irina Enukidze St., N 3, N 5b; D. Aghmashenebli alley 12-th km.","""Grigol Robakidze University"" LLC",Education,Yes,Marked,440,41,,,Free,within 400m,Bad,beyond 800m,-,
+412,01.72.14.013.681,481159.4036,4626907.737,European University Residential Campus,"Irina Enukidze St., N 5","""European University Campus"" LLC",Education,Yes,Unmarked,650,25,,,Free,within 400m,Bad,beyond 800m,-,
+413,01.72.14.013.102,481302.6456,4626875.255,East European University,"Irina Enukidze St., N6","""University of Eastern Europe"" LLC",Education,Yes,Unmarked,650,25,,,Free,beyond 400m,-,beyond 800m,-,
+414,01.72.14.013.407,481254.2408,4627305.772,Black Sea University,"Grigol Feradze St., N 3a","LLC ""Control""",Education,No,Unknown,N/A,N/A,N/A,N/A,Free,within 400m,Bad,beyond 800m,-,I couldn't enter the area and the number doesn't appear on the map either.
+415,01.72.14.011.295,481084.899,4628377.621,Volkswagen Center,"Davit Aghmashenebli Alley, N 197",New Invest Company Ltd,Service industry,Yes,Marked,,,,50,Free,within 400m,Average,beyond 800m,-,
+416,01.72.14.011.491,481113.3019,4628473.355,Akhali Nateba,"Davit Aghmashenebli Alley, N 199","""Akhali Nateba"" LLC",Retail,Yes,Marked,,,806,43,Free,within 400m,Bad,beyond 800m,-,
+417,01.72.14.007.435,481112.5261,4629416.531,Tbilisi Mall,"Davit Aghmashenebli Alley, N213","""Unit Owners""",Retail,Yes,Marked,,,,1184,Free,within 400m,Good,beyond 800m,-,
+418,01.72.14.006.487,480968.2592,4629718.072,National Vehicle Registration Agency,"Davit Aghmashenebli Alley, N 272",State,Service,Yes,Unmarked,,,858,33,Free,within 400m,Bad,beyond 800m,-,
+419,01.72.14.006.388,480950.0541,4628824.173,Škoda Georgia,"Davit Aghmashenebli Alley, N 244","""GT Benefits"" LLC",Service industry,Yes,Unmarked,2080,80,,,Free,within 400m,Bad,beyond 800m,-,"The parking lot of the Škoda center is transferred to the territory of the municipality (01.72.14.098.115, 01.72.14.006.616)"
+420,01.72.14.006.767,480743.3334,4628215.405,Agricultural University,"Davit Aghmashenebli Alley, N 240","""Agromet"" LLC",Education,Yes,Marked,,305,,,Free,within 400m,Average,beyond 800m,-,
+421,01.72.14.014.470  01.72.14.014.469 01.72.14.014.621,480850,4627800,Vivamedi,"Davit Aghmashenebli Alley, N 234",Vivamedi Ltd,Hospital & Medical,Yes,Marked,,,,220,Paid,within 400m,Bad,beyond 800m,-,2 GEL. There are also 60 parking spaces in unregistered territory.
+422,01.10.06.004.003 01.72.14.014.379  01.72.14.014.662  01.72.14.014.872 01.72.14.014.408  01.72.14.014.200,480820,4626880,Hyundai Auto Georgia,"Davit Aghmashenebli Alley, N 204","Joint Stock Company ""Hyundai Auto Georgia""",Service industry,Yes,Marked,,150,,,Free,within 400m,Bad,beyond 800m,-,For sale and employee cars
+423,01.14.10.001.073,478233.0006,4617219.076,Saint George's School,"I. chavchavadze avenue, N 82","LLC ""Asset Management and Development Company""
+LLC ""Educational Activity Center""",Education,Yes,Marked,,,,40,Free,within 400m,Bad,beyond 800m,-,
+424,01.14.13.004.002,478201.0852,4617083.339,Levan Samkharauli'ს National Forensics Bureau,"I. chavchavadze avenue, N 84",National Bureau of Forensic Expertise named after Levan Samkharauli,Government/Police,Yes,Marked,,50,,,Free,within 400m,Good,beyond 800m,-,Only for employees 
+425,01.14.03.042.204,478770.5757,4618901.133,Vake district administration,"Tamarashvili st., N 10a",Tbilisi Municipality,Government/Police,Yes,Unmarked,1070,41,,,Free,within 400m,Good,within 800m,Good,Only for employees 
+426,01.14.14.010.030,481573.7048,4617668.702,TSU First and Second Buildings," Ilia Chavchavadze avenue N 1-3 , (area 10/030)",SSI Ivane Javakhishvili Tbilisi State University,Education,Yes,Marked,,,,80,Free,within 400m,Good,beyond 800m,-,
+427,01.19.34.002.033,489351.2282,4614288.906,Samgori district administration,"Moskovi avenue, N 14",Tbilisi Municipality,Government/Police,Yes,Unmarked,1176,45,,,Free,within 400m,Good,beyond 800m,-,Only for employees 
+428,01.19.34.002.147,489294.4841,4614315.028,Police,"Javakheti St, N 1",State,Government/Police,Yes,Marked,,,,45,Free,within 400m,Good,beyond 800m,-,
+429,01.19.34.002.051,489212.8283,4614388.867,Gulf,"Javakheti St, N 1g","LLC ""San Petroleum Georgia""",Mixed-use,Yes,Marked,,,,8,Free,within 400m,Bad,beyond 800m,-,
+430,01.17.01.065.065,484190.5926,4615721.074,Underground parking of the cobblestone park,"The Territory of Rike, (area 65/062)",Tbilisi Municipality,Entertainment & Recreation,Yes,Marked,,,,350,Paid,within 400m,Average,within 800m,Average,"One hour is 2 GEL, each next hour is 1 GEL"
+431,01.17.01.065.061,484193.4538,4615878.69,Rike Park,"The Territory of Rike, (area 65/061)","""GLOBAL VICTORY TRUST"" LLC",Entertainment & Recreation,Yes,Marked,,,,70,Paid,beyond 400m,-,beyond 800m,-,
+432,01.13.05.010.071,481891.6523,4619530.772,Nearby Eliava market,"Cosmonauts bank, N 17",Miranda Paichadze,Retail,Yes,Unmarked,,,1898,73,Paid,beyond 400m,-,within 800m,Bad,Entry is 4 GEL
+433,01.13.05.010.067  01.13.05.010.068,481900,4619600,Nearby Eliava market,"Rafiel Agladze st., N 16a","""Coastal Investment Group"" LLC",Retail,Yes,Unmarked,,,9920,381,Paid,beyond 400m,-,within 800m,Bad,"Entry for a car is 5 GEL, 10 GEL for a truck"
+434,01.13.05.010.044,481656.8119,4619753.84,Nearby Eliava market,"Cosmonauts bank, N 25","""Coastal Investment Group"" LLC",Retail,Yes,Unmarked,,,1456,56,Paid,beyond 400m,-,beyond 800m,-,"Parking 5 GEL. All day 10 GEL. also used for same parkingUnregistered territory, which has no cadastral registration"
+435,01.13.05.010.056  01.13.05.010.050  ,481590,4619810,Nearby Eliava market,"Cosmonauts bank, N25b","""Invest Group 2023"" LLC",Retail,Yes,Unmarked,,,370,14,Paid,beyond 400m,-,beyond 800m,-,One hour is 3 GEL
+436,01.13.05.010.051,481558.4356,4619789.676,Nearby Eliava market,"Cosmonauts bank, N25g",Avtandil Bubuteishvili,Retail,Yes,Unmarked,,,,,Paid,beyond 400m,-,beyond 800m,-,
+437,01.13.05.010.049,481546.5097,4619800.419,Nearby Eliava market,"Cosmonauts bank, N 25 e","LLC ""Gujuji""",Retail,Yes,Unmarked,,,104,4,Paid,beyond 400m,-,beyond 800m,-,"Entry is 4 GEL, each next hour is 3 GEL"
+438,01.13.05.010.073,481563.2617,4619843.313,Nearby Eliava market,"Cosmonauts bank, N 27","""Jiti Trade"" Ltd.",Retail,Yes,Unmarked,,,400,15,Paid,beyond 400m,-,beyond 800m,-,"One hour is 2 GEL, for a truck it's 5 GEL"
+439,01.13.05.010.072,481528.5775,4619877.55,Nearby Eliava market,"Between the left bank of river Mtkvari, Khosharauli st. Eliava st. and Vakhushti bridge (area 10/23)","LLC ""Set-9""",Retail,Yes,Unmarked,,,1482,57,Paid,beyond 400m,-,beyond 800m,-,"Parkig for one hour is 5 GEL, for truck is 8 GEL, each next hour 1 GEL"
+440,01.13.05.010.022,481597.5108,4619931.738,Nearby Eliava market,"Between the left bank of river Mtkvari, Khosharauli st. Eliava st. and Vakhushti bridge (area. 10/22)",Ltd. An-G,Retail,Yes,Unmarked,,,1650,63,Paid,beyond 400m,-,beyond 800m,-,"One hour is 3 GEL, each next hour is 3 GEL. Parkig for microbus for one hour is 3 GEL, each next hour is 5 GEL"
+441,01.13.05.010.061,481659.0722,4620017.647,Nearby Eliava market,"Between the left bank of river Mtkvari, Khosharauli st. Eliava st. and Vakhushti bridge (area N10/61)",Manana Pantsulaia,Retail,Yes,Unmarked,,,260,10,Paid,beyond 400m,-,beyond 800m,-,"One hour is 3 GEL, each next hour is 3 GEL. Parkig for microbus for one hour is 3 GEL, each next hour is 5 GEL"
+442,01.13.05.010.058  01.13.05.010.060,481650,4620000,Nearby Eliava market,"Between the left bank of river Mtkvari, Khosharauli st. Eliava st. and Vakhushti bridge (area 10/58)","""Invest Group 2023"" LLC",Retail,Yes,Unmarked,,,630,24,Paid,beyond 400m,-,beyond 800m,-,"One hour is 3 GEL, each next hour is 3 GEL. Parkig for microbus for one hour is 3 GEL, each next hour is 5 GEL"
+443,01.13.05.010.059,481666.8567,4619983.68,Nearby Eliava market,"Between the left bank of river Mtkvari, Khosharauli st. Eliava st. and Vakhushti bridge (area 10/59)","LLC ""Gujuji""",Retail,Yes,Unmarked,,,435,16,Paid,beyond 400m,-,beyond 800m,-,"One hour is 3 GEL, each next hour is 3 GEL. Parkig for microbus, for one hour is 3 GEL, each next hour is 5 GEL"
+444,01.13.05.010.043,481760.7863,4619880.876,Nearby Eliava market,"Agladze st., N 11 a","""Coastal Investment Group"" LLC",Mixed-use,Yes,Marked,,,1950,200,Paid,beyond 400m,-,beyond 800m,-,"One hour is 5 GEL, for a truck it's 10 GEL"
+445,01.13.05.011.025,482063.243,4619873.2,Megaline,Rafael Agladze St. N 15,Megaron LLC,Retail,Yes,Marked,,,,185,Paid,within 400m,Good,within 800m,Good,"One hour is 2 GEL, each next hour is 2 GEL. (20:00-9:00) car-10 GEL, truck-20 GEL. Cost of monthly pass- 200 GEL"
+446,01.13.05.004.255  01.13.05.004.209,481500,4620100,Ashendi,"Nadira Khosharauli St., N 25","""Ashendi Group"" LLC",Retail,Yes,Marked,,,,150,Paid,beyond 400m,-,beyond 800m,-,"One hour is 1 GEL, each next hour is 2 GEL. Parking for a truck is 5 GEL, for a trailer it's 50 GEL"
+447,01.13.05.004.056,481282.9869,4620273.44,German Hospital,Cosmonauts bank N 45a,"""Tsintsadze and Company"" LLC",Hospital & Medical,Yes,Unmarked,290,11,,,Free,beyond 400m,-,beyond 800m,-,
+448,01.13.05.004.153,481249.2655,4620293.059,Nearby German Hospital,"Cosmonauts bank, N 45b",Tbilisi Municipality,Other,Yes,Unmarked,,,1066,41,Free,beyond 400m,-,beyond 800m,-,
+449,01.12.08.039.006,482005.739,4623810.687,Nikora XL,"The left bank of river Mtkvari, nearby turn of ksani st., (area. 39/006)","Joint Stock Company ""Tasi""",Retail,Yes,Unmarked,,,880,33,Free,beyond 400m,-,beyond 800m,-,
+450,01.11.19.007.021,481906.5436,4624239.185,Greenway,"Evelina Tavadze St, N 2d","Joint Stock Company ""Greenway Georgia""",Service,Yes,Marked,,,,9,Free,beyond 400m,-,beyond 800m,-,
+451,01.12.08.039.174,481961.9296,4624030.3,Lazy people,"Evelina Tavadze St, N 3a",Davit Tsaava,Entertainment & Recreation,Yes,Unmarked,,,1950,75,Free,beyond 400m,-,beyond 800m,-,
+452,01.11.19.001.082 01.11.19.004.021 01.11.19.004.026   ,482550,4625600,GRC,"Evelina Tavadze St, N 38g","LLC ""Ji ar Si""",Retail,Yes,Marked,,30,,100,Free,beyond 400m,-,beyond 800m,-,Also 30 cars are allocated for employees
+453,01.11.19.004.011,482738.6699,4625526.946,Autobani Peikrebi,"Evelina Tavadze St, N 38","""Auto-Bani 2000"" LLC",Service industry,Yes,Marked,,,,24,Free,beyond 400m,-,beyond 800m,-,For employees and store users. Half of the marked parking is outside the cadastre.
+454,01.11.19.004.035,482675.7837,4625463.716,Market of Peikrebi,"Evelina Tavadze St, N 36","LLC ""Samta""",Service industry,Yes,Unmarked,,,2600,100,Paid,beyond 400m,-,beyond 800m,-,Entry is 2 GEL
+455,01.11.19.005.030,482495.1674,4625165.794,GWP,"Evelina Tavadze St, N 30","""Georgian Water and Power"" LLC",Other,Yes,Marked,,100,,,Free,beyond 400m,-,beyond 800m,-,
+456,01.12.01.008.014,482155.175,4624168.232,Limonta,"Ksani st., N 35",Modern Ltd,Retail,Yes,Unmarked,,,243,9,Free,beyond 400m,-,within 800m,Bad,
+457,01.12.01.008.019,482263.1784,4624146.058,Teaching University Millennium,"Ksani st., N 35","LLC ""Caucasus Education Center""",Education,Yes,Unmarked,728,28,,,Free,beyond 400m,-,within 800m,Bad,
+458,01.11.03.007.210,483105.4676,4629537.951,Nikora,"Libani St., N 21","Common property of apartment owners
+""Unix Development"" LLC",Mixed-use,Yes,Marked,,,,27,Free,within 400m,Good,beyond 800m,-,
+459,01.11.03.008.210,483109.0131,4629168.577,Olpimetal,"Libani St., N 6",TTC LLC,Retail,Yes,Marked,,,,8,Free,within 400m,Good,beyond 800m,-,
+460,01.11.04.025.015,483226.7974,4627567.276,Near the Avchala Rugby Stadium,"Sarajishvili avenue, N 14a","LLC ""LG Glass""",Commercial,Yes,Unmarked,,,362,14,Free,within 400m,Good,beyond 800m,-,
+461,01.16.05.001.002,482923.144,4617360.978,Next to TBC Bank,"Kote Marjanishvili St, N 5/Dimitri Uznadze St, N 16-18","Joint Stock Company ""Printed Word Combine""",Mixed-use,Yes,Marked,,,,60,Paid,within 400m,Average,within 800m,Average,09:00-24:00 5 GEL 24:00-09:00 10 GEL
+462,01.13.07.024.026,482424.2817,4618568.37,Georgian Film Development Fund,"Davit Aghmashenebeli avenue, N 164","""Georgian Film Development Fund"" LLC ""Aba and Company""",Other,Yes,Marked,,,,27,Free,within 400m,Bad,beyond 800m,-,Behind the German Embassy
+463,01.13.08.004.064,482907.706,4618087.002,Sukhishvili yard,"Davit Aghmashenebeli avenue,",Tbilisi Municipality,Entertainment & Recreation,Yes,Unmarked,,,526,20,Free,within 400m,Good,within 800m,Good,
+464,01.13.08.001.014,482569.1439,4618382.442,National Environment Agency,"Davit Aghmashenebeli avenue, N 150",co-ownership,Government/Police,Yes,Marked,,30,,,Free,within 400m,Good,beyond 800m,-,
+465,01.13.08.001.066      01.13.08.001.006,482620,4618400,Real Invest,"Davit Aghmashenebeli avenue, N 150","Joint Stock Company ""Real Invest""",Commercial,Yes,Marked,,31,,,Free,within 400m,Good,beyond 800m,-,
+466,01.13.08.001.102,482657.7775,4618371.892,Champions Academy,"Davit Aghmashenebeli avenue, N 148g","LLC ""Sports Science Georgia""",Commercial,Yes,Marked,,9,,,Free,within 400m,Good,beyond 800m,-,There is one parking lot in two cadastres. I could not enter. It is locked it with a barrier.
+467,01.13.08.001.097,482607.0487,4618356.207,Champions Academy,"Davit Aghmashenebeli avenue, N 150 (area 1/41)","LLC ""PSP Pharma""",Commercial,Yes,Marked,,51,,,Free,within 400m,Good,beyond 800m,-,
+468,01.13.08.001.091,482546.4105,4618454.33,Zonal parking lot A807,"Davit Aghmashenebeli avenue, N 154, in front of ( area 01/091)",Tbilisi Municipality,Other,Yes,Marked,,,,7,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A807
+469,01.13.08.001.090,482578.4421,4618470.447,Zonal parking lot A808,"Davit Aghmashenebeli avenue, N 154, in front of  (area 01/090)",Tbilisi Municipality,Other,Yes,Marked,,,,7,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A808
+470,A 810,482559.7297,4618469.816,Zonal parking lot A810,King Tamar Avenue,Tbilisi Municipality,Other,Yes,Marked,,,,17,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A810
+471,01.13.05.008.020,481823.5722,4620148.274,Taha Plaza,"Nadira Khosharauli St, N 8/Aleksi Gogolauri St, N 25","Apartment owners.     LLC ""Taha 14""",Mixed-use,Yes,Marked,,,,240,Paid,within 400m,Bad,beyond 800m,-,1 hour 2 GEL. 170 GEL per month
+472,01.13.06.008.013   01.13.06.008.080   01.13.06.008.015,482150,460270,telas,"Vani st, N3(area 8/13)","JSC ""Telasi"" State",Service,Yes,Marked,,58,,,Free,within 400m,Good,beyond 800m,-,The internal parking lot of Telas is divided into two cadastres. in the territory of the municipality.
+473,01.13.03.051.014,481631.8588,4621997.077,Auto station,"Didube Metro Station, lower exit.","Ltd. ""Nige""",Other,Yes,Marked,,,,35,Paid,within 400m,Good,within 800m,Bad,"Parking is paid, the area is private property, two GEL for up to 30 minutes"
+474,01.13.03.051.011,481643.1872,4622234.11,Didubi bus station,"Akaki Tseretli Avenue, N 153","Joint Stock Company ""Didubi Bus Station""",Other,Yes,Unmarked,,,1164,44,Paid,within 400m,Good,within 800m,Bad,"Three GEL payment in advance. From two to five hours five GEL, more than five hours 10 GEL"
+475,01.13.03.051.108,481657.5032,4622315.876,Adjacent to Didubi bus station,"Karaleti st., N 4","Gela Jincharadze, Kakhaber Keshikashvili, Konstantine Chichinadze.",Other,Yes,Unmarked,,,962,37,Paid,within 400m,Good,within 800m,Bad,"The parking lot is paid from 9:00 am to 7:00 pm, the price is 3 GEL"
+476,01.11.17.002.019,484656.7022,4625922.538,Auction of the National Agency of State Property,"Rezo Gabashvili St., N 73",State,Service,Yes,Unmarked,7280,280,,,Free,beyond 400m,-,beyond 800m,-,Auction area
+477,01.72.14.009.623,481948.9816,4626913.762,Viktor Sanikidze Basketball Academy,"Bob Uolshi St., N 19",State,Entertainment & Recreation,Yes,Unmarked,,,2340,90,Free,beyond 400m,-,beyond 800m,-,
+478,01.72.14.009.353,482091.6754,4626928.475,Olympic pool,Digomi Training and Experimental Farm,Tbilisi Municipality,Entertainment & Recreation,Yes,Unmarked,,,2210,85,Free,beyond 400m,-,beyond 800m,-,
+479,01.72.14.009.559,482013.6259,4627050.887,Gymnastics arena,"Bob Uolshi St., N 23",Sportmshenservice Ltd,Entertainment & Recreation,Yes,Unmarked,,,10400,400,Free,beyond 400m,-,beyond 800m,-,
+480,01.11.12.020.088,483424.3685,4626178.131,Restaurant Imperial,"Nearby Sarajishvili st., (area 20/088)",Tbilisi Municipality,Entertainment & Recreation,Yes,Unmarked,,,520,20,Free,within 400m,Bad,within 800m,Bad,used by the restaurant
+481,01.72.14.007.507    01.72.14.007.490,481100,4628820,Schnoe Home,"Davit Aghmashenebeli alley, N 205",Ltd. shopping center Digomi 8,Retail,Yes,Marked,,,,20,Free,within 400m,Bad,beyond 800m,-,
+482,01.72.14.006.539,480839.4123,4628544.791,Technical Center Bassa (Stadium),"Davit Aghmashenebeli alley, N 242",State,Entertainment & Recreation,Yes,Marked,,45,,,Free,within 400m,Average,beyond 800m,-,
+483,01.72.14.014.747   01.72.14.014.358,480590,4627130,Ace Motors,"Catholic Abraham I Street, N 24","""Ace Motors Holding"" Ltd. Teona Abuladze",Service industry,Yes,Unmarked,,,780,30,Free,within 400m,Bad,beyond 800m,-,
+484,01.72.14.200.010,480639.9741,4627063.704,Opposite Tuzmotors,"Catholic Abraham I Street: N 24, N17, N17a, N19, N21, N23, N25, N21a, N23a","Irakli Gamkrelidze
+""Shin Digomi"" LLC
+""Monolith Towers"" LLC",Other,Yes,Unmarked,,,5276,202,Free,within 400m,Bad,beyond 800m,-,(Vacant)
+485,01.72.14.034.741,480744.2321,4625841.956,Mate Motors,"Davit Aghmashenebeli alley, N 174",Gela Barkalaya,Service industry,Yes,Unmarked,,,3098,119,Free,within 400m,Bad,beyond 800m,-,
+486,01.72.14.034.399,480790.0175,4625834.592,In front of Mate Motors,"David the Builder Alley, 11th kilometer",State,Other,Yes,Unmarked,,,275,10,Free,within 400m,Bad,beyond 800m,-,
+487,01.72.14.034.966,480795.1748,4625859.573,In front of Mate Motors,"Alley David the Builder, Perdobi 3 (plot 34/561)",Tbilisi Municipality,Other,Yes,Unmarked,,,465,17,Free,within 400m,Bad,beyond 800m,-,
+488,01.72.14.034.772,480746.6958,4625908.448,Otto Motors,"Davit Aghmashenebeli alley,  N 176","LLC ""Ifkli""",Service industry,Yes,Marked,,,,12,Free,within 400m,Bad,beyond 800m,-,
+489,01.72.14.055.194,480746.2055,4625949.836,Sharbat,"Davit Aghmashenebeli alley,  N 178","LLC ""Company 4 Ken""",Entertainment & Recreation,Yes,Unmarked,,,1452,55,Free,within 400m,Bad,beyond 800m,-,
+490,01.72.14.034.590,480701.2,4624503.976,XL Nikora,"Davit Aghmashenebeli alley, N 62",Vasil Bolashvili,Hotel & Casino,Yes,Unmarked,,,1223,47,Free,within 400m,Bad,beyond 800m,-,
+491,01.10.18.009.203     01.10.18.009.202,479700,4620700,112,"Mukhran Machavariani st., N 8",Tbilisi Municipality,Government/Police,Yes,Marked,,65,,,Free,within 400m,Good,beyond 800m,-,
+492,01.10.11.001.246,480832.7478,4621830.07,Agrio Hub,"Marshal Gelovani Avenue, N22","""Agrohab"" LLC",Retail,Yes,Marked,,,,113,Free,within 400m,Good,beyond 800m,-,
+493,01.10.11.001.181,480884.9346,4621847.372,In front of Agrio Hub,"Marshal Gelovani Avenue, Slope 3, (Plot 01/181)",Tbilisi Municipality,Other,Yes,Marked,,,,17,Free,within 400m,Good,beyond 800m,-,
+494,01.10.10.022.225  01.10.10.022.057   01.10.10.022.008,480820,4621980,"bricorama,","Lilac St., N 1",Teimuraz Dolidze,Retail,Yes,Marked,,,,70,Free,within 400m,Good,beyond 800m,-,
+495,01.10.10.022.344  01.10.10.022.346   01.10.10.022.347  01.10.10.022.151  01.10.10.022.217  01.10.10.022.115,480800,4622300,"Ministry of Environment Protection and Agriculture of Georgia
+","Marshal Gelovani Avenue, N 34",State,Government/Police,No,Marked,,300,,,Free,within 400m,Good,beyond 800m,-,
+496,01.10.10.006.021,480696.5513,4622854.469,container,"Marshal Gelovani Avenue, N 54","""Mia"" LLC ""Otar Bregvadze and Company"" LLC",Retail,Yes,Marked,,,,60,Free,within 400m,Bad,beyond 800m,-,
+497,01.11.19.002.007,482879.6681,4625894.481,Jibe,"tengiz sheshelidze Str, N 7","""Nova Invest"" LLC",Retail,Yes,Marked,,,,100,Free,within 400m,Bad,within 800m,Bad,
+498,01.10.18.011.057    01.10.18.011.020,479025,4620470,Near Liss Lake Circle,Near the Nutsubidze-Vashlijvri Connecting Road,New Way Ltd,Mixed-use,Yes,Marked,,,,50,Free,within 400m,Bad,beyond 800m,-,
+499,01.14.03.039.015,477662.9087,4618954.138,Lechkombinat,"Petre Kavtaradze St., N 23","Joint Stock Company ""Mega-Lab"" LLC ""Center of Medicine of the Caucasus""",Hospital & Medical,Yes,Marked,,,,66,Free,within 400m,Good,within 800m,Good,
+500,01.14.03.039.015,477662.9087,4618954.138,Lechkombinat,"Petre Kavtaradze St., N 23","Joint Stock Company ""Mega-Lab"" LLC ""Center of Medicine of the Caucasus""",Hospital & Medical,Yes,Unmarked,,,728,28,Free,within 400m,Good,within 800m,Good,
+501,01.14.03.039.015,477662.9087,4618954.138,Mega good,"Petre Kavtaradze St., N 23","Joint Stock Company ""Mega-Lab"" LLC ""Center of Medicine of the Caucasus""",Hospital & Medical,Yes,Marked,,,,14,Free,within 400m,Good,within 800m,Good,
+502,01.14.01.001.028,476863.265,4620153.804,Uranium,"Avto Varazi st., I Dead End, N 1","LLC ""Medical Center Urant""",Hospital & Medical,Yes,Unmarked,,,208,8,Free,within 400m,Average,beyond 800m,-,
+503,01.14.01.001.054,476541.7116,4620443.237,Rugby team (kochebi),Avto Varazi st. N 26,"AAP ""Georgian Rugby Union""",Entertainment & Recreation,Yes,Unmarked,,,4462,171,Free,within 400m,Average,beyond 800m,-,
+504,72.16.17.986,76500,4621500,Hippodrome,Lisi,"LLC ""Tbilisi Hippodrome Service""",Entertainment & Recreation,Yes,Unmarked,,,9490,365,Free,within 400m,Average,beyond 800m,-,
+505,01.14.16.009.399,476894.7011,4621092.772,Near Millennium School,"Near Farmer Street, N. 109",Tbilisi Municipality,Education,Yes,Marked,,,,15,Free,within 400m,Good,beyond 800m,-,
+506,72.16.21.940,477050,4621350,British-Georgian Academy,"Nearby Lisi Lake; city Tbilisi, village Lisi.","""British International School of Tbilisi"" LLC",Education,Yes,Unmarked,,,3900,150,Free,within 400m,Bad,beyond 800m,-,
+507,72.16.21.654,476975,4621200,In front of the British-Georgian Academy,Lisi Lake area,Tbilisi Municipality,Other,Yes,Marked,,,,25,Free,within 400m,Bad,beyond 800m,-,
+508,01.14.16.015.291,478387.954,4620620.828,Radiation Medicine Center,"Levan Charkviani St., N 6","LLC ""Radiation Medicine Center""",Hospital & Medical,Yes,Marked,,,,35,Free,within 400m,Good,beyond 800m,-,
+509,01.14.16.012.081,478102.3518,4620559.023,universaluri samedino centers,"Levan Charkviani St., N 10","Joint Stock Company ""Universal Medical Center""",Hospital & Medical,Yes,Unmarked,,,1820,70,Free,within 400m,Average,beyond 800m,-,
+510,01.14.16.012.085,478269.9059,4620549.805,in front of Mardaleishvili Medical Center,"Levan Charkviani St., N 10","Joint Stock Company ""Universal Medical Center""",Hospital & Medical,Yes,Unmarked,,,598,23,Free,within 400m,Average,beyond 800m,-,
+511,01.14.17.001.245,478537.8471,4621341.587,Lis Lake,"Near Lisi Lake, on the right side of the road leading to Lisi Village, (area 01/014).","Joint Stock Company ""Lissey Lake Development""",Entertainment & Recreation,Yes,Marked,,,,150,Paid,within 400m,Average,beyond 800m,-,"Up to 1 hour 3.5 GEL, next hour 1 GEL"
+512,01.14.17.001.102,478342.4216,4621074.63,Lis Lake,"Near Lisi Lake, on the right side of the road leading to Lisi Village, (area 01/014)","Joint Stock Company ""Lissey Lake Development""",Entertainment & Recreation,Yes,Marked,,,,93,Paid,beyond 400m,-,beyond 800m,-,"Up to 1 hour 3.5 GEL, next hour 1 GEL"
+513,01.10.13.039.016,482096.5471,4618475.615,Georgian-American University,"Merab Aleksidze st., N 10","""Georgian-American University"" LLC",Education,Yes,Marked,,65,,,Free,within 400m,Bad,beyond 800m,-,
+514,01.10.13.040.088,482069.4795,4618377.425,Nikora,"Merab Aleksidze st., N 13","Co-owners of apartment units.     ""Leader Group"" LLC",Mixed-use,Yes,Marked,,,,23,Free,within 400m,Bad,within 800m,Bad,"It also has an underground parking, which we could not enter"
+515,01.10.13.039.035,482140.9746,4618347.187,King David,"Merab Aleksidze st., N 12","Company ""Reside Holding Giembiech""",Mixed-use,Yes,Marked,,,,18,Paid,within 400m,Bad,beyond 800m,-,"0-60 minutes 3 GEL. The next hour is 2 GEL, and each subsequent hour is 1 GEL. (4-deck parking lot, 72 cars)"
+516,01.10.13.039.035,482140.9746,4618347.187,King David,"Merab Aleksidze st., N 12","Company ""Reside Holding Giembiech""",Mixed-use,Yes,Marked,,229,,,Free,within 400m,Bad,beyond 800m,-,"Parking is intended for residents, employees and guests. (There was also a 2 deck parking lot, 69 cars which is not included in 229 (totaly 298) ."
+517,01.10.13.033.100,481792.6112,4618674.897,Inoffice,"Bidzina Kvernadze st, N 10","LLC ""Business Center on Kostava""",Commercial,Yes,Marked,,96,,,Free,within 400m,Bad,within 800m,Bad,
+518,01.10.10.025.434,480872.0115,4622514.723,Wissol,"Marshal Gelovani Avenue, near the Police Department.","Joint Stock Company ""Visol Petroleum Georgia""",Other,Yes,Marked,,,,6,Free,within 400m,Bad,beyond 800m,-,
+519,01.10.10.006.013,480874.3803,4622637.634,Police,"Korneli Chaladze St., N 2","State.    LLC ""Asset Management and Development Company""",Government/Police,Yes,Unmarked,442,17,,,Free,within 400m,Bad,beyond 800m,-,
+520,01.10.10.006.013,480874.3803,4622637.634,Police,"Korneli Chaladze St., N 2","State.    LLC ""Asset Management and Development Company""",Government/Police,Yes,Marked,,32,,,Free,within 400m,Bad,beyond 800m,-,
+521,01.13.04.004.025,480834.6588,4622883.067,Megruli Oda,"Marshal Gelovani Avenue, N 49",Giga Kvaratskhelia,Entertainment & Recreation,Yes,Unmarked,,,516,19,Free,within 400m,Bad,beyond 800m,-,
+522,01.13.04.016.004,481406.9492,4622436.68,St. George's Church,"Jemal Chkuaseli St., N 1",Patriarchate of Georgia,Other,Yes,Marked,,,,10,Free,within 400m,Bad,within 800m,Bad,"3 parking spaces are included in the cadastre, the remaining parking spaces are not registered."
+523,01.13.03.010.133,481550.589,4622479.752,Restaurant Old Town,"Massive Dighomi, Quarter III, opposite N 6g.","LLC ""Mtkvarispiri""",Entertainment & Recreation,Yes,Unmarked,,,433,16,Free,within 400m,Bad,beyond 800m,-,
+524,01.13.03.050.004,481497.5365,4622546.47,board,"Akaki Beliashvili st., N 1",Tbilisi Municipality,Government/Police,Yes,Unmarked,1320,50,,,Free,within 400m,Good,within 800m,Bad,
+525,01.13.03.010.031,481766.097,4623196.403,Gastronomist,"Akaki Beliashvili st., N 27a",Eliko Beriashvili,Entertainment & Recreation,Yes,Unmarked,,,446,17,Free,within 400m,Bad,beyond 800m,-,
+526,01.13.03.010.178,481789.4828,4623197.225,Near the gastronomie,"Akaki Beliashvili st., N 27b",State,Other,Yes,Unmarked,,,1300,50,Free,within 400m,Bad,beyond 800m,-,
+527,01.13.02.008.145   01.13.02.008.195,481760,4623910,Restaurant Mukhambazi,"Akaki Beliashvili st., N 73","LLC ""Mukhambazi""",Entertainment & Recreation,Yes,Unmarked,,,1040,40,Free,within 400m,Bad,beyond 800m,-,
+528,01.13.03.010.200,481804.9143,4623376.31,Lion Auto Auction,"Akaki Beliashvili st., N 43a","LLC ""Mega Plaza""",Commercial,Yes,Unmarked,,,785,30,Free,within 400m,Bad,beyond 800m,-,
+529,01.13.02.008.004,481739.8991,4624022.066,The restaurant is Kerry,"Akaki Beliashvili st., N 79","LLC ""M and Co - 07""",Entertainment & Recreation,Yes,Marked,,,,7,Free,within 400m,Bad,beyond 800m,-,"as well,18 cars stand in front of the restaurant On the sidewalk, which is owned by the municipality "
+530,01.13.02.008.116,481719.9428,4624098.929,Restaurant Cruise,"Akaki Beliashvili st., N 81","LLC ""Hotel Cruise""",Entertainment & Recreation,Yes,Unmarked,,,650,25,Free,within 400m,Bad,beyond 800m,-,
+531,01.13.02.008.096,481698.4931,4624152.405,Advanced medical technology and service,"Akaki Beliashvili st., N 83","LLC ""Advanced Medical Technologies and Service""",Hospital & Medical,Yes,Unmarked,,,262,10,Free,within 400m,Bad,beyond 800m,-,
+532,01.13.02.010.085,481583.9925,4624341.008,Restaurant in front of the mill,"Akaki Beliashvili st., N 68","B.M. Partnership ""Beliashvili 68""",Mixed-use,Yes,Marked,,,,60,Paid,within 400m,Good,beyond 800m,-,3 lari
+533,01.13.02.008.181,481721.7251,4624525.8,Mtevani restaurant,"Akaki Beliashvili st., N 101g",Levan Silagadze,Entertainment & Recreation,Yes,Unmarked,,,214,8,Free,within 400m,Bad,beyond 800m,-,for restaurant customers
+534,01.13.02.008.173   01.13.02.008.168    01.13.02.008.118,481770,4624670,Delphi ,"Akaki Beliashvili st., N 109, N 109a, N 109b.",Khvicha Kurtanidze. Lela Karkarashvili.  State,Service industry,Yes,Unmarked,,,702,27,Paid,within 400m,Bad,beyond 800m,-,"The parking area is in three cadastres, one belongs to the state.  Parking 10 GEL"
+535,01.13.02.008.158,481869.9887,4624865.087,Carrefour,"Akaki Beliashvili st., N 117","""Master Okay"" LLC",Retail,Yes,Marked,,,,65,Paid,within 400m,Bad,beyond 800m,-,"45 minutes free, first one hour 2 GEL, each subsequent hour 1 GEL. 24 hours 7 GEL."
+536,01.13.02.003.429  01.13.02.003.435,482000,4625260,hobby,"Akaki Beliashvili st., N 143, N 145g","""Hob Development"" LLC",Commercial,Yes,Marked,,,,160,Free,within 400m,Bad,beyond 800m,-,
+537,01.13.02.003.383   01.13.02.003.427,481940,4625300,Thermal center,"Akaki Beliashvili st., N 141a, N145a",Business House Ltd,Commercial,Yes,Marked,,,,30,Free,within 400m,Bad,beyond 800m,-,
+538,01.13.02.003.112,482005.2986,4625320.695,Georgian Foundation for Protest Orthopedic Rehabilitation,"Akaki Beliashvili st., N 143b","A.I.P. ""Georgian Foundation for Prosthetic Orthopedic Rehabilitation""",Hospital & Medical,Yes,Unmarked,,,366,14,Free,within 400m,Bad,beyond 800m,-,
+539,01.13.02.003.385,481963.6865,4625332.068,Thermo Center website,"Akaki Beliashvili st., N 145b","LLC ""Skytel""",Commercial,Yes,Marked,,,,22,Free,within 400m,Bad,beyond 800m,-,
+540,01.13.02.001.084    01.13.02.001.059,,,jeep center,"Akaki Beliashvili st., N 191","""Strada Motors"" LLC",Service industry,Yes,Unmarked,,,2912,112,Free,within 400m,Bad,beyond 800m,-,
+541,01.13.02.001.062   01.13.02.001.076  01.13.02.001.020  01.13.02.001.113    01.13.02.001.009,481820,4626000,Fiat Center,"Akaki Beliashvili st., N 193a","Tamta Lomia, municipal manager of ""Renta"" LLC",Service industry,Yes,Unmarked,,,3016,116,Free,within 400m,Bad,beyond 800m,-,
+542,01.13.02.001.018,481738.4921,4626093.706,Caucasus Auto Import,"Akaki Beliashvili st., N199","""Renta"" LLC",Service industry,Yes,Unmarked,,,1880,72,Free,within 400m,Bad,beyond 800m,-,
+543,01.13.01.004.149,481622.582,4626089.05,Balanchine Plaza,"Akaki Beliashvili st., N 142","""Lilo Rental"" LLC",Retail,Yes,Marked,,,,140,Free,within 400m,Bad,beyond 800m,-,
+544,01.13.01.004.177,481622.4236,4626021.169,Adjacent to Balanchine Plaza,"Akaki Beliashvili st., N 140","""Belo and Company"" LLC",Other,Yes,Marked,,,,143,Free,within 400m,Bad,beyond 800m,-,
+545,01.13.01.004.117,481740.8761,4625894.458,Euro Master,"Akaki Beliashvili st., N 128","""Euromaster"" LLC",Service industry,Yes,Unmarked,,,1768,68,Paid,within 400m,Bad,beyond 800m,-,"3 hours 2 GEL, each next hour 1 GEL. 5 GEL for 24 hours. 100 GEL per month for corporate customers."
+546,01.13.01.014.064,481907.9461,4625420.408,Greenway,"Nodar Bokhua St., N1",Dibeli Group Ltd.,Service,Yes,Marked,,,,12,Free,within 400m,Bad,beyond 800m,-,
+547,01.13.02.009.013,481424.9764,4624564.8,Iashvili Clinic,"Lubliana St., N 13/Nino Javakhishvili St., N 6",co-ownership,Hospital & Medical,Yes,Marked,,,,164,Paid,within 400m,Good,beyond 800m,-,Entrance 2 GEL
+548,01.13.02.009.013,481424.9764,4624564.8,Yard of Iashvili Clinic,"Lubliana St., N 13/Nino Javakhishvili St., N 6",co-ownership,Hospital & Medical,Yes,Unmarked,,,10249,394,Paid,within 400m,Good,beyond 800m,-,"The territory belongs to the iashvili clinic according to the cadastre, but upon entering the territory there are several clinics in front of which there are several paid parking lots. The price is 2 GEL. There is a large area of ​​greenery that is used as a parking lot."
+549,01.13.02.007.076,481571.9405,4624723.626,Chafidze Heart Center,"Nino Javakhishvili St., N 1","LLC ""Emergency Cardiology Center named after Acad. G. Chafidze""",Hospital & Medical,Yes,Unmarked,,,2418,93,Paid,within 400m,Good,beyond 800m,-,Entrance 2 GEL
+550,01.13.02.009.053,481381.9668,4624676.676,Gagua Clinic,"Nino Javakhishvili St., N 6a","LLC ""Gagua Clinic""",Hospital & Medical,Yes,Marked,,,,62,Paid,within 400m,Good,beyond 800m,-,Entrance fee is 3 GEL
+551,01.13.02.006.018,481414.9261,4624838.484,Tbilisi Central Hospital,"Konstantine Chachava St., N 1",State,Hospital & Medical,Yes,Marked,,,,250,Paid,within 400m,Good,beyond 800m,-,One Hour 3 GEL. Each next hour is 1 GEL.
+552,01.13.02.005.009,481376.951,4625040.04,Zarafkhana,"Lubliana st., N 15","LLC ""New Vision Development""",Other,Yes,Unmarked,4316,166,,,Free,within 400m,Good,beyond 800m,-,
+553,01.13.01.008.058,481409.2308,4625664.631,Tsitsishvili children's clinic,"Givi Zhania St., N 3",Clinics of JSC Georgia,Hospital & Medical,Yes,Marked,,,,80,Paid,within 400m,Good,beyond 800m,-,Entrance fee is 3 GEL. 
+554, 01.13.01.008.006,481270,4625790,Joe Ann University Hospital,"Givi Zhania St.,  N 17",A.I.P. Joe Ann University Hospital,Hospital & Medical,Yes,Marked,,,,72,Free,within 400m,Good,beyond 800m,-,1 hour 5 GEL. With a Cohen Clinic check  free 
+555,01.13.01.008.027 ,481260,4625750,Joe Ann University Hospital,"Givi Zhania St.,  N 17d","State                                                                    Joint Stock Company ""Medical Corporation Evex""",Hospital & Medical,Yes,Marked,,,,11,Free,within 400m,Good,beyond 800m,-,
+556,01.13.01.007.090,481333.1562,4625589.936,Todua Clinic,"Lubliana St., N 21, N 21a, and nearby N 21","""British Center"" LLC",Hospital & Medical,Yes,Unmarked,1248,48,,,Free,within 400m,Good,beyond 800m,-,
+557,01.14.04.005.004,477001.665,4619161.74,Madison,"Vazha Pshavela avenue, N 83/11","State LLC ""Bildex"" LLC ""Edem""",Hospital & Medical,Yes,Marked,,25,,42,Free,within 400m,Good,within 800m,Good,"There was a marked parking lot, but cars were also parked on the lawn."
+558,01.14.05.007.154,476439.9792,4618995.351,Fresco,"Zurab Anjafaridze St., N 32","LLC ""Fresco Shopping Center""",Retail,Yes,Marked,,,,51,Paid,within 400m,Good,within 800m,Good,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+559,01.13.01.008.029,481350.5688,4625839.186,St. Michael Multiprofile Clinical Hospita nearby,"Givi Zhania St., N 9a","Joint Stock Company ""Clinics of Georgia""",Hospital & Medical,Yes,Unmarked,,,2236,86,Free,within 400m,Bad,beyond 800m,-,
+560,01.13.01.010.079,481127.9056,4625495.887,Higher School of Justice,"Nodar Bokhua St., N 19",State,Education,Yes,Marked,,42,,,Free,within 400m,Good,beyond 800m,-,
+561,01.13.01.010.077,481021.8348,4625444.916,National Bureau of Expertise of Levan Samkharauli,"Nodar Bokhua St., N 23",National Bureau of Forensic Expertise named after Levan Samkharauli State SSI,Government/Police,Yes,Marked,,28,,8,Free,within 400m,Good,beyond 800m,-,
+562,01.13.01.010.055,480959.2869,4625445.036,National Bureau of Expertise of Levan Samkharauli,"Nodar Bokhua St., N 25",State,Government/Police,Yes,Marked,,30,,20,Free,within 400m,Good,beyond 800m,-,
+563,01.13.01.010.085,480969.9183,4625525.946,National Enforcement Bureau of the Ministry of Justice of Georgia,"Davit Aghmashenebli alley, N 99",State,Government/Police,Yes,Marked,,170,,55,Free,within 400m,Good,beyond 800m,-,
+564,01.13.01.015.128    01.13.01.015.127,481150,4625300,Ghudushauri clinic,"Nodar Bokhua St., N 12/Lubliana St., N 66","LLC ""National Medical Center named after Academician O. Ghudushauri""",Hotel & Casino,Yes,Unmarked,,,5200,200,Paid,within 400m,Good,beyond 800m,-,"The first 15 minutes of entry are free. Parking for 1 hour is 2 GEL, each additional hour is 1 GEL."
+565,01.13.01.015.115,481094.037,4625147.799,Dynamo Academy," Lubliana St., N 62a","Joint Stock Company ""VTB Bank Georgia""",Entertainment & Recreation,Yes,Unmarked,1270,48,,,Free,within 400m,Good,beyond 800m,-,
+566,01.13.01.018.425,481261.7835,4624927.623,warm house," Lubliana St., N 56","LLC ""Warm House""",Retail,Yes,Unmarked,,,676,26,Free,within 400m,Good,beyond 800m,-,
+567,01.13.01.010.089,481250.2134,4625447.921,"T. Tsertsvadze Infectious Diseases, AIDS and Clinical Immunology Research Center"," Lubliana St., N 70",Joint-stock company Scientific-practical center of infectious pathology AIDS and clinical immunology,Hospital & Medical,Yes,Marked,,,,25,Free,within 400m,Bad,beyond 800m,-,10 above the ground and 15 underground parking
+568,01.13.01.010.080,481101.609,4625424.028,Lidermed Clinic,"Nodar Bokhua St., N 21","LLC ""In Vitro Fertilization Center""",Hospital & Medical,Yes,Marked,,,,15,Free,within 400m,Bad,beyond 800m,-,
+569,01.13.01.015.130,481240.7759,4625175.404,Tbilisi Heart and Vascular Clinic," Lubliana St., N 64","LLC ""Tbilisi Heart and Vascular Clinic""",Hospital & Medical,Yes,Unmarked,,,338,13,Free,within 400m,Bad,beyond 800m,-,
+570,01.13.01.018.405,481270.0457,4624723.668,City Physio," Lubliana St., N 30","""Piano"" LLC",Hospital & Medical,Yes,Marked,,,,8,Free,within 400m,Bad,beyond 800m,-,
+571,01.13.02.010.032,481421.6529,4624082.856,TV imedi," Lubliana St., N 56","""Georgian Media Production Group"" LLC",Other,Yes,Unmarked,6240,240,,,Free,within 400m,Bad,beyond 800m,-,
+572,01.13.02.010.114,481525.5663,4624054.793,Georgian film,"Sandro Akhmeteli St., N 10a/Lubliana St., N 1","""Georgian Film-Real Estate"" LLC",Other,Yes,Unmarked,,,10400,400,Free,within 400m,Bad,beyond 800m,-,
+573,01.10.13.001.029,481006.193,4620450.602,Bank of Georgia,"Heidar Alievi Bank., N 4","Joint Stock Company ""Bank of Georgia""",Commercial,Yes,Marked,,,,260,Free,within 400m,Bad,beyond 800m,-,
+574,01.10.13.003.020,481173.0931,4620012.379,silk net,"Heidar Alievi Bank., N 7","Joint Stock Company ""Silknet""",Commercial,Yes,Marked,,51,,,Free,beyond 400m,-,beyond 800m,-,
+575,01.10.13.003.049,481230.4981,4619905.974,McDonald's,"Gotua st., N 7","LLC ""T. and K. Restaurants""",Entertainment & Recreation,Yes,Marked,,,,22,Free,beyond 400m,-,beyond 800m,-,
+576,01.10.13.016.021,481337.018,4619723.81,Lukoil,"Heidar Alievi Bank., N 11","""Lukoil Georgia"" LLC",Other,Yes,Unmarked,,,2288,88,Free,beyond 400m,-,beyond 800m,-,
+577,01.72.14.034.170    01.72.14.034.188,,,Cesko,Village Dighomi,State,Government/Police,Yes,Marked,,115,,,Free,within 400m,Bad,beyond 800m,-,
+578,01.72.14.034.182    01.72.14.034.526   01.72.14.034.600   01.72.14.034.240,480550,4625500,Security Police,"Levan Firtskheliani St., N 1","State LLC ""Asset Management and Development Company"".",Government/Police,Yes,Marked,,323,,,Free,within 400m,Bad,beyond 800m,-,
+579,01.14.05.006.101,476056.8349,4619008.137,The surrounding area of ​​Magti,"Ana Politkovskaia St., N 11",Alex Aptsiauri,Other,Yes,Unmarked,,,1040,40,Paid,within 400m,Good,beyond 800m,-,5 GEL
+580,01.14.05.006.044,476119.7787,4618823.743, Degusto,"Ana Politkovskaia St., N 7a",Eldar Mildian,Commercial,Yes,Marked,,33,,,Free,within 400m,Good,within 800m,Bad,
+581,01.14.05.006.050    01.14.05.006.053   01.14.05.006.017,476075,4618875,The back of the mag,"Ana Politkovskaia St., N 13b","""Magticom"" LLC",Commercial,Yes,Marked,,,,30,Free,within 400m,Good,beyond 800m,-,
+582,01.14.05.006.118,475867.3131,4618964.118,public broadcaster,"Ana Politkovskaia St., N 31","JSC ""Public Broadcaster""",Other,No,Unknown,N/A,N/A,N/A,N/A,Free,within 400m,Average,beyond 800m,-,
+583,01.14.05.006.128,475848.4777,4618819.212,Near Geology Institute,"Ana Politkovskaia St., N 31a",Tbilisi Municipality,Education,Yes,Unmarked,,,572,22,Free,within 400m,Bad,beyond 800m,-,Municipal parking lot next to the Institute of Geology (01.14.05.006.117)
+584,01.14.05.005.020,475653.323,4619157.27,Institute of Chemistry named after Rafiel Eristavi,"Mindeli st., N 9",State,Education,Yes,Marked,,70,,,Free,within 400m,Average,beyond 800m,-,
+585,01.14.01.008.002,475818.138,4619292.453,Ilya Vekua Institute of Physics and Mathematics of Sukhumi,"Mindeli st., N 7, (area 08/002)",State,Education,Yes,Marked,2600,121,,,Free,within 400m,Good,beyond 800m,-,
+586,01.14.05.006.139,476089.4385,4619082.356,Rustavi 2,"Sandro Euli st., N 5a, (area 06/056)","Broadcasting Company ""Rustavi 2"" LLC",Other,No,Unmarked,3900,150,,,Free,within 400m,Bad,within 800m,Bad,
+587,01.14.05.007.159,476393.8449,4619180.1,Tatishvili Clinic,"Sandro Euli st., N 7","LLC ""Al-G""",Hospital & Medical,Yes,Marked,,,182,16,Free,within 400m,Bad,within 800m,Bad,
+588,01.14.05.007.223,476320.9876,4619139.823,Inova,"Zurab Anjafaridze st., turn II, N 6.",Inova Ltd,Hospital & Medical,Yes,Marked,,,,34,Paid,within 400m,Bad,within 800m,Bad,"15 minutes free, the first 1 hour is 2 GEL, each next hour is 1 GEL."
+589,01.14.05.007.218,476348.5328,4619084.705,Tetris,"Zurab Anjafaridze st., turn I, N 3","Apartment unit owners
+LLC ""Tetris""",Mixed-use,Yes,Marked,,,,138,Paid,within 400m,Good,within 800m,Good,"Entrance 3 GEL, each next 1 GEL."
+590,01.14.05.007.005,476436.943,4618915.162,Energy Pro,"Zurab Anjafaridze st., N 19","Joint Stock Company ""Energo-Pro Georgia""",Commercial,Yes,Marked,,68,,,Free,within 400m,Good,within 800m,Good,
+591,01.14.05.007.723,476485.1291,4618821.966,Opposite the TV of the Patriarchate,"Nearby Zurab Anjafaridze st., N 20.",State,Other,Yes,Marked,,22,,,Free,within 400m,Good,within 800m,Good,It is closed with a barrier and is used by the TV of the Patriarchate
+592,01.14.05.007.211,476378.086,4618854.018,near by to Energy Pro,"Zurab Anjafaridze st.,  N 22",Sandro Euli Ltd,Mixed-use,Yes,Unmarked,,,650,25,Free,within 400m,Bad,within 800m,Bad,
+593,01.14.05.008.330   01.14.05.008.273,476210,4618630,Multidisciplinary clinic Consilium Medula,"Ana Politkovskaia St., N 6g","LLC ""Multi-Profile Clinic Consilium Medula""",Hospital & Medical,Yes,Unmarked,,,676,23,Free,within 400m,Good,within 800m,Bad,
+594,01.14.05.008.184,476146.143,4618665.781,Traffic science,"Ana Politkovskaia St., N 8b",State,Government/Police,Yes,Unmarked,910,35,,,Free,within 400m,Good,within 800m,Bad,
+595,01.14.05.008.075,476147.5171,4618721.098,Moto garage backyard,"Ana Politkovskaia St., N 8b",State,Service industry,Yes,Unmarked,,,1820,70,Free,within 400m,Good,within 800m,Bad,
+596,01.14.05.008.217,475991.3033,4618761.233,Tbc training center,"Ana Politkovskaia St., N 14a","LLC ""Ten""",Commercial,Yes,Marked,,15,,,Free,within 400m,Good,beyond 800m,-,
+597,01.14.05.008.030,476503.8287,4618611.166,Smart,"Zurab Anjafaridze st., N 35","Emzar army
+Irine Shavladze
+Mariam Sara Lashkhi",Other,Yes,Marked,,,,4,Free,within 400m,Bad,within 800m,Bad,Only for customers
+598,01.14.06.006.102,476619.856,4618476.556,Agro Hub,"University Street, N 39","""Elite Invest"" LLC",Mixed-use,Yes,Marked,,102,,67,Paid,within 400m,Good,within 800m,Bad,"15 minutes free, in case of 25L purchase 90 minutes free. Every next hour 3 l. 00:00-09:00 1 hour 1 l."
+599,01.14.06.006.133,476785.5411,4618350.566,TSU 11,"University Street, (area 06/020)",SSI Ivane Javakhishvili Tbilisi State University,Education,Yes,Unmarked,,,1378,53,Free,within 400m,Good,beyond 800m,-,"Parking is irregular. Many cars are parked in the green lane, which are not included in the total"
+600,01.14.06.006.116,477245.6591,4618220.93,TSU library,"University Street, (area 06/020)","Ivane Javakhishvili Tbilisi State University, ""Asset Management and Development Company"" LLC  ",Education,Yes,Unmarked,,,2210,85,Free,within 400m,Good,beyond 800m,-,
+601,01.14.06.008.017,478427.4922,4618529.292,Arena 2,"University Street, N 6, ( area 08/017)","LLC ""Arena"" LLC ""Hausart Arena""",Entertainment & Recreation,Yes,Unmarked,,,728,28,Free,within 400m,Good,beyond 800m,-,
+602,01.14.06.008.024,478525.8487,4618545.759,Arena,"University Street, N 8","LLC ""Arena"" LLC ""Hausart Arena""",Entertainment & Recreation,Yes,Marked,,,757,56,Paid,within 400m,Good,beyond 800m,-,Only for customers
+603,01.14.06.008.146,477953.3508,4618445.835,Mercedes center,"University Street, N 6","LLC ""Aka""",Service industry,Yes,Unmarked,,,3250,125,Free,within 400m,Good,beyond 800m,-,
+604,01.14.06.008.378,478023.8867,4618452.416,Volvo Center,"University Street, N 6 , (area N8/65)",Tegeta-Motors LLC,Service industry,Yes,Marked,,,,50,Free,within 400m,Good,beyond 800m,-,
+605,01.14.06.008.136,478082.6603,4618459.313,Toyota Center,"University Street, N 6 , (area N8/53)","""Sport-Business"" LLC ""Toyota Center Tegeta"" LLC",Service industry,Yes,Marked,,,,50,Free,within 400m,Good,beyond 800m,-,
+606,01.14.06.008.027,478290.54,4618555.669,Greenway,"University Street, N 6",JSC Greenway Georgia,Service industry,Yes,Marked,,,,15,Free,within 400m,Good,beyond 800m,-,
+607,01.14.06.008.351,478651.5933,4618654.585,Financial police nearby,"University Street, N 2, (area 08/081)",State,Other,Yes,Marked,,,,50,Free,within 400m,Good,beyond 800m,-,
+608,01.14.06.008.021,478613.8742,4618571.302,Financial police,"University Street, N 2, (area 08/021)",State,Government/Police,No,Marked,,67,,,Free,within 400m,Good,beyond 800m,-,
+609,01.14.14.005.248    01.14.14.005.156,481370,4617800,Octopus,"Chabua Amirejibi Highway, N 2","LLC ""Gamma""",Mixed-use,Yes,Marked,,,,140,Paid,beyond 400m,-,beyond 800m,-,Parking in the territory is transferred to the cadastre owned by the municipality (01.14.14.005.156). The building has an underground parking which is locked and we could not physically enter it.
+610,01.14.14.005.300,480699.9809,4617924.158,Police,"Nino Ramishvili St., N 39",State,Government/Police,Yes,Marked,,50,,,Free,beyond 400m,-,beyond 800m,-,
+611,01.14.04.030.044,477362.6855,4618516.142,Palace of Sports,"University Street, N 15a","LLC ""Sportmshenservice""",Entertainment & Recreation,Yes,Marked,,,,200,Free,within 400m,Bad,beyond 800m,-,
+612,01.14.14.005.233,480518.9736,4617945.199,Tennis courts,"Nino Ramishvili St., N 20",State,Entertainment & Recreation,Yes,Marked,,,,50,Free,beyond 400m,-,beyond 800m,-,
+613,01.14.14.004.050,480203.5806,4617777.469,9th hospital,"Ilia Chavchavadze avenue, N 29-31-33, (area 04/022)","LLC ""University Clinic named after S. Khechinashvili"".",Hospital & Medical,Yes,Marked,,25,,64,Paid,within 400m,Bad,beyond 800m,-,"Entrance 3 GEL, each next hour 1 GEL"
+614,01.18.03.046.038,483983.8544,4615629.939,Adjacent to Shangri-La,"Between the right bank of the Mtkvari and Erekle II Turn, ( area 46/038 )",Tbilisi Municipality,Hotel & Casino,Yes,Marked,,,,16,Paid,within 400m,Good,beyond 800m,-,man is standing and collecting parking fee. Fee is unknowen
+615,01.18.03.046.039,483983.8088,4615657.209,Adjacent to Shangri-La,"Between the right bank of the Mtkvari and Erekle II Turn, (area 46/039)",Tbilisi Municipality,Hotel & Casino,Yes,Unmarked,,,156,6,Paid,within 400m,Good,beyond 800m,-,man is standing and collecting parking fee. Fee is unknowen
+616,01.18.03.015.046 01.18.03.015.047,483970,4616010,in front of Ambassador Hotel,"City Tbilisi, on the right bank of the Mtkvari River, near the ""Ambassador"" hotel",Tbilisi Municipality,Hotel & Casino,Yes,Unmarked,,,806,31,Free,within 400m,Average,beyond 800m,-,
+617,01.13.02.008.199,481992.3775,4625001.857,Chevrolet service center,"Nearby Beliashvili st.,  N 123a",Tbilisi Municipality,Service industry,Yes,Unmarked,,,1040,40,Free,within 400m,Bad,beyond 800m,-,
+618,01.13.02.003.120,481907.9568,4625074.771,Swiss capital,"Beliashvili st., nearby area in front of Mion.","""Bel"" Ltd.",Service industry,Yes,Unmarked,,,1976,76,Free,within 400m,Bad,beyond 800m,-,
+619,01.13.02.004.086 01.13.02.004.087,481750,4625350,Adjacent to Ultra,"Nodar Bokhua St., N 4","""Electronic Technologies"" LLC",Commercial,Yes,Marked,,,,150,Paid,within 400m,Good,beyond 800m,-,The first one hour is free. Two hours 2  GEL the next hour 1 GEL from 10:00 to 24 hours 10 GEL from 19:00 to 9:00 AM 3 GEL
+620,01.13.02.004.029,481734.7699,4625293.585,Near by Mioni Center,"Nodar Bokhua St., N 6","Gela Drezidze, Davit Katashvili, Dali Tevzadze,Vladimir Sturua
+Zurab Katashvili, Teymuraz is a scandal
+Irakli Koberidze
+Irakli Ghachava
+Lali Kavtaradze
+Levan Tevdorashvili
+Malkhaz Zaalishvili
+Samvel Agikian
+Ketevan Gujabidze
+Ultra+ Ltd",Commercial,Yes,Unmarked,,,310,62,Free,within 400m,Good,beyond 800m,-,Parking is calculated by meter (parallel parking)
+621,01.11.12.018.840,484356.6425,4626436.562,Next to the gas outlet,"T. Sheshelidze St, No. 114",Gogi Bolkvadze,Other,Yes,Unmarked,,,390,15,Free,within 400m,Good,within 800m,Good,
+622,01.10.06.011.098,480589.3016,4626379.226,goodwill,"King Farnavaz avenue, N 1-N 1a","""Autograph Mall"" Ltd.",Commercial,Yes,Marked,,,,170,Free,within 400m,Good,beyond 800m,-,
+623,01.13.07.022.095,482868.9266,4619007.611,Tbilisi Transport Company,"Giorgi Cabadze St., N 17a","State
+Tea Giorgadze
+Teymuraz Grigolia
+LSI self-governing city, Tbilisi municipality
+LLC ""Asset Management and Development Company""",Government/Police,Yes,Marked,,43,,,Free,within 400m,Good,within 800m,Good,
+624,01.10.15.007.149,479864.8204,4619487.164,Zonal parking lot A1128,"Nearby Vazha Pshavela Avenue, N 29,  (area 07/114)",Tbilisi Municipality,Other,Yes,Marked,,,,22,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A1128
+625,01.10.15.007.153,479871.9686,4619480.521,Zonal parking lot A1128,"Nearby Vazha Pshavela Avenue, N 29.",Tbilisi Municipality,Other,Yes,Marked,,,,20,Paid,within 400m,Good,within 800m,Good,Zonal parking lot A1128
+626,01.17.13.045.217,485922.5524,4614872.006,near Dolabauri Square,Bochorma st. N25,"""Avlabari Development"" LLC",Other,Yes,Unmarked,,,2340,90,Free,within 400m,Good,within 800m,Good,(vacant)
+627,01.16.01.020.019,483260.6002,4617936.807,Adjacent to Silknet,"Tsinamdzghvrishvili st., N 93/95","JSC ""Silknet"" JSC ""Your House"" LLC ""Eureka TV and Radio Company""",Mixed-use,Yes,Unmarked,,,650,25,Free,within 400m,Good,within 800m,Bad,This area is not registered.
+628,01.17.01.005.007,484744.1549,4616223.383,The entrance to the Armenian cemetery,"Samreklo St., N 19","LLC ""Patriarchy of Georgia""",Other,Yes,Unmarked,,,1742,67,Free,beyond 400m,-,beyond 800m,-,
+629,01.15.03.018.005,482111.2992,4617397.245,Chachava Clinic,"Merab kostava St., N 38","Joint Stock Company ""Chachava Clinic""",Hospital & Medical,Yes,Unmarked,,,780,30,Free,within 400m,Good,within 800m,Good,
+630,01.15.02.002.022,481647.728,4617460.186,Zonal parking lot A255,"Nearby Tea House, (area 2/22)",Tbilisi Municipality,Other,Yes,Marked,,,,20,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A255
+631,01.15.02.002.022,481647.728,4617460.186,Zonal parking lot A256,"Nearby Tea House, (area 2/22)",Tbilisi Municipality,Other,Yes,Marked,,,,3,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A256
+632,01.15.02.002.022,481647.728,4617460.186,Zonal parking lot A257,"Nearby Tea House, (area 2/22)",Tbilisi Municipality,Other,Yes,Marked,,,,6,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A257
+633,01.15.02.002.022,481647.728,4617460.186,Zonal parking lot A258,"Nearby Tea House, (area 2/22)",Tbilisi Municipality,Other,Yes,Marked,,,,10,Paid,within 400m,Good,beyond 800m,-,Zonal parking lot A258
+634,01.10.13.031.006,481432.7844,4618766.882,Shopping center TC,"Merab kostava St., N 70 / Pekini Avenue, N 5.",State,Commercial,Yes,Marked,,,,125,Paid,within 400m,Good,within 800m,Good,9-21 hours 1 hour 2 GEL. 3 GEL for 12 hours until 9:00 p.m.
+635,01.13.05.002.072   01.13.05.002.111,481340,4621130,Citadel,"Rafiel Agladze St., N 69","LLC ""Citadel""",Commercial,Yes,Marked,,,,24,Free,beyond 400m,-,beyond 800m,-,
+636,01.13.05.005.053,481748.2955,4620250.753,In front of Taha Plaza,"Rafiel Agladze St., N 31",Imeda Kakhian,Service industry,Yes,Unmarked,,,1300,50,Paid,beyond 400m,-,beyond 800m,-,"Day time 5 GEL, 24 hours 10 GEL"
+637,01.13.05.005.064  01.13.05.005.054,481700,4620290,In front of Taha Plaza,"Rafiel Agladze St., N 35","""Babu"" LLC",Service industry,Yes,Unmarked,,,2990,115,Paid,beyond 400m,-,beyond 800m,-,"Day time 5 GEL, 24 hours 10 GEL"
+638,01.13.01.022.245,480893.0772,4624159.184,Navne,"Davit Aghmashenebli alley, N 39","Joint Stock Company ""Nikora""",Commercial,Yes,Unmarked,,,390,15,Free,within 400m,Bad,beyond 800m,-,
+639,01.13.01.022.236,480841.4392,4624165.186,in front of Navne,"Nearby Davit Aghmashenebli alley,","LLC ""Asset Management and Development Company""",Other,Yes,Unmarked,,,533,20,Free,within 400m,Bad,beyond 800m,-,
+640,01.13.03.010.228,481751.5623,4623045.974,Tumbo,"Akaki Beliashvili St., N 23.","""Iceland"" LLC",Retail,Yes,Unmarked,,,208,8,Free,within 400m,Good,beyond 800m,-,
+641,01.13.01.019.054,480852.337,4624669.996,Savse,"Davit Aghmashenebli alley, N 63","""Giorgi 2014"" LLC",Retail,Yes,Unmarked,,,780,36,Free,within 400m,Bad,beyond 800m,-,
+642,01.13.01.018.380,480855.5147,4624786.342,McDonald's,"Davit Aghmashenebli alley, N 69","""T and K Restaurants"" LLC",Entertainment & Recreation,Yes,Marked,,,,25,Free,within 400m,Bad,beyond 800m,-,
+643,01.13.01.018.714   01.13.01.018.709,480860,4624850,ideal,"Davit Aghmashenebli alley, N 71","""Demas"" LLC",Retail,Yes,Marked,,,,40,Free,within 400m,Bad,beyond 800m,-,
+644,01.13.01.018.369,480816.5978,4624903.674,front of the ideal shop,,Tbilisi Municipality,Retail,Yes,Unmarked,,,296,11,Free,within 400m,Bad,beyond 800m,-,
+645,01.10.07.007.013,479049.2388,4626864.854,In front of the bus parking lot,"Demetre Tavdadebuli St., N 36","LLC ""Tbilisi Transport Company""",Other,Yes,Marked,,,,120,Free,within 400m,Good,beyond 800m,-,
+646,01.10.06.022.004  01.10.06.022.005,479410,4627150,National Bureau of Enforcement,"Demetre Tavdadebuli St., N 32",State,Government/Police,Yes,Marked,,,,132,Free,within 400m,Bad,beyond 800m,-,
+647,01.10.08.005.133,478202.8484,4626691.872,Georgian Packaging,"King Archili St., N 1","""Georgian Packaging"" LLC",Service,Yes,Marked,,,,40,Free,within 400m,Good,beyond 800m,-,
+648,01.10.08.005.075,478452.5305,4626226.723,Diesel engine,"King Miriani St., N 83","Teimuraz Tskhomariya,
+Zhana Tskhomariya",Commercial,Yes,Unmarked,,,728,28,Free,within 400m,Good,beyond 800m,-,
+649,01.10.08.006.066,478716.0467,4626211.733,magnet,"King Miriani St., N 71","LLC ""Rehabilitation""",Mixed-use,Yes,Marked,,,,10,Free,within 400m,Good,beyond 800m,-,
+650,01.10.08.005.108,478902.2667,4626213.392,Near the Bank of Georgia,"Nearby King Miriani St., N 55.","LSI self-governing city, Tbilisi municipality",Service,Yes,Unmarked,,,156,6,Free,within 400m,Good,beyond 800m,-,
+651,01.72.14.034.416,480674.2645,4625855.798,Dio,"Village Dighomi, Farsadani St., N 3.","""Dio"" LLC",Commercial,Yes,Marked,,,,19,Free,within 400m,Good,beyond 800m,-,
+652,01.72.14.034.434,480622.5915,4625856.657,Beko,"Village Dighomi, Farsadani St., N 5.","""Technohouse"" LLC",Commercial,Yes,Marked,,,,22,Free,within 400m,Good,beyond 800m,-,
+653,01.72.14.034.723,480570.9054,4625857.45,Midea,"Village Dighomi, Farsadani St.,  N 7.",Kakha Gabrichidze,Commercial,Yes,Marked,,,,35,Free,within 400m,Good,beyond 800m,-,
+654,01.72.14.055.044,480749.5175,4625628.091,Greenway,"Davit Aghmashenebeli alley, N 164","Joint Stock Company ""Greenway Georgia""",Service,Yes,Marked,,,,8,Free,within 400m,Good,beyond 800m,-,
+655,01.72.14.055.045,480745.6807,4625570.115,Lexus Tbilisi,"Davit Aghmashenebeli alley, N 160","LLC ""LT""",Service industry,Yes,Marked,,,,45,Free,within 400m,Good,beyond 800m,-,
+656,01.72.14.013.670,481150.7451,4626582.458,Tegeta Motors,"Davit Aghmashenebeli alley, N 137a",Tegeta Motors LLC,Service industry,Yes,Marked,,,,316,Free,within 400m,Bad,beyond 800m,-,
+657,01.72.14.013.442,481038.3934,4626469.355,Tegeta Motors,"Davit Aghmashenebeli alley, N 129",Tegeta Motors LLC,Service industry,Yes,Marked,,,,275,Free,within 400m,Bad,beyond 800m,-,"Parking is divided into two parts. 75 is on the side of the road, 200 at the back yard."
+658,01.72.14.013.841,481014.7321,4626620.451,Zeekr Georgia,"Davit Aghmashenebeli alley, N 137a","LLC ""Electron""",Service industry,Yes,Unmarked,,,6630,255,Free,within 400m,Bad,beyond 800m,-,
+659,01.72.14.013.046  01.72.14.013.047,481025,4626275,Behind Elgro Motors,"John (Malkhaz) Shalikashvili St., N 4z","LLC ""International Corporation Ai Si Ar""",Other,Yes,Marked,,,,57,Free,within 400m,Bad,beyond 800m,-,
+660,01.72.14.035.616,480041.2436,4626106.201,Hope Clinic,"Village Dighomi, Vepkhistkaosani St., N 38","LLC ""Imedi Clinic""",Hotel & Casino,Yes,Marked,,,,20,Free,within 400m,Bad,beyond 800m,-,
+661,01.72.14.035.932,480028.1486,4626148.284,in front of Imedi Clinic,"Village Dighomi, Big dighomi.","LLC ""Ellis""",Other,Yes,Unmarked,,,1200,46,Free,within 400m,Bad,beyond 800m,-,(vacant)
+662,01.10.09.002.003,480753.9625,4625727.854,Restaurant Fortuna,"Davit Aghmashenebeli alley, N 170","Nunu Grigalashvili, Onise Grigalashvili, Paata Chipashvili",Entertainment & Recreation,Yes,Unmarked,,,520,20,Free,within 400m,Good,beyond 800m,-,
+663,01.72.14.034.551,480721.6348,4623362.499,Belux,"Davit Aghmashenebeli alley, N 2","Teimuraz Dolidze, Mamuka Dolidze",Retail,Yes,Marked,,,,35,Free,within 400m,Bad,beyond 800m,-,Underground parking is 25 and above ground 10.
+664,01.72.14.034.833,480706.6754,4623313.025,Belux,"Marshal Gelovani Avenue, N 74",Teimuraz Dolidze,Retail,Yes,Marked,,,,8,Free,within 400m,Bad,beyond 800m,-,
+665,01.72.14.032.447,480423.3546,4624524.159,Flower shop,"Village Dighomi, Rostevani St., N 57",Avtandil Kobauri,Mixed-use,Yes,Unmarked,,,870,33,Paid,within 400m,Bad,beyond 800m,-,3 GEL
+666,01.11.03.008.103,483110.6545,4629239.898,All-pi metal,"Libani St., N 6g","LLC ""All-Pi Real Estate""",Retail,Yes,Unmarked,,,640,24,Free,within 400m,Good,beyond 800m,-,
+667,01.10.14.013.044,480771.475,4619373.042,Saburtalo business center,Pekini Avenue N 34/Aleksandre Kazbegi Avenue N 2a,"LLC ""Business Center Saburtalo""",Mixed-use,Yes,Marked,,,,65,Free,within 400m,Good,within 800m,Average,
+668,01.14.03.042.126,478549.764,4618707.218,Cure,"Otar Lortkifanidze St., N 31","Joint Stock Company ""Curacio""",Hospital & Medical,Yes,Marked,,,,45,Free,within 400m,Good,beyond 800m,-,
+669,01.14.01.007.214,476484.1944,4619675.517,Jordan Medical Center,"Ermile Bedia St., N 33","LLC ""Development Center""",Hospital & Medical,Yes,Marked,,,,80,Free,within 400m,Good,beyond 800m,-,
+670,01.14.03.038.071  01.14.03.038.067,,,City Mall,"Petre Kavtaradze St., N 1","""IG Development Georgia"" LLC",Commercial,Yes,Marked,,,,850,Paid,within 400m,Good,within 800m,Average,"First 15 minutes free. One hour or less 1 GEL and each next hour 2 GEL. 12 hours 40 GEL and after 12 hours of parking, each next hour 5 GEL."
+671,01.10.14.015.025,480039.6065,4619240.235,City Service of Transport,"Mitskevichi st., N 29-29a, (area N15/25)","Aya Panjikidze, Giorgi Drezheshvili, Nora Drezheshvili, Municipality of the city of Tbilisi, LLC ""Medproject""",Government/Police,Yes,Marked,,25,,,Free,within 400m,Good,within 800m,Bad,
+672,01.10.14.015.038,480092.5897,4619279.297,Maternal and Child Health Center,"Aleksandre kazbegi avenue, N 14b","LLC ""Mother and Child Health Center""",Hospital & Medical,Yes,Unmarked,542,20,,,Free,within 400m,Good,within 800m,Bad,
+673,01.10.14.015.047,480322.2068,4619326.062,Ministry of Regional Development and Infrastructure of Georgia,"Aleksandre kazbegi Avenue, N 12","Anna Khmiadashvili, Tamar Khmiadashvili, Salome Khmiadashvili, Ketevan Khmiadashvili, State
+Joint Stock Company S.S. TBC Bank
+""Idilia"" LLC
+LLC ""Asset Management and Development Company""
+Spektri LLC ",Government/Police,No,Marked,,25,,,Free,within 400m,Good,within 800m,Good,
+674,01.72.14.034.180,480737.2791,4625497.131,Restaurant La Grande,"Davit Aghmashenebeli alley, N 154","""Lakada"" LLC",Entertainment & Recreation,Yes,Unmarked,,,1006,38,Free,within 400m,Bad,beyond 800m,-,
+675,01.72.14.034.467,480740.4817,4625448.076,Mazda Center,"Davit Aghmashenebeli alley, N 152","LLC ""Ifkli""",Service industry,Yes,Unmarked,,,764,29,Free,within 400m,Bad,beyond 800m,-,
+676,01.72.14.034.596,480728.813,4625271.675,NewDesign Trade Center,"Davit Aghmashenebeli alley, N 128","""Giorgi-2004"" LLC",Retail,Yes,Marked,,,,12,Free,within 400m,Bad,beyond 800m,-,
+677,01.72.14.034.693,480731.6071,4625125.816,doka,"Davit Aghmashenebeli alley, N 122","LLC ""Capital Company 1""",Retail,Yes,Marked,,,,11,Free,within 400m,Bad,beyond 800m,-,
+678,01.72.14.034.731,480663.4808,4624879.785,Former BMW center,"Davit Aghmashenebeli alley, N 104","""Sarda Georgia"" LLC",Service industry,Yes,Marked,,,,50,Free,within 400m,Bad,beyond 800m,-,
+679,01.72.14.034.532,480540.8666,4624895.218,Behind the former BMW center,"Village Digomi, Grigol Chkhikvadze I alley, N 2",Zaza Okuashvili,Other,Yes,Marked,,,,31,Free,within 400m,Bad,beyond 800m,-,
+680,01.72.14.034.864,480697.0805,4624353.487,Geo Auto,"Davit Aghmashenebeli alley, N 54","""Geo Auto 1"" Ltd.",Service industry,Yes,Unmarked,830,31,,,Free,within 400m,Bad,beyond 800m,-,
+681,01.72.14.034.708,480727.7786,4624154.353,Embawood,"Davit Aghmashenebeli alley, N 44",Alexey Kolinov,Retail,Yes,Unmarked,,,446,17,Free,within 400m,Bad,beyond 800m,-,
+682,01.72.14.034.281,480723.5411,4624039.305,Furniture showroom Castello,"Davit Aghmashenebeli alley, N 40","""SINA"" LLC",Retail,Yes,Marked,,,,6,Free,within 400m,Bad,beyond 800m,-,
+683,01.72.14.034.021,480718.1354,4624014.747,Veneto design,"Davit Aghmashenebeli alley, N 38","Ltd. ""Giiti""",Retail,Yes,Marked,,,,6,Free,within 400m,Bad,beyond 800m,-,
+684,01.72.14.034.026,480738.5395,4623868.993,Bellona,"Davit Aghmashenebeli alley, N 32",DC Construction Ltd,Retail,Yes,Unmarked,,,358,13,Free,within 400m,Bad,beyond 800m,-,
+685,01.72.14.034.625,480739.7128,4623778.458,Elite Bohemia,"Davit Aghmashenebeli alley, N 26",Irina Basilidze,Retail,Yes,Unmarked,,,110,4,Free,within 400m,Bad,beyond 800m,-,
+686,01.72.14.034.580,480739.6329,4623747.698,Laksher,"Davit Aghmashenebeli alley, N 24","""Laksher"" LLC",Retail,Yes,Marked,,,,10,Free,within 400m,Bad,beyond 800m,-,
+687,01.72.14.034.534,480740.3445,4623720.858,Teka,"Davit Aghmashenebeli alley, N 22","Giorgi Lekvtadze,                                                Shota Lekvtadze.",Retail,Yes,Marked,,,,3,Free,within 400m,Bad,beyond 800m,-,
+688,01.72.14.034.512,480741.0938,4623703.537,Belarusian furniture,"Davit Aghmashenebeli alley, N 20","Giorgi Lekvtadze,                                                Shota Lekvtadze.",Retail,Yes,Marked,,,,7,Free,within 400m,Bad,beyond 800m,-,
+689,01.72.14.034.513,480742.0248,4623684.384,magnet,"Davit Aghmashenebeli alley, N 18","""Solid Square"" LLC",Retail,Yes,Unmarked,,,74,3,Free,within 400m,Bad,beyond 800m,-,
+690,01.72.14.034.702,480743.6584,4623661.796,Wallpaper,"Davit Aghmashenebeli alley, N 16","""Solid Square"" LLC",Retail,Yes,Marked,,,,7,Free,within 400m,Bad,beyond 800m,-,
+691,01.72.14.034.701,480745.2458,4623636.575,KUPPERSBERG,"Davit Aghmashenebeli alley, N 14","LLC ""Studio 21""",Retail,Yes,Marked,,,,8,Free,within 400m,Bad,beyond 800m,-,
+692,01.14.05.007.543,476186.9846,4618859.344,Your house on the hill,"Anna Politkovskaya Str, N 3g","LLC ""G & G Invest""
+LLC ""J3""",Mixed-use,Yes,Marked,,,,55,Paid,within 400m,Good,within 800m,Good,Paid parking is intended only for local residents or owners of commercial premises. Monthly or annual fee
+693,01.10.17.041.016,481497.2161,4618330.919,Gepei I Corps,"Kostava St., N 68 (area 041/016)",Technical University of Georgia,Education,Yes,Unmarked,,,4420,170,Free,within 400m,Good,within 800m,Good,
+694,01.15.04.012.015,482921.3047,4616765.771,Biltmore Hotel Tbilisi,"Shota Rustaveli Ave., N 29","""Dabi Group Georgia"" LLC",Hotel & Casino,No,Unknown,4978.9,142,,,Free,within 400m,Good,within 800m,Good,we could not enter. The area of ​​the parking lot is searched on the website of the municipality (4978.9:35=142).
+695,01.14.11.002.035,479894.9093,4617683.29,Hilton Garden Inn Tbilisi Chavchavadze,"Ilia Chavchavadze Avenue, N 64","LLC ""Chavchavadze 64a""",Hotel & Casino,No,Unknown,5177.84,147,,,Free,within 400m,Good,beyond 800m,-,we could not enter. The area of ​​the parking lot is searched on the website of the municipality (5177.84:35=147).
+696,01.14.11.002.036,479845.0229,4617693.789,Hilton Garden Inn Tbilisi Chavchavadze,"Ilia Chavchavadze Avenue, N 64a","LLC ""Chavchavadze 64b""",Hotel & Casino,No,Unknown,4126.04,117,,,Free,within 400m,Good,beyond 800m,-,we could not enter. The area of ​​the parking lot is searched on the website of the municipality (4136.04:35=117).
+697,01.10.08.006.630,479057.7799,4626235.677,G.P.C,"Mirian Mepe St, N 49","""Bina Co"" LLC",Mixed-use,Yes,Marked,,,,50,Free,within 400m,Good,beyond 800m,-,
+698,01.10.13.015.007,481336.6124,4619307.484,Tbilici City Hall ,J. Shartava st. N 5,Tbilisi Municipality,Government/Police,Yes,Marked,,41,,,Free,within 400m,Good,within 800m,Good,
+699,01.10.13.015.127,481311.262,4619359.757,Tbilici City Hall ,J. Shartava st. N 7,Tbilisi Municipality,Government/Police,No,Marked,,14,,,Free,within 400m,Good,within 800m,Good,The municipality gave us the number of parking lots
+700,01.14.14.009.045,481561.6813,4618182.351,Revenue Service,Kostava St. N 68a,Tbilisi Municipality,Government/Police,Yes,Marked,,23,,,Free,within 400m,Good,within 800m,Good,
+701,01.13.02.004.119,481701.9219,4625229.941,Near the Mion Center,Shalva Gogidze St. N 21,"""Teleimedi"" LLC",Other,Yes,Unmarked,,,2400,92,Free,within 400m,Good,beyond 800m,-,
+702,01.13.02.004.191,481768.7469,4625192.422,Near the Mion Center,Akaki Beliashvili St. N 100,"LLC ""Mardieli Beliashvili""",Other,Yes,Unmarked,,,110,42,Free,within 400m,Good,beyond 800m,-,
+703,01.13.02.004.039,481784.5652,4625078.201,Scientific Research Institute of Automation and Computing Technology,Akaki Beliashvili St. N 98,"LLC ""Scientific Research Institute of Automation and Computing""",Other,Yes,Unmarked,,,390,15,Free,within 400m,Good,beyond 800m,-,
+704,01.13.02.004.108,481610.3329,4625000.072,Intellcom Group (warehouse),Shalva Gogidze St. N 5,"Natia Sichinava, Nana Sichinava.",Service industry,Yes,Unmarked,,,1053,40,Free,within 400m,Good,beyond 800m,-,
+705,01.13.02.010.042,481343.32,4624385.676,Nikora,Ljubljana St. N 11,"""Tride"" LLC",Mixed-use,Yes,Unmarked,,,600,23,Free,within 400m,Good,beyond 800m,-,
+706,01.72.14.040.491,478499.0071,4626173.628,"Oils, fluids, accessories","Mirian Mepe St, N 106b","""Santhom"" LLC",Mixed-use,Yes,Unmarked,,,,2,Free,within 400m,Good,beyond 800m,-,
+707,01.72.14.040.490,478509.0391,4626173.66,Zoohouse (veterinary clinic),"Mirian Mepe St, N 106ა",West Developer Ltd,Mixed-use,Yes,Unmarked,,,,2,Free,within 400m,Good,beyond 800m,-,
+708,01.72.14.040.469,478533.8689,4626173.683,Dino,"Mirian Mepe St, N 106","LLC ""Cairo 1""",Mixed-use,Yes,Unmarked,,,,13,Free,within 400m,Good,beyond 800m,-,
+709,01.72.14.040.586,478567.6374,4626174.201,"shop, Discovering the original housewife","Mirian Mepe St, N 104a","""Golden Age"" LLC",Mixed-use,Yes,Unmarked,,,,10,Free,within 400m,Good,beyond 800m,-,
+710,01.72.14.040.585,478595.7386,4626174.158,Credit service,"Mirian Mepe St, N 104","""Golden Age"" LLC",Mixed-use,Yes,Unmarked,,,,3,Free,within 400m,Good,beyond 800m,-,
+711,01.72.14.040.004,478629.9151,4626173.638,clean house,"Mirian Mepe St, N 102","""Golden Age"" LLC",Mixed-use,Yes,Unmarked,,,,11,Free,within 400m,Good,beyond 800m,-,
+712,01.72.14.039.617,478916.2783,4626168.009,PSP,"Mirian Mepe St, N 90","""Geoterra"" Ltd.",Mixed-use,Yes,Unmarked,,,,6,Free,within 400m,Good,beyond 800m,-,
+713,01.72.14.039.573,478936.4504,4626169.886,Pastry didebuli,"Mirian Mepe St, N 88",Ltd. L.N.D. Group,Entertainment & Recreation,Yes,Unmarked,,,,11,Free,within 400m,Good,beyond 800m,-,
+714,01.72.14.039.672,478973.2421,4626162.609,Bsto qimia,"Mirian Mepe St, N 84a","""Co-owners of the apartment unit"", ""Geoterra 1"" LLC",Mixed-use,Yes,Unmarked,,,,16,Free,within 400m,Good,beyond 800m,-,
+715,01.72.14.039.664,479006.9157,4626165.548,Nikora,"Mirian Mepe St, N 84",Biji Group LLC,Mixed-use,Yes,Unmarked,,,,24,Free,within 400m,Good,beyond 800m,-,
+716,01.72.14.039.028,479082.9837,4626171.938,Proclinic. Physical therapy and rehabilitation,"Mirian Mepe St, N 82a",Manana Shakarashvili,Hospital & Medical,Yes,Marked,,,,4,Free,within 400m,Good,beyond 800m,-,
+717,01.72.14.038.099,479227.5891,4626180.166,Repair materials,"Mirian Mepe St, N 80a","LLC ""DELTA""",Retail,Yes,Unmarked,,,,4,Free,within 400m,Good,beyond 800m,-,
+718,01.72.14.038.096,479294.146,4626178.925,Gosselin Mobility  Georgia,"Mirian Mepe St, N 78",Gosselin Mobility Georgia Ltd,Other,Yes,Marked,,,,13,Free,within 400m,Good,beyond 800m,-,
+719,01.72.14.038.094,479404.4459,4626177.907,Gurme,"Mirian Mepe St, N 70",Gurme LLC,Entertainment & Recreation,Yes,Unmarked,,,,10,Free,within 400m,Good,beyond 800m,-,
+720,01.72.14.037.632,479459.5637,4626152.846,Navne,"Mirian Mepe St, N 68a","LLC ""G and T Service""",Retail,Yes,Unmarked,,,1659,63,Free,within 400m,Good,beyond 800m,-,
+721,01.72.14.037.446,479486.5074,4626188.245,Goodfood,"Mirian Mepe St, N 68",Goodfood LLC,Other,Yes,Unmarked,,,440,17,Free,within 400m,Good,beyond 800m,-,
+722,01.72.14.037.042,479529.9907,4626178.854,Luxauto,"Mirian Mepe St, N 64","LLC ""New Force""",Service industry,Yes,Unmarked,,,,15,Free,within 400m,Good,beyond 800m,-,
+723,01.72.14.036.753,479736.6876,4626175.642,free school,"Mirian Mepe St, N 52","Lela Gazdeliani, Manana Gogashvili, Rusudan Gogashvili",Education,Yes,Unmarked,,,312,12,Free,within 400m,Good,beyond 800m,-,
+724,01.72.14.036.673,479781.6787,4626179.16,Hotel Aura,"Mirian Mepe St, N 48","LLC ""Simba 2015""",Hotel & Casino,Yes,Unmarked,,,,6,Free,within 400m,Good,beyond 800m,-,
+725,01.72.14.036.445,479818.7937,4626167.557,Digomi City,"Mirian Mepe St, N 46","""Mamaladze Group"" LLC",Retail,Yes,Marked,,,,57,Free,within 400m,Good,beyond 800m,-,
+726,01.72.14.036.478,479856.3432,4626175.68,Rico Credit Lombard,"Mirian Mepe St, N 44","""Bildart Development"" LLC",Mixed-use,Yes,Marked,,,,7,Free,within 400m,Good,beyond 800m,-,
+727,01.72.14.036.252,479890.8679,4626175.581,Inex group,"Mirian Mepe St, N 42",LLC Sada,Mixed-use,Yes,Unmarked,,,558,21,Free,within 400m,Good,beyond 800m,-,
+728,01.72.14.036.746,479924.9914,4626179.013,Casa Tua,"Mirian Mepe St, N 40",Didi Digomi LLC,Mixed-use,Yes,Unmarked,,,215,8,Free,within 400m,Good,beyond 800m,-,
+729,01.72.14.035.665,480027.2657,4626178.928,Fresco,"Mirian Mepe St, N 28","LLC ""Fresco West Georgia""",Retail,Yes,Marked,,,,23,Paid,within 400m,Good,beyond 800m,-,"15 minutes free, 1.5 hour free for purchase of 5 GEL, then 5 GEL"
+730,01.72.14.036.098,479954.063,4626097.492,Paid parking lot,"Village Digomi, Vepkhistkaosani St, N 42",Janguli Kobelashvili,Other,Yes,Unmarked,,,2500,96,Paid,within 400m,Good,beyond 800m,-,3 GEL (vacant)
+731,01.72.14.036.099,479926.1154,4626098.034,Paid parking lot,"Village Digomi, Vepkhistkaosani St, N 42a","Guram Kobelashvili, Malkhaz Kobelashvili, Tsiuri Abesadze",Other,Yes,Unmarked,,,1178,45,Paid,within 400m,Good,beyond 800m,-,3 GEL (vacant)
+732,01.72.14.036.100,479912.4705,4626098.672,Paid parking lot,"Village Digomi, Vepkhistkaosani St, N 42b",Gulisa Kobelashvili,Other,Yes,Unmarked,,,600,23,Paid,within 400m,Good,beyond 800m,-,3 GEL (vacant)
+733,01.10.06.014.124,480416.9855,4626279.893,magniti,At the intersection of G. Brtsinki and Parnavazi streets,Tbilisi Municipality,Mixed-use,Yes,Unmarked,,,695,26,Free,within 400m,Good,beyond 800m,-,
+734,01.72.14.035.629,480107.4391,4626178.798,Techno Land,"Mirian Mepe St, N 22","LLC ""Forward +""",Other,Yes,Unmarked,,,1981,41,Free,within 400m,Good,beyond 800m,-,
+735,01.72.14.035.440,480154.7802,4626178.687,Dressense,"Mirian Mepe St, N 20","""Lumaq Group"" LLC",Retail,Yes,Unmarked,,,,10,Free,within 400m,Good,beyond 800m,-,
+736,01.72.14.035.345,480184.651,4626178.484,Beauty Center Style,"Mirian Mepe St, N 18",Teymuraz is a scandal,Hospital & Medical,Yes,Unmarked,,,,4,Free,within 400m,Good,beyond 800m,-,
+737,01.10.06.014.071,480415.0518,4626306.895,magniti,"Giorgi Brtskine St, N 2",Jinlong Gao,Mixed-use,Yes,Unmarked,,,400,15,Free,within 400m,Good,beyond 800m,-,

@@ -81,37 +81,43 @@ def prepare_data(df):
         min_s, max_s = out["Total Spots"].min(), out["Total Spots"].max()
         # Avoid zero division
         if max_s == min_s:
-            out["radius_m"] = 50.0 + out["Total Spots"] * 0
+            out["radius_m"] = 45.0 + out["Total Spots"] * 0
         else:
-            # Map [min_s, max_s] -> [40, 300] meters
-            out["radius_m"] = 40.0 + (out["Total Spots"] - min_s) * (300.0 - 40.0) / (max_s - min_s)
+            # Map [min_s, max_s] -> [30, 60] meters
+            out["radius_m"] = 60.0 + (out["Total Spots"] - min_s) * (100.0 - 60.0) / (max_s - min_s)
     else:
-        out["radius_m"] = 60.0
+        out["radius_m"] = 75.0
     # Type flags for filtering
     out["Has Tenant"] = out["# of Tenant Parking"] > 0
     out["Has Public"] = out["# of Public Parking"] > 0
     return out
 
-# Sidebar: file upload and filters
+# Sidebar: filters only
 with st.sidebar:
-    st.header("Data")
-    uploaded = st.file_uploader("Upload CSV (template columns)", type=["csv"])
-    if uploaded is not None:
-        df_raw = load_data(uploaded)
-    else:
-        # Fallback: bundled template filename
-        df_raw = load_data("Tbilisi-Parking-Template.csv")
-        st.caption("Using bundled template CSV. Upload a CSV to replace.")
     st.header("Filters")
-    show_tenant = st.checkbox("Show tenant parking", value=True)
-    show_public = st.checkbox("Show public parking", value=True)
+    parking_filter = st.selectbox(
+        "Parking Type",
+        options=["Both Tenant & Public", "Tenant Only", "Public Only", "All"],
+        index=3
+    )
     min_spots = int(st.number_input("Minimum total spots", value=0, min_value=0, step=1))
     search_text = st.text_input("Search (by name/address/owner)")
+
+# Load data from bundled CSV
+df_raw = load_data("Tbilisi-Parking-Template.csv")
 
 df = prepare_data(df_raw)
 
 # Apply filters
-mask = ( (show_tenant & df["Has Tenant"]) | (show_public & df["Has Public"]) )
+if parking_filter == "Both Tenant & Public":
+    mask = df["Has Tenant"] & df["Has Public"]
+elif parking_filter == "Tenant Only":
+    mask = df["Has Tenant"] & ~df["Has Public"]
+elif parking_filter == "Public Only":
+    mask = ~df["Has Tenant"] & df["Has Public"]
+else:  # "All"
+    mask = df["Has Tenant"] | df["Has Public"]
+
 mask &= df["Total Spots"] >= min_spots
 if search_text:
     q = search_text.lower()
@@ -138,7 +144,7 @@ INITIAL_VIEW_STATE = pdk.ViewState(
 def color_row(row):
     has_t, has_p = row["Has Tenant"], row["Has Public"]
     if has_t and has_p:
-        return [0, 0, 0]  # black for both
+        return [0, 255, 0]  # green for both
     elif has_t:
         return [0, 128, 255]  # tenant=blue-ish
     else:
@@ -190,5 +196,27 @@ r = pdk.Deck(
 
 st.pydeck_chart(r, use_container_width=True)
 
-st.markdown("### Filtered Data")
-st.dataframe(df_v.drop(columns=["color"]), use_container_width=True)
+# Add legend
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.markdown("### Filtered Data")
+    st.dataframe(df_v.drop(columns=["color"]), use_container_width=True)
+
+with col2:
+    st.markdown("### Legend")
+    st.markdown("""
+    <div style='font-family: ui-sans-serif, system-ui; font-size: 14px'>
+      <div style='margin-bottom: 8px'>
+        <span style='display: inline-block; width: 20px; height: 20px; background-color: rgb(0, 255, 0); border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
+        <span>Both Tenant & Public</span>
+      </div>
+      <div style='margin-bottom: 8px'>
+        <span style='display: inline-block; width: 20px; height: 20px; background-color: rgb(0, 128, 255); border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
+        <span>Tenant Only</span>
+      </div>
+      <div style='margin-bottom: 8px'>
+        <span style='display: inline-block; width: 20px; height: 20px; background-color: rgb(255, 128, 0); border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
+        <span>Public Only</span>
+      </div>
+    </div>
+    """, unsafe_allow_html=True)

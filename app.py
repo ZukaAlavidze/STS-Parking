@@ -191,7 +191,7 @@ r = pdk.Deck(
     initial_view_state=INITIAL_VIEW_STATE,
     layers=[layer],
     tooltip=tooltip,
-    map_style="mapbox://styles/mapbox/light-v10",
+    map_style=None,  # This will use Carto instead of Mapbox
 )
 
 st.pydeck_chart(r, use_container_width=True)

@@ -7,7 +7,7 @@ from pyproj import Transformer
 
 st.set_page_config(page_title="Tbilisi Parking Map", layout="wide")
 
-st.title("🅿️ Tbilisi Parking — Interactive Map")
+st.title("🅿️ Tbilisi Parking")
 
 @st.cache_data
 def load_data(f):

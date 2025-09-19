@@ -2,12 +2,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pydeck as pdk
+import folium
+from streamlit_folium import st_folium
 from pyproj import Transformer
 
 st.set_page_config(page_title="Tbilisi Parking Map", layout="wide")
 
-st.title("🅿️ Tbilisi Parking")
+st.title("STS 🅿️ Tbilisi Parking")
 
 @st.cache_data
 def load_data(f):
@@ -76,7 +77,7 @@ def prepare_data(df):
     })
     # Drop rows without coordinates
     out = out.dropna(subset=["lat","lon"])
-    # Compute radius: scale by total spots (meters for pydeck ScatterplotLayer)
+    # Compute radius: scale by total spots (meters for folium)
     if len(out) > 0:
         min_s, max_s = out["Total Spots"].min(), out["Total Spots"].max()
         # Avoid zero division
@@ -84,13 +85,33 @@ def prepare_data(df):
             out["radius_m"] = 45.0 + out["Total Spots"] * 0
         else:
             # Map [min_s, max_s] -> [30, 60] meters
-            out["radius_m"] = 60.0 + (out["Total Spots"] - min_s) * (100.0 - 60.0) / (max_s - min_s)
+            out["radius_m"] = 30.0 + (out["Total Spots"] - min_s) * (60.0 - 30.0) / (max_s - min_s)
     else:
-        out["radius_m"] = 75.0
+        out["radius_m"] = 45.0
     # Type flags for filtering
     out["Has Tenant"] = out["# of Tenant Parking"] > 0
     out["Has Public"] = out["# of Public Parking"] > 0
     return out
+
+# Load data from bundled CSV
+df_raw = load_data("Tbilisi-Parking-Template.csv")
+df = prepare_data(df_raw)
+
+# Create search options from the data
+search_options = []
+for idx, row in df.iterrows():
+    search_options.extend([
+        row['Name'],
+        row['Address'], 
+        row['Property Owner']
+    ])
+
+# Remove duplicates and sort
+search_options = sorted(list(set([opt for opt in search_options if pd.notna(opt) and str(opt).strip() != ""])))
+
+# Create land use options from the data
+land_use_options = df['Land Use Purpose'].dropna().unique()
+land_use_options = sorted([opt for opt in land_use_options if str(opt).strip() != ""])
 
 # Sidebar: filters only
 with st.sidebar:
@@ -101,12 +122,22 @@ with st.sidebar:
         index=3
     )
     min_spots = int(st.number_input("Minimum total spots", value=0, min_value=0, step=1))
-    search_text = st.text_input("Search (by name/address/owner)")
-
-# Load data from bundled CSV
-df_raw = load_data("Tbilisi-Parking-Template.csv")
-
-df = prepare_data(df_raw)
+    max_spots = int(st.number_input("Maximum total spots", value=2500, min_value=0, step=1))
+    
+    # Land use filter
+    land_use_filter = st.selectbox(
+        "Land Use Purpose",
+        options=["All"] + list(land_use_options),
+        index=0
+    )
+    
+    # Autocomplete search
+    search_text = st.selectbox(
+        "Search (by name/address/owner)",
+        options=[""] + search_options,
+        index=0,
+        format_func=lambda x: "Type to search..." if x == "" else x
+    )
 
 # Apply filters
 if parking_filter == "Both Tenant & Public":
@@ -119,6 +150,12 @@ else:  # "All"
     mask = df["Has Tenant"] | df["Has Public"]
 
 mask &= df["Total Spots"] >= min_spots
+mask &= df["Total Spots"] <= max_spots
+
+# Apply land use filter
+if land_use_filter != "All":
+    mask &= df["Land Use Purpose"] == land_use_filter
+
 if search_text:
     q = search_text.lower()
     mask &= (
@@ -128,93 +165,77 @@ if search_text:
     )
 df_v = df[mask].copy()
 
-# Map view state centered on Heroes Square, Tbilisi
-mid_lat, mid_lon = 41.713465, 44.782525
-
-INITIAL_VIEW_STATE = pdk.ViewState(
-    latitude=mid_lat, 
-    longitude=mid_lon, 
-    zoom=11,
-    pitch=0,
-    bearing=0
+# Create Folium map centered on Heroes Square, Tbilisi
+m = folium.Map(
+    location=[41.713465, 44.782525],
+    zoom_start=14,
+    tiles='OpenStreetMap'
 )
 
-# Color by type: both -> strong, tenant only -> one shade, public only -> another
-def color_row(row):
+# Color mapping function
+def get_color(row):
     has_t, has_p = row["Has Tenant"], row["Has Public"]
     if has_t and has_p:
-        return [0, 255, 0]  # green for both
+        return 'purple'
     elif has_t:
-        return [0, 128, 255]  # tenant=blue-ish
+        return 'blue'
     else:
-        return [255, 128, 0]  # public=orange-ish
+        return 'red'
 
-df_v["color"] = df_v.apply(color_row, axis=1)
-
-# Build pydeck layer
-layer = pdk.Layer(
-    "ScatterplotLayer",
-    data=df_v,
-    get_position="[lon, lat]",
-    get_radius="radius_m",
-    get_fill_color="color",
-    pickable=True,
-    opacity=0.7,
-    stroked=True,
-    get_line_color=[255, 255, 255],
-    line_width_min_pixels=1,
-)
-
-# Rich HTML tooltip
-tooltip = {
-    "html": """
-    <div style='font-family: ui-sans-serif, system-ui; font-size: 13px'>
-      <div style='font-weight:700; margin-bottom: 4px;'>{Name}</div>
-      <div><b>Cadastral:</b> {Cadastral Code}</div>
-      <div><b>Address:</b> {Address}</div>
-      <div><b>Owner:</b> {Property Owner}</div>
+# Add markers for each parking location
+for idx, row in df_v.iterrows():
+    # Create popup content
+    popup_html = f"""
+    <div style='font-family: ui-sans-serif, system-ui; font-size: 13px; width: 300px'>
+      <div style='font-weight:700; margin-bottom: 4px;'>{row['Name']}</div>
+      <div><b>Cadastral:</b> {row['Cadastral Code']}</div>
+      <div><b>Address:</b> {row['Address']}</div>
+      <div><b>Owner:</b> {row['Property Owner']}</div>
       <hr style='border:none;border-top:1px solid #eee;margin:6px 0' />
-      <div><b>Total Spots:</b> {Total Spots}</div>
-      <div style='margin-top:4px'><b>Tenant</b>: {# of Tenant Parking} spots, {Tenant Area (Sq.m)} m²</div>
-      <div><b>Public</b>: {# of Public Parking} spots, {Public Area (Sq.m)} m²</div>
-      <div><b>Public Price</b>: {Public parking price}</div>
-      <div style='margin-top:4px'><b>Land Use</b>: {Land Use Purpose}</div>
-      <div><b>Access</b>: {Access into property}</div>
-      <div><b>Markings</b>: {Parking space markings}</div>
+      <div><b>Total Spots:</b> {row['Total Spots']}</div>
+      <div style='margin-top:4px'><b>Tenant</b>: {row['# of Tenant Parking']} spots, {row['Tenant Area (Sq.m)']} m²</div>
+      <div><b>Public</b>: {row['# of Public Parking']} spots, {row['Public Area (Sq.m)']} m²</div>
+      <div><b>Public Price</b>: {row['Public parking price']}</div>
+      <div style='margin-top:4px'><b>Land Use</b>: {row['Land Use Purpose']}</div>
+      <div><b>Access</b>: {row['Access into property']}</div>
+      <div><b>Markings</b>: {row['Parking space markings']}</div>
     </div>
-    """,
-    "style": {"backgroundColor": "white", "color": "black"}
-}
+    """
+    
+    # Add circle marker
+    folium.CircleMarker(
+        location=[row['lat'], row['lon']],
+        radius=row['radius_m'] / 10 + 5,  # Increased radius by 5
+        popup=folium.Popup(popup_html, max_width=350),
+        color='white',
+        weight=1,
+        fillColor=get_color(row),
+        fillOpacity=0.5  # Added transparency (reduced from 0.7 to 0.5)
+    ).add_to(m)
 
-r = pdk.Deck(
-    initial_view_state=INITIAL_VIEW_STATE,
-    layers=[layer],
-    tooltip=tooltip,
-    map_style=None,  # This will use Carto instead of Mapbox
-)
-
-st.pydeck_chart(r, use_container_width=True)
+# Display the map
+st_folium(m, use_container_width=True)
 
 # Add legend
 col1, col2 = st.columns([3, 1])
 with col1:
     st.markdown("### Filtered Data")
-    st.dataframe(df_v.drop(columns=["color"]), use_container_width=True)
+    st.dataframe(df_v.drop(columns=["color"] if "color" in df_v.columns else []), use_container_width=True)
 
 with col2:
     st.markdown("### Legend")
     st.markdown("""
     <div style='font-family: ui-sans-serif, system-ui; font-size: 14px'>
       <div style='margin-bottom: 8px'>
-        <span style='display: inline-block; width: 20px; height: 20px; background-color: rgb(0, 255, 0); border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
+        <span style='display: inline-block; width: 20px; height: 20px; background-color: purple; border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
         <span>Both Tenant & Public</span>
       </div>
       <div style='margin-bottom: 8px'>
-        <span style='display: inline-block; width: 20px; height: 20px; background-color: rgb(0, 128, 255); border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
+        <span style='display: inline-block; width: 20px; height: 20px; background-color: blue; border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
         <span>Tenant Only</span>
       </div>
       <div style='margin-bottom: 8px'>
-        <span style='display: inline-block; width: 20px; height: 20px; background-color: rgb(255, 128, 0); border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
+        <span style='display: inline-block; width: 20px; height: 20px; background-color: red; border-radius: 50%; margin-right: 8px; vertical-align: middle;'></span>
         <span>Public Only</span>
       </div>
     </div>

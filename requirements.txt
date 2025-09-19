@@ -1,5 +1,6 @@
 streamlit
 pandas
 numpy
-pydeck
 pyproj
+folium
+streamlit-folium
